@@ -4,12 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <link rel="icon" href="img/85go-logo-m.png">
-<title>product</title>
+<title>85go</title>
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/master.css">
 <link rel="stylesheet" href="css/font.css">
-<link rel="stylesheet" href="css/theme.css">
 <link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/slick.css">
 <script src="https://use.fontawesome.com/8dbb4cc43e.js"></script>
 <style type="text/css"></style>
 </head>
@@ -26,7 +27,7 @@
             <button><i class="fa fa-search" aria-hidden="true"></i></button>
           </form>
         </div>
-        <div class="m-header-logo"><a href="#"><img src="img/85go-logo-m.png"></a></div>
+        <div class="m-header-logo"><a href="index.html"><img src="img/85go-logo-m.png"></a></div>
         <div class="m-header-like"> <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> </div>
         <div class="m-header-cart"> <a href="#">
           <div class="bubble-wrap">
@@ -55,7 +56,7 @@
             </li>
             <li class="has-dropdown"><a>Designer</a>
               <ul class="nav-dropdown menu">
-                <li><a href="#">選項1</a></li>
+                <li><a href="product.html">Prada</a></li>
               </ul>
             </li>
             <li><a href="#">WOMEN</a></li>
@@ -73,24 +74,58 @@
               <input type="text" placeholder="關鍵字">
             </form>
           </div>
-          <div class="cart-wrap"> <a href="#">
+          <div class="cart-wrap"> <a href="cart.html">
             <div class="cart-icon"><img src="img/icon-cart.png"></div>
             <div class="cart-txt">購物車 (<span>0</span>)</div>
             </a> </div>
           <!--div加.acitve 轉換狀態-->
           <div class="member-wrap">
             <div class=""> <a href="#"><span>name</span></a>．<a href="#">登出</a> </div>
-            <div class="active"> <a href="#">註冊</a>．<a href="#">登入</a> </div>
+            <div class="active"> <a href="signin.html">註冊</a>．<a href="login.html">登入</a> </div>
           </div>
         </aside>
       </div>
     </div>
   </header>
+  <!-- -->
+  <!--main-->
   <main class="main-content"> 
+    <!--index_banner-->
+    <section class="container-narrow" id="index-banner">
+      <div>
+        <div class="content">
+          <p><img src="img/home/index-banner-pic.jpg"></p>
+        </div>
+      </div>
+    </section>
     
+    <!--index-brand-->
+    <section class="container-narrow" id="index-brand" >
+      <h3 class="subtitle-line">焦點品牌</h3>
+      <div>
+        <div class="brand-icon-wrap">
+          <p class="brand-icon"> <a href=""><img src="img/home/home_07.png"></a> <a href=""><img src="img/home/home_09.png"></a> <a href=""><img src="img/home/home_11.png"></a> <a href=""><img src="img/home/home_13.png"></a> <a href=""><img src="img/home/home_15.png"></a> <a href=""><img src="img/home/home_17.png"></a> <a href=""><img src="img/home/home_19.png"></a> </p>
+          <p class="brand-icon"> <a href=""><img src="img/home/home_29.png"></a> <a href=""><img src="img/home/home_31.png"></a> <a href=""><img src="img/home/home_34.png"></a> <a href=""><img src="img/home/home_38.png"></a> <a href=""><img src="img/home/home_36.png"></a> </p>
+        </div>
+      </div>
+    </section>
     
-    
-   
+    <!--index-classify-->
+    <section class="container-narrow" id="index-classify">
+      <h3 class="subtitle-line">首選類別</h3>
+      <div class="content">
+        <div>
+          <div class="indexslick slider">
+            <div> <a href="#"> <img src="img/home/home_46.png"></a> </div>
+            <div> <a href="#"> <img src="img/home/home_48.png"> </a> </div>
+            <div><a href="#"> <img src="img/home/home_51.png"></a></div>
+            <div><a href="#"> <img src="img/home/home_53.png"></a></div>
+            <div><a href="#"> <img src="img/home/home_55.png"></a></div>
+            <div><a href="#"> <img src="img/home/home_57.png"></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
     
     <!--footer-->
     <div class="container-narrow">
@@ -107,6 +142,8 @@
       </footer>
     </div>
   </main>
+  <!-- -->
+  <!--mobile navigation-->
   <nav id="mobile-nav">
     <div class="m-nav-wrap">
       <div class="m-nav-out">
@@ -115,7 +152,7 @@
             <li>
               <div class="member-wrap">
                 <div class=""><a href="#"><span>name</span></a>．<a href="#">登出</a> </div>
-                <div class="active"> <a href="#">註冊</a>．<a href="#">登入</a> </div>
+                <div class="active"> <a href="signin.html">註冊</a>．<a href="login.html">登入</a> </div>
               </div>
             </li>
             <li>
@@ -132,7 +169,7 @@
             </li>
             <li class="item-has-children"> <a href="#">Designer</a>
               <ul class="sub-menu">
-                <li><a href="#0">Product 1</a></li>
+                <li><a href="product.html">Prada</a></li>
                 <li><a href="#0">Product 2</a></li>
                 <li><a href="#0">Product 3</a></li>
                 <li><a href="#0">Product 4</a></li>
@@ -148,14 +185,15 @@
           </ul>
           <hr class="m-nav-hr">
           <ul class="nav-cnt">
-            <li> <a href="#">個人資料管理</a></li>
-            <li> <a href="#">訂單查詢</a></li>
-            <li><a href="#">追蹤清單</a></li>
+            <li> <a href="member-manage.html">個人資料管理</a></li>
+            <li> <a href="member-order.html">訂單查詢</a></li>
+            <li><a href="member-likelist.html">追蹤清單</a></li>
           </ul>
         </div>
       </div>
     </div>
   </nav>
+  <!-- -->
 </div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
 <script src="js/mMenu.js"></script> <!--For naigantion--> 
@@ -170,17 +208,37 @@ $(function() {
     } else {
       $('header').removeClass('fixed'); 
     }
-	  responsive: [
- 
-    {
-      breakpoint: 1170,
-      $('header').removeClass('fixed'); 
-      }
   });
 	
 });
 </script> 
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script> 
+<script src="js/slick.js"></script> 
+<script type="text/javascript">
+    $(document).on('ready', function() {
 
+      $(".indexslick").slick({
+        //dots: true, //顯示輪播圖片會顯示圓圈
+        infinite: true,   //重覆輪播
+		initialSlide: 1,
+        //centerMode: true, //是否開啟置中功能
+		rows: 1,
+		slidesToShow: 4.2, //輪播顯示個數
+        slidesToScroll: 1, //輪播捲動個數
+		speed: 600,
+		
+		  responsive: [
+    {
+      breakpoint: 480,
+      settings: {
+          slidesToShow: 3.3,
+          arrows:false
+      }
+    }]
+      });
+
+    });
+</script> 
 <script>
 $(document).ready(function() {
     $('.header-langEx a').click(function() {
