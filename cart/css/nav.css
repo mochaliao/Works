@@ -47,6 +47,7 @@ main-navigation
 }
 .nav-dropdown li {
 	display: block;
+	text-transform: uppercase;
 }
 .has-dropdown {
 	position: relative;

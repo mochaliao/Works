@@ -1,0 +1,247 @@
+.join_container{
+	position: relative;
+	margin:0px auto;
+	width:1920px;
+	height : 1900px;
+	background-color: white;
+}
+
+.join_mainBg{
+	position: absolute;
+	margin:0px auto;
+	width:1920px;
+	height:120px;
+	background-color: #ebebeb;
+}
+
+.join_mainPic {
+	position: absolute;
+	margin:0px auto;
+	width:1920px;
+	height:280px;
+	top:120px;
+}
+
+.join_mainPic>img {
+    width:1920px;
+    height:280px;
+}
+
+.join_main_hr1 {
+	position: absolute;
+	top: 80px;
+	margin:0px auto;
+	width:1920px;
+	
+}
+.join_main_hr1>hr {
+	border:0; 
+	height:2px; 
+	background-color:black;
+	width:60px;
+}
+
+.join_main_text {
+	position: absolute;
+	top: 120px;
+	margin:0px auto;
+	width:1920px;
+	height:40px;
+	text-align: center;
+}
+
+.join_main_text span {
+	color : black;
+	font-size: 24px;
+}
+
+.join_main_hr2 {
+	position: absolute;
+	top: 160px;
+	margin:0px auto;
+	width:1920px;
+	
+}
+.join_main_hr2>hr {
+	border:0; 
+	height:2px; 
+	background-color:black;
+	width:60px;
+}
+
+.join_leftPic {
+	position: absolute;
+	width:600px;
+	height:600px;
+	left:30%;
+	margin-left: -300px;
+	top:450px;
+}
+
+.join_content {
+	position:  absolute;
+	width: 800px;
+	right:30%;
+	margin-right: -400px;
+	text-align: justify;
+	top:450px;
+}
+
+
+.join_content > p {
+	font-size: 18px;
+}
+
+.join_ident {
+	margin-left:108px;
+	text-indent: -108px;
+}
+
+.join_ident.download {
+	margin-left:126px;
+	text-indent: -108px;	
+}
+
+.join_ident.download > a {
+	text-decoration: none;
+}
+
+
+.join_table {
+	position: absolute;
+	width:600px;
+	left:30%;
+	margin-left: -300px;
+	top:1080px;
+	text-align: justify;
+}
+
+.join_query_hr {
+	width:60px;
+	left:0px;
+}
+
+.join_query_hr>hr {
+	border:0; 
+	height:2px; 
+	background-color:black;
+	width:60px;
+}
+
+.join_query_title {
+	font-size:20px;
+}
+
+.join_query_Input{
+    width: 200px;
+    height: 26px;
+    padding: 3px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+    background-color: rgba(0,0,0,0);
+    background-image: none;
+    border: 1px solid #777777;
+    border-radius: 2px;
+}
+.join_query_Input.year {width:100px;}
+.join_query_Input.month {width:100px;}
+.join_query_Input.day {width:100px;}
+
+.join_query_Input.school {width:150px;}
+.join_query_Input.research {width:150px;}
+.join_query_Input.danceYear {width:90px;}
+.join_query_Input.graudeYear {width:90px;}
+.join_query_Input.message { width:500px; height:300px;}
+
+.join_query_Input.submit {width:150px; height:40px; font-size: 16px}
+
+.join_form {
+	text-align: justify;
+}
+
+.join_form > p {
+	font-size: 18px;
+}
+
+.join_pImage {
+	position: absolute;
+	width : 200px;
+	height : 200px;
+	left:50%;
+	top:1100px;
+	border-style: dashed;
+	border-color: #dddddd;
+	text-align: center;
+}
+
+.join_pImage_link {
+	position: absolute;
+	text-decoration: none;
+	width : 200px;
+	height : 200px;
+	font-size : 18px;
+	left:0px;
+	line-height: 160px;
+	z-index: 1;
+}
+
+.join_pImage_text {
+	position: absolute;
+	font-size : 16px;
+	width:200px;
+	top:30%;
+	left:0px;
+	z-index: 0;
+}
+
+.join_pLife {
+	position: absolute;
+	width : 940px;
+	height : 200px;
+	top:1320px;
+	left:48%;
+	border-style: dashed;
+	border-color: #dddddd;
+	text-align: center;
+}
+
+.join_pLife_link {
+	position: absolute;
+	text-decoration: none;
+	width : 100%;
+	height : 200px;
+	font-size : 16px;
+	left:0px;
+	line-height: 160px;
+	z-index: 1;
+}
+
+.join_pLife_text {
+	position: absolute;
+	font-size : 16px;
+	width:100%;
+	left:0px;
+	top : 30%;
+	z-index: 0;
+}
+
+.join_pImage.pIndex0 {position: absolute;	left:3%; top:10px; width:180px; height:180px; border-style: none;}
+.join_pImage.pIndex1 {position: absolute;	left:22%; top:10px; width:180px; height:180px; border-style: none;}
+.join_pImage.pIndex2 {position: absolute;	left:41%; top:10px; width:180px; height:180px; border-style: none;}
+.join_pImage.pIndex3 {position: absolute;	left:60%; top:10px; width:180px; height:180px; border-style: none;}
+.join_pImage.pIndex4 {position: absolute;	left:79%; top:10px; width:180px; height:180px; border-style: none;}
+
+.join_pImage > img {
+	width : 100%;
+	height: 100%;
+	left:5%;
+	object-fit: scale-down;
+	z-index: 501;
+}
+
+
+
+
+
+

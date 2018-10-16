@@ -1,0 +1,105 @@
+<div class = "join_container">
+	<div class="join_mainBg"></div>
+	<div class="join_mainPic">
+		<img ng-src="view/images/about/PHC-about_banner.jpg">
+		<div class="join_main_hr1"> <hr> </div>
+		<div class="join_main_text"> <span> {{albumTitle}} </span> </div>
+		<div class="join_main_hr2"> <hr> </div>
+	</div>
+	<div class="join_leftPic">
+		<img ng-src="view/images/join/title.jpg">
+	</div>
+	<div class="join_content">
+		<p>PHC國際慈善舞團提供國內舞者工作機會，長期配合公益演出、商業演出，並會將舞團及演出收入全數捐贈給各大社福機關團體，為社會盡最大一份心力。歡迎國內年輕男女舞者及應屆畢業生加入我們，與舞團一起成長、一起前進！</p>
+
+		<p>
+		＊報名資格：舞蹈專科或大學畢業，35歲(含)以下，男女不拘<br>
+		＊報名方式：傳送個人報名表至～phc.dancestudio@gmail.com<br>
+		＊報名日期：即日起至 10 月 10 日(二)止<br>
+		＊徵選日期：2017 年 10 月 14 日(六) 下午 1:30 報到<br>
+		＊徵選時間：下午 2 點至 6 點<br>
+		＊徵選地點：台中市南屯區河南路四段718號<br></p>
+
+		<p class="join_ident">＊徵選內容：<br>
+		1. 芭蕾、現代、中國舞及商業舞蹈動作組合<br>
+		2. 兩分鐘自選舞<br>
+		3. 面試<br></p>
+
+		<p>＊錄取公告：個別通知，於11月開始實習</p>
+		<p class="join_ident">＊薪資福利：三個月實習團員月薪兩萬，正式團員月薪三萬，演出費另計並享公司勞健保、有機會公費參加證照研習、出國演出等多項福利，外縣市舞者提供證明可享每月住宿津貼＄5,000元。</p>
+
+		<p class="join_ident">＊注意事項：徵選當天請舞者們穿著全黑並可展示身材曲線、方便活動之服裝，並請自行準備舞鞋及相關護具</p>
+		<p>＊相關備註：如有疑問，請電洽～PHC 國際慈善舞團 趙文歆 0938-639357</p>
+
+		<P class="join_ident download">下載報名表：<a href="doc/join.docx">點此下載</a></P>
+
+	</div>
+
+	<div class="join_table">
+		<p class="join_query_title"> 線上報名 </p>
+		<div class="join_query_hr"><hr></div>
+        <form ng-submit = "joinComplete()" class="join_form">
+
+        	<p>★姓名：<input id="name" type="text" class="join_query_Input Name" placeholder="" ng-model="name"></p>
+
+        	<p>★性別：男<input type="checkbox" ng-model="male" ng-click="clickSex(0)"> 女<input type="checkbox" ng-model="female" ng-click="clickSex(1)"></p>
+
+        	<p>★出生年月日(西元)
+        	<input id="borthYear" type="text" class="join_query_Input year" placeholder="年" ng-model="borthYear">
+        	<input id="borthMonth" type="text" class="join_query_Input month" placeholder="月" ng-model="borthMonth">
+        	<input id="borthDay" type="text" class="join_query_Input day" placeholder="日" ng-model="borthDay">
+        	</p>
+
+        	<p>★身份證字號：
+        	<input id="identify" type="text" class="join_query_Input Name" placeholder="" ng-model="identify">
+        	</p>
+
+        	<p>★聯絡電話：
+        	<input id="phone" type="text" class="join_query_Input Name" placeholder="" ng-model="phone">
+        	</p>
+
+        	<p>通訊地址：
+        	<input id="address" type="text" class="join_query_Input Name" placeholder="" ng-model="address">
+        	</p>
+
+        	<p>★E-mail：
+        	<input id="email" type="text" class="join_query_Input Name" placeholder="" ng-model="email">
+        	</p>
+
+        	<p>服務單位：
+        	<input id="company" type="text" class="join_query_Input Name" placeholder="" ng-model="company">
+        	</p>
+
+        	<p>學經歷：
+        	<input id="school" type="text" class="join_query_Input school" placeholder="學校" ng-model="school">
+        	<input id="research" type="text" class="join_query_Input research" placeholder="科系/所" ng-model="research">
+        	<input id="danceYear" type="text" class="join_query_Input danceYear" placeholder="舞蹈年數" ng-model="danceYear">
+        	<input id="graudeYear" type="text" class="join_query_Input graudeYear" placeholder="畢業時間" ng-model="graudeYear">
+        	</p>
+
+        	<p>	演出經歷(500字以內)： <br>
+        	<textarea maxlength="500" id="messagge" name="messagge" placeholder="留言" class="join_query_Input message" required="" ng-model="showhistory"></textarea>
+        	</p>
+        	<br>
+        	<button class="join_query_Input submit" type="submit">甄選報名</button>  
+        </form>
+	</div>
+	<div class="join_pImage personal">
+		<a class="join_pImage_link" ngf-select="" ngf-pattern="'image/*'" ngf-multiple="false" ng-model="pImage" ngf-max-size="2MB" ngf-change="testPImage(pImage)"></a>
+		<div class="join_pImage_text" ng-class="pImageInfoShow">
+			上傳個人大頭照<br>
+			(檔案大小不可超過2MB, 只可上傳圖片檔案)
+		</div>
+		<img ngf-src="pImage"/>
+	</div>
+	<div class="join_pLife">
+		<a class="join_pLife_link" ngf-select="" ngf-pattern="'image/*'" ngf-multiple="true" ng-model="pLifePics" ngf-max-size="2MB" ngf-change="checkCount()"></a>
+		<div class="join_pLife_text">
+			上傳個人生活照<br>
+        	(單檔案大小不可超過2MB, 最多上傳5個檔案, 只可上傳圖片檔案)
+        </div>
+		<div ng-repeat="pic in pLifePics" class="join_pImage pIndex{{$index}}">
+			<img ngf-src="pic"/>
+		</div>
+	</div>
+</div>

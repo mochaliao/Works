@@ -1,0 +1,57 @@
+<div class = "teacher_container" ng-class="containerSelectCSS">
+	<div class="teacher_mainBg"></div>
+	<div class="teacher_mainPic">
+		<img ng-src="view/images/teacher/PHC-teacher_banner.jpg">
+		<div class="teacher_main_hr1"> <hr> </div>
+		<div class="teacher_main_text"> <span> {{albumTitle}} </span> </div>
+		<div class="teacher_main_hr2"> <hr> </div>
+	</div>
+
+	<div class="teacher_LeftMenuBar">
+		<div class="teacherIntro" ng-repeat="data in TeacherDatas">
+			<p class = "teacher_linkText" ng-click="clickTeacher($index)" > {{data.name}} </p>
+		</div>
+		<table class="teacherLeft_line">
+			<tr> 
+				<td width="500" ng-class="tdSelectCSS">　</td> 
+			</tr> 
+		</table>
+	</div>
+
+	<div class="teacher_RightMenuBar top">
+		<div class="teacher_data_pic">
+			<img class="teacher_data_pic_pic" ng-src="view/images/teacher/{{selectIndex}}.jpg">
+		</div>
+		<div class="teacher_data_name">
+			{{teacherName}}
+		</div>
+		<div class="teacher_data_pro" ng-repeat="data in TeacherPro">
+			<p class="teacher_data_title"> {{data.title}} | </p>
+			<div class="teacher_data" ng-bind-html="data.content">  </div>
+		</div>
+	</div>
+
+	<div class="teacher_RightMenuBar left">
+		<div ng-repeat="data in TeacherData">
+			<p class="teacher_data_title">{{data.title}} |</p>
+			<!-- div class="teacher_data_line"><hr></div -->
+			<div class="teacher_data" ng-bind-html="data.content"></div>
+			<br><br>
+		</div>
+	</div>
+	<div class="teacher_RightMenuBar right">
+		<div ng-repeat="data in TeacherData1">
+			<p class="teacher_data_title">{{data.title}} |</p>
+			<!-- div class="teacher_data_line"><hr></div -->
+			<div class="teacher_data" ng-bind-html="data.content"></div>
+			<br><br>
+		</div>
+	</div>
+	<div class="teacher_RightMenuBar bottom" ng-class="bottomSelectCSS">
+		<p class="teacher_data_title">照片 |</p>
+		<!-- div class="teacher_data_line"><hr></div -->
+		<div class="teacher_pic_content" ng-repeat="data in TeacherPics" ng-class="teacherPicCSS">
+			<img ng-src="view/images/teacher/{{selectIndex}}/{{data}}.jpg" class="teacher_pic_pic">
+		</div>
+	</div>
+</div>

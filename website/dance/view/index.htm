@@ -1,0 +1,166 @@
+<div class = "index_container" scroll id="page">
+	<div class="index_danceBg">
+		<!--<img ng-src="view/images/index/PHC_02.jpg">-->
+	</div>
+
+	<a href="" ng-click="ClickTop()">
+		<img id="goTopButton" src="view/images/index/go-top.png" class="index_TopBtn" ng-show="
+		TopFlag=='1'">
+	</a>
+
+	<div class = "index_Row1">
+	  <div class="ctn_88">
+	   <div class="ctn_100">
+		<div class = "index_Row1_info">
+			<p class="titleLarge"> PHC  國際慈善舞團 </p>
+			<hr class="hrStyle">
+			<p class="txtLarge">
+				PHC 國際慈善舞團的核心宗旨以【家庭】出發點,期粉帶給喜歡舞蹈藝術的孩子們希望、關懷與成長，藉此培育更優秀的專業舞蹈人才。舞團不定期且長期配合商演、公演，並會將演出收入全數捐贈給各大社福機關團體,為社會盡最大一份心力。 我們強調：專業度、安全性、高服務、好品質。並期許舞團與孩子們一起成長一起前進。
+			</p>
+		</div>
+		<div>
+		  <div class = "index_Row1_Img" ng-class="Row1ImgFlag">
+		    <div class = "index_Row1_PointArea">
+				<div class = "index_Row1_Point" ng-class="Row1ImgPoint0"></div>
+				<div class = "index_Row1_Point" ng-class="Row1ImgPoint1"></div>
+				<div class = "index_Row1_Point" ng-class="Row1ImgPoint2"></div>
+				<div class = "index_Row1_Point" ng-class="Row1ImgPoint3"></div>
+				<div class = "index_Row1_Point" ng-class="Row1ImgPoint4"></div>
+			</div>
+			<img ng-src="{{Row1_imgs[Row1_nowShowIndex].image}}" class = "index_Row1_Img_Show">
+			<img ng-src="{{Row1_imgs[Row1_nowHideIndex].image}}" class = "index_Row1_Img_Hide">
+			
+		  </div>
+		</div>
+	  </div>
+	  </div>
+	</div>
+
+	<div class = "index_Row2">
+	  <div class="ctn_88">
+	   <div class="ctn_100">
+		<div class = "index_Row2_area">
+			<p class="titleLarge">舞團介紹</p>
+			<p class = "index_Row2_Img">
+				<img src="View/images/index/PHC_16.jpg">
+			</p>
+			<p class="txtLarge">
+				舞團不定期且長期配合商演、公演、並會將演出收入全數捐贈給各大社福機關團體，為社會盡最大一份心力。 我們強調：專業度、安全性、高服務、好品質。並期許舞團與孩子們一起成長一起前進。
+			</p>
+			<p>
+				<a ui-sref="about" class="titleMid"> > 瞭解更多 </a>
+			</p>
+		</div>
+
+		<div class = "index_Row2_area">
+			<p class="titleLarge">師資介紹</p>
+			<p class = "index_Row2_Img">
+				<img src="View/images/index/PHC_10.jpg">
+			</p>
+			<p class="txtLarge">
+				舞團不定期且長期配合商演、公演、並會將演出收入全數捐贈給各大社福機關團體，為社會盡最大一份心力。 我們強調：專業度、安全性、高服務、好品質。並期許舞團與孩子們一起成長一起前進。
+			</p>
+			<p>
+				<a ui-sref="teacher" class="titleMid"> > 瞭解更多 </a>
+			</p>
+		</div>
+
+		<div class = "index_Row2_area">
+			<p class="titleLarge">課程介紹</p>
+			<p class = "index_Row2_Img">
+				<img src="View/images/index/PHC_13.jpg">
+			</p>
+			<p class="txtLarge">
+				舞團不定期且長期配合商演、公演、並會將演出收入全數捐贈給各大社福機關團體，為社會盡最大一份心力。 我們強調：專業度、安全性、高服務、好品質。並期許舞團與孩子們一起成長一起前進。
+			</p>
+			<p>
+				<a ui-sref="lesson" class="titleMid"> > 瞭解更多 </a>
+			</p>
+		</div>
+		  </div>
+		  </div>
+	</div>
+
+	<div class = "index_Row3">
+		<div class = "index_Row3_Arrow Left" ng-click="Activity_MoveLeft()">
+			<img ng-src="view/images/index/activityLeft.png">
+		</div>
+		<div class = "index_Row3_Arrow Right" ng-click="Activity_MoveRight()">
+			<img ng-src="view/images/index/activityRight.png">
+		</div>
+		<div class = "index_Row3_Activity" ng-class="direction">
+			<div class = "index_Row3_pic zero">
+				<img ng-src="{{imgs[4].image}}">
+			</div>
+			<div class = "index_Row3_pic one">
+				<img ng-src="{{imgs[0].image}}">
+			</div>
+			<div class = "index_Row3_pic two">
+				<img ng-src="{{imgs[1].image}}">
+			</div>
+			<div class = "index_Row3_pic three">
+				<img ng-src="{{imgs[2].image}}">
+			</div>
+			<div class = "index_Row3_pic four">
+				<img ng-src="{{imgs[3].image}}">
+			</div>
+			<div class = "index_Row3_pic five">
+				<img ng-src="{{imgs[4].image}}">
+			</div>
+			<div class = "index_Row3_pic six">
+				<img ng-src="{{imgs[0].image}}">
+			</div>
+			<a href="#/activity/1">
+				<div class = "index_Row3_pic_temp">
+					<img ng-src="view/images/activity/1/63.jpg">
+				</div>
+			</a>		
+		</div>
+		<div class = "index_Row3_Date">{{imgsDate[selectIndex]}}</div>
+		<div class = "index_Row3_Title">{{imgsTitle[selectIndex]}}</div>
+	<!--<div class = "index_Row3_PointArea">
+			<div class = "index_Row3_Point_temp" ng-class="pointLight0"></div>
+			<div class = "index_Row3_Point one" ng-class="pointLight0"></div>
+			<div class = "index_Row3_Point two" ng-class="pointLight1"></div>
+			<div class = "index_Row3_Point three" ng-class="pointLight2"></div>
+			<div class = "index_Row3_Point four" ng-class="pointLight3"></div>
+			<div class = "index_Row3_Point five" ng-class="pointLight4"></div>
+		</div>-->
+	</div>
+
+	<div class = "index_Row4">
+	 <div class="ctn_70">
+	   <div class="ctn_100">
+		<div class="index_Row4_Map">
+			<p class="titleLarge"> 聯絡我們 </p>
+			<hr class="hrStyle">
+			<ul class="titleMid">
+			  <li>接受電話預約試跳、現場報名</li>
+			  <li>地址<span>台中市南屯區河南路四段718號</span> </li>
+			  <li>電話<span>04-23890466</span>傳真<span>04-23890465</span></li>
+			  <li>信箱<span>Phc.dancestudio@gmail.com</span></li>
+			</ul>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.7972263240163!2d120.63718505131448!3d24.143758284320356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693dc6e57d90c3%3A0xbee40718a172de4f!2zNDA45Y-w5Lit5biC5Y2X5bGv5Y2A5rKz5Y2X6Lev5Zub5q61NzE46Jmf!5e0!3m2!1szh-TW!2stw!4v1499195253120"></iframe>
+		</div>
+		<div class = "index_Row4_Join">
+			<p class="titleLarge"> 課程報名 </p>
+			<hr class="hrStyle">
+			<form ng-submit = "normalJoin()" >
+            	<input id="firstname" name="name" placeholder="姓名" type="text" required="" ng-model="name">   
+            	<input id="lastname" name="name" placeholder="聯絡電話" type="text" required="" ng-model="phone"> 
+            	<input id="email" name="email" placeholder="Email" type="text" required="" ng-model="email"> 
+            	 <!-- selected value as key(str)-->
+			    <select ng-model="lesson" 
+			            ng-options="a.key as a.value for a in actions" class="index_Row4_Input Lesson">
+			      	<option value="">選擇課程</option>
+			    </select>
+            	<textarea id="messagge" name="messagge" placeholder="留言(200字以內)" required ng-model="message"></textarea>  
+            	<button type="submit">馬上報名</button>        
+            </form>
+		</div>
+		 </div>
+		 <div>
+		 </div>
+	</div>
+
+</div>

@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'icon';
+	src: url('../fonts/icon.eot');
+	src: url('../fonts/icon.eot?#iefix') format('eot'), url('../fonts/icon.woff') format('woff'), url('../fonts/icon.ttf') format('truetype'), url('../fonts/icon.svg?#icon') format('svg');
+}
+.LineAnimationButton {
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	cursor: pointer;
+	font-size: 16px;
+	font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 500;
+	display: inline-block;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+	padding: 12px 6px;
+	background-color: transparent;
+	text-decoration: none;
+	visibility: visible;
+	animation-name: fadeInUpSmall;
+	color: #fff;
+	text-decoration: none;
+}
+.LineAnimationButton-full:after {
+	content: "\EA03";
+	font-family: 'icon';
+	speak: none;
+	font-size: 25px;
+	text-transform: none;
+	color: #84bd00;
+	position: absolute;
+	bottom: 6.5%;
+	left: 20%;
+	line-height: 0;
+	/* Better Font Rendering */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.LineAnimation-border-top {
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 2px;
+	-webkit-transition: 0.2s 0.4s;
+	transition: 0.2s 0.4s;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+}
+.LineAnimationButton:hover .LineAnimation-border-top {
+	right: 100%;
+	-webkit-transition: 0.2s 0.6s;
+	transition: 0.2s 0.6s;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+}
+.LineAnimation-border-right {
+	right: 0;
+	bottom: 0;
+	top: 0;
+	width: 2px;
+	-webkit-transition: 0.2s 0.6s;
+	transition: 0.2s 0.6s;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+}
+.LineAnimationButton:hover .LineAnimation-border-right {
+	bottom: 100%;
+	-webkit-transition: 0.2s 0.4s;
+	transition: 0.2s 0.4s;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+}
+.LineAnimation-border-bottom {
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 2px;
+	-webkit-transition: 0.2s .8s;
+	transition: 0.2s .8s;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+}
+.LineAnimationButton:hover .LineAnimation-border-bottom {
+	left: 100%;
+	-webkit-transition: 0.2s 0.2s;
+	transition: 0.2s 0.2s;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+}
+.LineAnimation-border-bottom2 {
+	bottom: 6%;
+	right: 72%;
+	left: 0;
+	height: 2px;
+	-webkit-transition: 0.2s 0s;
+	transition: 0.2s 0s;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+}
+.LineAnimationButton:hover .LineAnimation-border-bottom2 {
+	right: 98%;
+	left: 100%;
+	-webkit-transition: 0.2s 1s;
+	transition: 0.2s 1s;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+}
+.LineAnimation-border-topleft {
+	bottom: 6%;
+	left: 0;
+	width: 2px;
+	height: 94%;
+	-webkit-transition: 0.2s 0.2s;
+	transition: 0.2s 0.2s;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+}
+.LineAnimationButton:hover .LineAnimation-border-topleft {
+	height: 0;
+	-webkit-transition: 0.2s 0.8s;
+	transition: 0.2s 0.8s;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+}
+.LineAnimation-border {
+	content: '';
+	position: absolute;
+	background-color: #84bd00;
+}
+/*small LineAnimationBtn*/
+.LineAniBtnS {
+	position: relative;
+	line-height: normal;
+	-webkit-font-smoothing: antialiased;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: 'Poppins', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 500;
+	text-align: center;
+	display: inline-block;
+	-webkit-transition: 0.3s;
+	transition: .3s;
+	padding: 15px 18px 15px 24px;
+	box-sizing: border-box;
+	max-width: 270px;
+	min-width: 170px;
+	color: #84bd00;
+	background-color: transparent;
+	text-decoration: none;
+	visibility: visible;
+	animation-name: fadeInUpSmall;
+}
+.LineAniBtnS:hover,  .LineAniBtnS:focus {
+	color: #84bd00;
+}
+.LineAniBtnS-full:after {
+	content: "\EA03";
+	font-family: 'icon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	color: #84bd00;
+	font-size: 30px;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	position: absolute;
+	top: 16px;
+	left: -13px;
+	line-height: 0;
+}
+.LineAniBtnS-border-top {
+	top: 0;
+	right: 0;/*this*/
+	left: 0;
+	height: 2px;
+	-webkit-transition: 0.2s 0.2s;
+	transition: 0.2s 0.2s;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+}
+.LineAniBtnS:hover .LineAniBtnS-border-top {
+	right: 100%;
+	-webkit-transition: 0.2s 0.6s;
+	transition: 0.2s 0.6s;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+}
+.LineAniBtnS-border-right {
+	right: 0;
+	bottom: 0;/*this*/
+	top: 0;
+	width: 2px;
+	-webkit-transition: 0.2s 0.4s;
+	transition: 0.2s 0.4s;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+}
+.LineAniBtnS:hover .LineAniBtnS-border-right {
+	bottom: 100%;
+	-webkit-transition: 0.2s 0.4s;
+	transition: 0.2s 0.4s;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+}
+.LineAniBtnS-border-bottom {
+	bottom: 0;
+	right: 0;
+	left: 0;/*this*/
+	height: 2px;
+	-webkit-transition: 0.2s 0.6s;
+	transition: 0.2s 0.6s;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+}
+.LineAniBtnS:hover .LineAniBtnS-border-bottom {
+	left: 100%;
+	-webkit-transition: 0.2s 0.2s;
+	transition: 0.2s 0.2s;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;
+}
+.animated {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+ @keyframes slideInRight {
+ from {
+ transform: translate3d(100%, 0, 0);
+ visibility: visible;
+}
+to {
+	transform: translate3d(0, 0, 0);
+}
+}
+.slideInRight {
+	animation-name: slideInRight;}
+
+.line-div{
+	display:inline-block;
+	min-height:100px;}
+.line{
+	display:inline-block;
+	width:2px;
+	height:100px;
+	background:#84bd00;
+	-webkit-transition-timing-function: ease-in;
+	transition-timing-function: ease-in;}
+
+ @keyframes slideDown {
+ from {
+ height:0px;
+ visibility: visible;
+ opacity: 0;}
+
+to {
+	height:100px;
+	opacity: 1;}
+}
+.slideDown {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-name: slideDown;}

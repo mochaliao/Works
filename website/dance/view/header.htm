@@ -1,0 +1,81 @@
+<div class="header_container">
+  <div class = "header_info">
+    <div class = "header_phone">
+      <img ng-src="view/images/index/phoneIcon.png" class="header_Icon">
+      <span class="header_content"> + 886 423890466 </span>
+    </div>
+    <div class = "header_homeUrl">
+      <img ng-src="view/images/index/urlIcon.png" class="header_Icon">
+      <span class="header_content">  河南路四段718號 </span>
+    </div>
+    <div class = "header_email">
+      <img ng-src="view/images/index/emailIcon.png" class="header_Icon">
+      <span class="header_content"> Phc.dancestudio@gmail.com </span>
+      <a href="https://www.facebook.com/PHCDanceStudio/" target="_blank"><img ng-src="view/images/index/fb.png" class="header_Icon"></a>
+    </div>
+  </div>
+
+  <div class = "header_languageBar">
+    <div class = "header_TranditionCh">
+      <a href="" ng-click="LanguageChange(0)"><span class="header_text" ng-class="TwFont">繁體中文</span></a>
+    </div>
+    <div class = "header_Line">|</div>
+    <div class = "header_SimpleCh">
+       <a href="" ng-click="LanguageChange(2)"><span class="header_text" ng-class="ChFont">简体中文</span></a>
+    </div>
+  </div>
+
+  <div class = "header_danceLogo">
+    <a href="#/index"><img ng-src="view/images/index/dance.png"></a>
+  </div>
+
+  <div class = "header_menu Left">
+    <div class = "header_Introduce Dance">
+      <span class = "header_menuText"> 
+        <a href="#/about" ng-click=""> 舞團介紹 </a>
+      </span>
+    </div>
+    <div class = "header_Introduce Lesson" ng-mouseleave="lessonListLeave()">
+      <span class = "header_menuText">
+        <a href="" ng-click="lessonListEnter()" ng-mouseenter="lessonListEnter()"> 課程介紹 </a> 
+      </span>
+      <ul class="header_lesson_menu" ng-class="lessonMenuShow">
+          <li><a href="#/lesson/1">課程介紹</a></li>
+          <li><a href="#/lesson/2">舞團課表</a></li>
+      </ul>
+    </div>
+    <div class = "header_Introduce Teacher">
+      <span class = "header_menuText">
+        <a href="#/teacher/origin" ng-click=""> 師資介紹 </a>
+      </span>
+    </div>
+  </div>
+
+  <div class = "header_menu Right">
+    <div class = "header_Introduce Activity" ng-mouseleave="activityListLeave()">
+      <span class = "header_menuText"> 
+        <a href="" ng-click="activityListEnter()" ng-mouseenter="activityListEnter()"> 活動相本 </a>
+      </span>
+      <ul class="header_activity_menu" ng-class="activityMenuShow">
+          <li><a href="#/activity/1">舞團相本</a></li>
+          <li><a href="#/activity/2">活動相本</a></li>
+      </ul>
+    </div>
+    <div class = "header_Introduce Join" ng-mouseleave="joinListLeave()">
+      <span class = "header_menuText">
+        <a href="" ng-click="joinListEnter()" ng-mouseenter="joinListEnter()"> 
+        預約報名 </a> 
+      </span>
+      <ul class="header_join_menu" ng-class="joinMenuShow">
+          <li><a href="" ng-click="ClickJoin()">課程報名</a></li>
+          <li><a href="#/join">甄選報名</a></li>
+      </ul>
+    </div>
+    <div class = "header_Introduce Contact">
+      <span class = "header_menuText">
+        <a href="" ng-click="ClickContact()"> 聯絡我們 </a>
+      </span>
+    </div>
+  </div>
+
+</div>

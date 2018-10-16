@@ -1,0 +1,266 @@
+.lesson_container {
+	position: relative;
+	margin:0px auto;
+	width:1920px;
+	height : 3200px;
+	background-color: white;
+}
+.lesson_container.type1 {height:2950px;}
+.lesson_container.type2 {height:1750px;}
+
+.lesson_mainBg{
+	position: absolute;
+	margin:0px auto;
+	width:1920px;
+	height:120px;
+	background-color: #ebebeb;
+}
+
+.lesson_mainPic {
+	position: absolute;
+	margin:0px auto;
+	width:1920px;
+	height:280px;
+	top:120px;
+}
+
+.lesson_mainPic>img {
+    width:1920px;
+    height:280px;
+}
+
+.lesson_main_hr1 {
+	position: absolute;
+	top: 80px;
+	margin:0px auto;
+	width:1920px;
+	
+}
+.lesson_main_hr1>hr {
+	border:0; 
+	height:2px; 
+	background-color:black;
+	width:60px;
+}
+
+.lesson_main_text {
+	position: absolute;
+	top: 120px;
+	margin:0px auto;
+	width:1920px;
+	height:40px;
+	text-align: center;
+}
+
+.lesson_main_text span {
+	color : black;
+	font-size: 24px;
+}
+
+.lesson_main_hr2 {
+	position: absolute;
+	top: 160px;
+	margin:0px auto;
+	width:1920px;
+	
+}
+.lesson_main_hr2>hr {
+	border:0; 
+	height:2px; 
+	background-color:black;
+	width:60px;
+}
+
+.lesson_LeftMenuBar {
+	position: absolute;
+	margin:0px auto;
+	top:400px;
+	width:500px;
+	height:1000px;
+}
+
+.td_type1 {
+	height:2450px;
+}
+.td_type2 {
+	height:1220px;
+}
+
+
+.lessonIntroduce {
+	position: absolute;
+	top: 50px;
+	width:400px;
+	font-size:24px;
+	text-align: right;
+	color: rgb(120, 120, 120);
+	z-index : 1;
+	letter-spacing: 2px
+}
+
+.lessonIntroduce.introduce { top : 50px; }
+.lessonIntroduce.schedule { top : 120px; }
+
+.lessonIntroduce.over {
+	cursor : pointer;
+	color: rgb(221,169,105);
+}
+
+.lesson_linkText {
+}
+
+.lessonLeft_line {
+	position: absolute;
+	top :40px;
+	border-right:2px solid rgb(150,150,150);
+	z-index: 0;
+}
+
+
+.lesson_RightMenuBar {
+	position: absolute;
+	margin:0px auto;
+	top:400px;
+	left:500px;
+	width:1400px;
+	height:2800px;
+}
+
+.lesson_type_info {
+	position: absolute;
+	top:50px;
+	left:50px;
+	width:1400px;
+	height:2730px;
+}
+
+.lesson_type {
+	position: relative;
+	display: inline-block;
+	width:620px;
+	height:500px;
+}
+
+.lesson_type_title {
+	font-size: 24px;
+	line-height: 70px;
+}
+.lesson_type_content {
+	position: absolute;
+	font-size: 20px;
+	width:594px;
+	font-weight: 300;
+	text-align: justify;
+}
+
+.lesson_class_info {
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:1200px;
+	height:2730px;
+}
+
+.lesson_class {
+	border-width: 20px;
+	border-style: solid;
+	border-color: rgba(255,255,255,1);
+}
+
+.lesson_class.table {
+	position: absolute;
+	left:50px;
+	top:50px;
+	width:1200px;
+	height:600px;
+}
+
+.lesson_class.table2 {
+	position: absolute;
+	left:50px;
+	top:700px;
+	width:1200px;
+	height:600px;
+}
+
+.lesson_class.tr {
+	width:12.5%;
+}
+
+.lesson_class.td {
+	width:12.5%;
+	text-align: center;
+	font-size:18px;
+}
+
+.lesson_class.td > div {
+	width:100%;
+	height:100%;
+}
+
+.lesson_class.className {
+	background-color:rgba(0,0,0,0);
+	color: #464646;
+	font-size:22px;
+	height:5%;
+}
+
+.lesson_class.classTime {
+	background-color:#555555;
+	color: #dddddd;
+	font-size:22px;
+	height:22%;
+}
+.lesson_class.classDate {
+	background-color:#555555;
+	color: #dddddd;
+	font-size:22px;
+	height:5%;
+}
+.lesson_class.classNone {
+	background-color:#dadada;
+	color: #112211;
+	font-size:16px;
+	height:22%;
+}
+.lesson_class.classDance {
+	background-color:#f8dadf;
+	font-size:16px;
+	height:22%;
+}
+.lesson_class.classChildDG {
+	background-color:#a6e5d8;
+	font-size:16px;
+	height:22%;
+}
+.lesson_class.classDanceBL {
+	background-color:#bad8ea;
+	font-size:16px;
+	height:22%;
+}
+.lesson_class.classChildModern {
+	background-color:#bad8ea;
+	font-size:16px;
+	height:22%;
+}
+.lesson_class.classDanceAD {
+	background-color:#f8e0a4;
+	font-size:16px;
+	height:22%;	
+}
+.lesson_class.classBaby {
+	background-color:#e2c7e6;
+	font-size:16px;
+	height:22%;	
+}
+
+.lesson_tdata>a {
+	color:#464646;
+	text-decoration: underline;
+}
+
+
+
+
+
+

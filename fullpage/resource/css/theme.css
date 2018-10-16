@@ -1,0 +1,28 @@
+:root {
+	--wra-l-width: 73vw/*1400px*/;
+}
+
+.wra-full{
+	width: 100%;
+	display: block;
+}
+
+.wra-l{
+	width: 100%;
+	max-width: var(--wra-l-width);
+	margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1024px){
+	:root {
+		--wra-l-width: 76vw/*784px*/;
+	}
+}
+
+@media screen and (max-width: 414px){
+	:root {
+		--wra-l-width: 94vw;
+	}
+}
+

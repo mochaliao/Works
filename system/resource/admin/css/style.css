@@ -1,0 +1,39 @@
+body{
+    font-family: Microsoft JhengHei;
+    padding-top: 100px;
+}
+
+p{
+    margin : 0;
+}
+
+main[role=main]{
+    
+}
+
+input[type=text][readonly=readonly]{
+    cursor : pointer;
+}
+
+.list-group{
+    max-height : 480px;
+    overflow-x : hidden;
+    overflow-y : scroll;
+}
+
+.starter{
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.btn-logout{
+    margin-left : 10px;
+}
+
+.card{
+    margin-top : 20px;
+}
+
+.nav-tabs a{
+    color : #495057;
+}

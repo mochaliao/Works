@@ -1,0 +1,71 @@
+<div class = "activity_container">
+	<div class="activity_mainBg"></div>
+	<div class="activity_mainPic">
+		<img ng-src="view/images/activity/PHC_02.jpg">
+		<div class="activity_main_hr1"> <hr> </div>
+		<div class="activity_main_text"> <span> {{albumTitle}} </span> </div>
+		<div class="activity_main_hr2"> <hr> </div>
+	</div>
+	<div class="activity_LeftMenuBar">
+
+		<div class = "activityAlbum dance" 
+			ng-mouseover="albumDanceMouseEvent(1)" 
+			ng-mouseleave="albumDanceMouseEvent(2)"
+			ng-click="albumDanceMouseEvent(3)"
+			ng-class="albumDance">
+			<p class = "activity_linkText" > 舞團相本 </p>
+		</div>
+
+		<div class = "activityAlbum act" 
+			ng-mouseover="albumActMouseEvent(1)" 
+			ng-mouseleave="albumActMouseEvent(2)"
+			ng-click="albumActMouseEvent(3)"
+			ng-class="albumAct">
+			<p class = "activity_linkText" > 活動相本 </p>
+		</div>
+
+		<table class="activityLeft_line">
+			<tr> 
+				<td width="500" height="920">　</td> 
+			</tr> 
+		</table>
+		
+	</div>
+
+	<div class="activity_RightMenuBar">
+		<div class="activity_album" ng-show="showAlbum=='0'">
+			<div class="activity_album_content act{{$index}}" ng-repeat="data in albumShowDatas">
+				<span class="activity_album_title"> {{data.name}} </span>
+				<img ng-src="view/images/activity/{{data.id}}/{{data.cover}}" class="activity_album_pic">
+				<span class="activity_album_link" ng-click="clickAlbum($index)"> > 進入相本 </span>
+			</div>
+		</div>
+
+		<div class="activity_pic" ng-show="showAlbum=='1'">
+			<span class="activity_pic_title">{{choiceAlbumName}}</span>
+			<div class="activity_pic_content number{{$index}}" ng-repeat="data in albumShowPics" ng-click="clickShowSlider($index)">
+				<img ng-src="view/images/activity/{{choiceAlbumID}}/{{data.path}}" class="activity_pic_pic">
+			</div>
+		</div>
+
+		<div class="activity_page">
+			<tm-pagination conf="paginationConf"></tm-pagination>
+		</div>
+	</div>
+
+	<div class="activity_SliderPic" ng-show="showSlider=='1'">
+		<div class= "activity_SliderPic_Close" ng-click="sliderClose()">
+			<img ng-src="view/images/activity/close.png">
+		</div>
+		<div class= "activity_SliderPic_Left" ng-click="sliderLeft()">
+			<img ng-src="view/images/activity/left.png">
+		</div>
+		<div class= "activity_SliderPic_Right" ng-click="sliderRight()">
+			<img ng-src="view/images/activity/right.png">
+		</div>
+		<div class= "activity_SliderPic_Pic">
+			<img ng-src="view/images/activity/{{choiceAlbumID}}/{{choicePic}}">
+		</div>
+	</div>
+
+</div>

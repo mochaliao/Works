@@ -1,0 +1,107 @@
+<div class = "lesson_container" ng-class="containerType">
+	<div class="lesson_mainBg"></div>
+	<div class="lesson_mainPic">
+		<img ng-src="view/images/lesson/PHC-lesson_banner.jpg">
+		<div class="lesson_main_hr1"> <hr> </div>
+		<div class="lesson_main_text"> <span> {{lessonTitle}} </span> </div>
+		<div class="lesson_main_hr2"> <hr> </div>
+	</div>
+
+	<div class="lesson_LeftMenuBar">
+
+		<div class = "lessonIntroduce introduce" 
+			ng-mouseover="lessonIntroMouseEvent(1)" 
+			ng-mouseleave="lessonIntroMouseEvent(2)"
+			ng-click="lessonIntroMouseEvent(3)"
+			ng-class="lessonIntro">
+			<p class = "lesson_linkText" > 課程介紹 </p>
+		</div>
+
+		<div class = "lessonIntroduce schedule" 
+			ng-mouseover="lessonScheduleMouseEvent(1)" 
+			ng-mouseleave="lessonScheduleMouseEvent(2)"
+			ng-click="lessonScheduleMouseEvent(3)"
+			ng-class="lessonSchedule">
+			<p class = "lesson_linkText" > 舞團課表 </p>
+		</div>
+
+		<table class="lessonLeft_line">
+			<tr> 
+				<td width="500" height="1220" ng-class="tdType">　</td> 
+			</tr> 
+		</table>
+		
+	</div>
+
+	<div class="lesson_RightMenuBar">
+		<div class="lesson_type_info" ng-show="typeID=='1'">
+			<!-- img ng-src="view/images/lesson/PHC_class_info.jpg" -->
+			<div class="lesson_type" ng-repeat="data in typeTables">
+				<img ng-src="view/images/lesson/{{$index}}.jpg">
+				<div class="lesson_type_title"> {{data.title}} </div>
+				<div class="lesson_type_content"> {{data.content}} </div>
+			</div>
+		</div>
+
+		<div class="lesson_class_info" ng-show="typeID=='2'">
+			<!-- img ng-src="view/images/lesson/PHC_timetable.jpg" -->
+			<table class="lesson_class table">
+				<tr class="lesson_class tr" ng-repeat="row in classTables">
+					<td class="lesson_class td" ng-class="row.Column0.style">
+						<div class="lesson_tdata" ng-bind-html="row.Column0.text"></div>
+					</td>
+					<td class="lesson_class td" ng-class="row.Column1.style">
+						<div class="lesson_tdata" ng-bind-html="row.Column1.text"></div>
+					</td>
+					<td class="lesson_class td" ng-class="row.Column2.style">
+						<div class="lesson_tdata" ng-bind-html="row.Column2.text"></div>
+					</td>
+					<td class="lesson_class td" ng-class="row.Column3.style">
+						<div class="lesson_tdata" ng-bind-html="row.Column3.text"></div>
+					</td>
+					<td class="lesson_class td" ng-class="row.Column4.style">
+						<div class="lesson_tdata" ng-bind-html="row.Column4.text"></div>
+					</td>
+					<td class="lesson_class td" ng-class="row.Column5.style">
+						<div class="lesson_tdata" ng-bind-html="row.Column5.text"></div>
+					</td>
+					<td class="lesson_class td" ng-class="row.Column6.style">
+						<div class="lesson_tdata" ng-bind-html="row.Column6.text"></div>
+					</td>
+					<td class="lesson_class td" ng-class="row.Column7.style">
+						<div class="lesson_tdata" ng-bind-html="row.Column7.text"></div>
+					</td>
+				</tr>
+			</table>
+
+			<table class="lesson_class table2">
+				<tr class="lesson_class tr" ng-repeat="row in classTables2">
+					<td class="lesson_class td" ng-class="row.Column0.style">
+						<div class="lesson_tdata" ng-bind-html="row.Column0.text"></div>
+					</td>
+					<td class="lesson_class td" ng-class="row.Column1.style">
+						<div class="lesson_tdata" ng-bind-html="row.Column1.text"></div>
+					</td>
+					<td class="lesson_class td" ng-class="row.Column2.style">
+						<div class="lesson_tdata" ng-bind-html="row.Column2.text"></div>
+					</td>
+					<td class="lesson_class td" ng-class="row.Column3.style">
+						<div class="lesson_tdata" ng-bind-html="row.Column3.text"></div>
+					</td>
+					<td class="lesson_class td" ng-class="row.Column4.style">
+						<div class="lesson_tdata" ng-bind-html="row.Column4.text"></div>
+					</td>
+					<td class="lesson_class td" ng-class="row.Column5.style">
+						<div class="lesson_tdata" ng-bind-html="row.Column5.text"></div>
+					</td>
+					<td class="lesson_class td" ng-class="row.Column6.style">
+						<div class="lesson_tdata" ng-bind-html="row.Column6.text"></div>
+					</td>
+					<td class="lesson_class td" ng-class="row.Column7.style">
+						<div class="lesson_tdata" ng-bind-html="row.Column7.text"></div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>

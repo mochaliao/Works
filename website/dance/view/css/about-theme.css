@@ -1,0 +1,32 @@
+/*main_Pic_Container*/
+.about_Pic{
+	background:url(../../view/images/about/PHC-about_banner.jpg) center no-repeat;
+}
+
+.about_container{
+	padding: 10px 0 0;
+	text-align: center;
+}
+.about_content{
+	width: 50%;
+	margin: 0 auto;
+}
+.about_content > p{
+	margin: 40px 0 0;
+}
+@media screen and (max-width:1024px) {
+.about_content{
+	width: 80%;
+}
+}
+@media screen and (max-width:768px) {
+.about_content{
+	width: 90%;
+}
+.about_container{
+	padding: 0;
+}
+.about_content > p{
+	margin: 20px 0 0;
+}
+}
