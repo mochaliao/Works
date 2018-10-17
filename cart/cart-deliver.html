@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+	>
+	<link rel="icon" href="img/85go-logo-m.png">
+	<title>85go</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/master.css">
+	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/member.css">
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script src="https://use.fontawesome.com/8dbb4cc43e.js"></script>
+	<script>
+        //include html setting
+        $(function () {
+            var includes = $('[data-include]');
+            jQuery.each(includes, function () {
+                var file = 'include/' + $(this).data('include') + '.html';
+                $(this).load(file);
+            });
+        });
+        //全部load完，才load mMenu.js
+        $(window).bind("load", function () {
+            $.getScript('js/mMenu.js');
+        });
+	</script>
+</head>
+<body>
+<div class="wrapper">
+	<!--header-->
+	<div data-include="header"></div>
+
+	<!--main-->
+	<main class="main-content">
+		<section class="container-narrow-s" id="cart-cnt">
+
+			<div class="content">
+				<div class="inner-title">
+					<h1>確認訂單</h1>
+				</div>
+				<div class="inner-cnt">
+					<div class="member-list-wrap">
+						<ul class="member-list-cnt cart-title">
+							<li>商品資料</li>
+							<li>單價</li>
+							<li>數量</li>
+							<li>小記</li>
+						</ul>
+						<ul class="member-list-cnt cart-list">
+							<li>
+								<div class="member-list-img">
+									<a href="#" class="">
+										<img
+										src="img/items/1_712520-PRADA-Black-mikado-dress.jpg"
+										></a>
+								</div>
+								<div class="member-list-name">
+									<ol>
+										<li>Prada</li>
+										<li class="has-space">短袖迷你裙，帶褶邊鑲條
+										</li>
+										<li class="has-space">Item:
+															  P35M7GS1721PLU_F0002
+										</li>
+										<li>顏色:黑色</li>
+										<li class="has-space">尺寸:IK16</li>
+										<li class="cart-modify"><a>移到收藏清單
+										</a><a>刪除商品</a></li>
+									</ol>
+								</div>
+							</li>
+							<li>TWD 63.000,00</li>
+							<li>1</li>
+							<li>TWD 63.000,00</li>
+						</ul>
+						<ul class="member-list-cnt cart-list">
+							<li>
+								<div class="member-list-img">
+									<a href="#" class="">
+										<img
+										src="img/items/1_712520-PRADA-Black-mikado-dress.jpg"
+										></a>
+								</div>
+								<div class="member-list-name">
+									<ol>
+										<li>Prada</li>
+										<li class="has-space">短袖迷你裙，帶褶邊鑲條
+										</li>
+										<li class="has-space">Item:
+															  P35M7GS1721PLU_F0002
+										</li>
+										<li>顏色:黑色</li>
+										<li class="has-space">尺寸:IK16</li>
+										<li class="cart-modify"><a>移到收藏清單
+										</a><a>刪除商品</a></li>
+									</ol>
+								</div>
+							</li>
+							<li>TWD 63.000,00</li>
+							<li>1</li>
+							<li>TWD 63.000,00</li>
+						</ul>
+						<ul class="member-list-cnt cart-list">
+							<li>
+							</li>
+							<li class="txt-right">總結</li>
+							<li>2</li>
+							<li>TWD 126.000,00</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<ol class="cart-3-column">
+					<li>
+						<div class="inner-title">
+							<h1>送貨資料</h1>
+						</div>
+						<div class="cart-info-block">
+							<h4>送貨國家：台灣</h4>
+							<h4>送貨方式：義大利郵寄(7~14個工作天)</h4>
+						</div>
+					</li>
+					<li>
+						<div class="inner-title">
+							<h1>收件人資料</h1>
+						</div>
+						<div class="cart-info-block">
+							<h4>顧客名稱：123</h4>
+							<h4>電話號碼：123</h4>
+							<h4>地址：13121513</h4>
+						</div>
+					</li>
+					<li>
+						<div class="inner-title">
+							<h1>收件人資料</h1>
+						</div>
+						<div class="cart-info-block">
+							<h4>付款方式：ATM匯款</h4>
+							<h4>姓名：王老闆</h4>
+							<h4>卡號：2885 4024 7543</h4>
+							<h4>銀行：中國信託</h4>
+						</div>
+					</li>
+				</ol>
+
+			</div>
+
+			<div class="content">
+				<div class="btn-area txt-center">
+					<input type="button" value="訂單送出" onclick="location.href='index.html'">
+				</div>
+			</div>
+
+		</section>
+
+		<!--footer-->
+		<div data-include="footer"></div>
+	</main>
+
+	<!--mobile nav-->
+	<div data-include="navMobile"></div>
+</div>
+<script>
+    //for header
+    $(function () {
+        $(window).scroll(function () {
+
+            //固定header menu
+            if ($(this).scrollTop() > 129) {
+                $('header').addClass('fixed');
+            } else {
+                $('header').removeClass('fixed');
+            }
+        });
+    });
+
+    //語系切換
+    $(document).ready(function () {
+        $('.header-langEx a').click(function () {
+            $('a.active').removeClass('active');
+            $(this).closest('a').addClass('active');
+        });
+    });
+</script>
+</body>
+</html>

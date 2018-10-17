@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+	>
+	<link rel="icon" href="img/85go-logo-m.png">
+	<title>85go</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/master.css">
+	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/member.css">
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script src="https://use.fontawesome.com/8dbb4cc43e.js"></script>
+	<script>
+        //include html setting
+        $(function () {
+            var includes = $('[data-include]');
+            jQuery.each(includes, function () {
+                var file = 'include/' + $(this).data('include') + '.html';
+                $(this).load(file);
+            });
+        });
+        //全部load完，才load mMenu.js
+        $(window).bind("load", function () {
+            $.getScript('js/mMenu.js');
+        });
+	</script>
+</head>
+<body>
+<div class="wrapper">
+	<!--header-->
+	<div data-include="header"></div>
+
+	<!--main-->
+	<main class="main-content">
+		<section class="container-narrow" id="policy-page">
+			<div class="content clearfix">
+				<!--sideMenu-->
+				<aside class="sideMenu-wrap">
+					<div class="sideMenu">
+						<ul>
+							<li><a href="contactUs.html">歐洲天堂</a></li>
+							<li><a class="active">QA</a></li>
+							<li><a href="size.html">尺寸表</a></li>
+						</ul>
+					</div>
+				</aside>
+				<!--inner-cnt-->
+				<div class="inner-cnt-wrap">
+					<div class="contact-title qa">歐洲天堂官方網站Q & A</div>
+					<div class="inner-cnt">
+						<ul class="qa-txt">
+							<li><p class="txt-extra">賣場的商品是正品嗎？</p>
+
+								所有商品100%皆為專人親自購於義大利專櫃，精品附有保證卡
+								所購買之精品若有疑慮歡迎貴賓至專櫃驗貨
+								若需要相關證明可來信索取：OUTLET、專櫃名稱、地址、品項、時間
+							</li>
+							<li>
+								<p class="txt-extra">商品可否退換貨？</p>
+								商品一律由歐洲直寄台灣，為國際航空客運服務，商品無法再寄回歐洲，請買家確認好再下標購買
+								購買前我們都會先做詳細檢查才出貨
+							</li>
+							<li><p class="txt-extra">想購買的商品網站上沒有刊登怎麼辦？</p>
+								請將「商品型號」「商品照片」
+								或是「精品連結網址」來信與我們聯絡，歐洲天堂就可以為貴賓做專屬報價唷
+								請特別注意！若是確認訂購預訂之精品，並已經請歐洲天堂協助調貨，無法取消退貨退款，所有精品皆是歐洲天堂專人在歐洲為貴賓服務，不接受任何理由取消訂購，所支付訂金或全額完全不退費，請三思後再決定是否購買
+							</li>
+							<li><p class="txt-extra">購買商品多久會到貨？</p>
+								正常情況約7至14個工作天
+								國際包裹會因節日、排船期、海關查驗等多重因素而無法準確在預估期限內抵達，如果無法接受物品可能有的耽擱因素延遲之買家，請三思後進行購買，歐洲天堂不因此原因而退費，敬請見諒
+							</li>
+							<li>
+								<p class="txt-extra">關稅由誰支出？</p>
+								歐洲天堂之精品全都採用義大利直寄，保險和關稅全由公司負擔，給貴賓最合理的價格
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--footer-->
+		<div data-include="footer"></div>
+	</main>
+
+	<!--mobile nav-->
+	<div data-include="navMobile"></div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"
+></script>
+<script src="js/mMenu.js"></script> <!--For naigantion-->
+
+<script>
+    //for header
+    $(function () {
+        $(window).scroll(function () {
+
+            //固定header menu
+            if ($(this).scrollTop() > 129) {
+                $('header').addClass('fixed');
+            } else {
+                $('header').removeClass('fixed');
+            }
+        });
+    });
+
+    //語系切換
+    $(document).ready(function () {
+        $('.header-langEx a').click(function () {
+            $('a.active').removeClass('active');
+            $(this).closest('a').addClass('active');
+        });
+    });
+</script>
+</body>
+</html>

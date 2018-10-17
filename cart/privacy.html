@@ -1,596 +1,164 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<link rel="icon" href="img/85go-logo-m.png">
-<title>product</title>
-<link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="css/master.css">
-<link rel="stylesheet" href="css/font.css">
-<link rel="stylesheet" href="css/nav.css">
-<link rel="stylesheet" href="css/product-items.css">
-<script src="https://use.fontawesome.com/8dbb4cc43e.js"></script>
-<style type="text/css"></style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="icon" href="img/85go-logo-m.png">
+	<title>85go</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/master.css">
+	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/member.css">
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script src="https://use.fontawesome.com/8dbb4cc43e.js"></script>
+	<script>
+        //include html setting
+        $(function () {
+            var includes = $('[data-include]');
+            jQuery.each(includes, function () {
+                var file = 'include/' + $(this).data('include') + '.html';
+                $(this).load(file);
+            });
+        });
+        //全部load完，才load mMenu.js
+        $(window).bind("load", function () {
+            $.getScript('js/mMenu.js');
+        });
+	</script>
 </head>
-<style></style>
 <body>
-<div class="wrapper"> 
-  <!--header-->
-  <header> 
-    <!--mobile-->
-    <div id="mobile-header">
-      <div class="m-header-group">
-        <div class="m-header-menu"><a id="menu-trigger" href="#0"><span class="menu-icon"></span></a></div>
-        <div class="m-header-search">
-          <form>
-            <button><i class="fa fa-search" aria-hidden="true"></i></button>
-          </form>
-        </div>
-        <div class="m-header-logo"><a href="index.html"><img src="img/85go-logo-m.png"></a></div>
-        <div class="m-header-like"> <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a> </div>
-        <div class="m-header-cart"> <a href="#">
-          <div class="bubble-wrap">
-            <p class="bubble-txt"><span>99+</span></p>
-          </div>
-          <img src="img/icon-cart-m.png"></a> </div>
-      </div>
-    </div>
-    
-    <!--desktop-->
-    <div id="desktop-header"  class="container-narrow">
-      <div class="header-up"> 
-        <!--a加上.active 轉換語系-->
-        <p class="header-langEx"><a href="#">简体</a>/<a href="#" class="active">繁體</a>/<a href="#">EN</a></p>
-        <p class="header-logo"><a href="index.html"><img src="img/85go-logo.png"></a></p>
-      </div>
-      <div class="header-bottom">
-        <nav id="main-nav">
-          <ul class="nav-menu menu">
-            <li class="has-dropdown"> <a>關於我們</a>
-              <ul class="nav-dropdown menu">
-                <li><a href="#">選項1</a></li>
-                <li><a href="#">選項1</a></li>
-                <li><a href="#">選項1</a></li>
-              </ul>
-            </li>
-            <li class="has-dropdown"><a>Designer</a>
-              <ul class="nav-dropdown menu">
-                <li><a href="product.html">prada</a></li>
-              </ul>
-            </li>
-            <li><a href="#">WOMEN</a></li>
-            <li><a href="#">MEN</a></li>
-            <li><a href="#">包款</a></li>
-            <li><a href="#">鞋款</a></li>
-            <li><a href="#">服飾</a></li>
-            <li><a href="#">時尚配件</a></li>
-          </ul>
-        </nav>
-        <aside id="header-aside">
-          <div class="search-wrap">
-            <form class="search">
-              <button><i class="fa fa-search" aria-hidden="true"></i></button>
-              <input type="text" placeholder="關鍵字">
-            </form>
-          </div>
-          <div class="cart-wrap"> <a href="#">
-            <div class="cart-icon"><img src="img/icon-cart.png"></div>
-            <div class="cart-txt">購物車 (<span>0</span>)</div>
-            </a> </div>
-          <!--div加.acitve 轉換狀態-->
-          <div class="member-wrap">
-            <div class=""> <a href="#"><span>name</span></a>．<a href="#">登出</a> </div>
-            <div class="active"> <a href="signin.html">註冊</a>．<a href="login.html">登入</a> </div>
-          </div>
-        </aside>
-      </div>
-    </div>
-  </header>
-  <!-- --> 
-  
-  <!--main-->
-  <main class="main-content">
-    <section class="container-narrow clearfix" id="product-items">
-      <!--filter-->
-       <aside class="filter-wrap">
-        <div class="filter-box">
-          <ul>
-            <li class="filter-title"><a href="#"><span>prada</span></a></li>
-            <li class="filter-subtitle"><a href="#"><span>Show All</span></a></li>
-            <li><a href="#"><span>Clothing</span></a></li>
-            <li><a href="#"><span>Shoes</span></a></li>
-            <li><a href="#"><span>Bags</span></a></li>
-            <li><a href="#"><span>Accessories</span></a></li>
-            <li><a href="#"><span>Exclusives</span></a></li>
-          </ul>
-        </div>
-        <div class="filter-box">
-          <div class="filter-title">排序方式</div>
-          <a class="reset-btn">全部清除</a> </div>
-        
-        <!--品牌-->
-        <div class="filter-box filter-brand">
-          <div class="filter-title has-arrow"> <a href="#">品牌</a>
-            <div class="filter-submenu">
-              <form>
-                <div>
-                  <input type="checkbox"/>
-                  <label><span>PRADA</span></label>
-                </div>
-                <div>
-                  <input type="checkbox"/>
-                  <label><span>moschino</span></label>
-                </div>
-                <div>
-                  <input type="checkbox"/>
-                  <label><span>burberry</span></label>
-                </div>
-                <div>
-                  <input type="checkbox"/>
-                  <label><span>gucci</span></label>
-                </div>
-                <div>
-                  <input type="checkbox"/>
-                  <label><span>miu miu</span></label>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        
-        <!--尺寸-->
-        <div class="filter-box filter-size">
-          <div class="filter-title has-arrow"> <a href="#">尺寸</a>
-            <div class="filter-submenu">
-              <form>
-                <div>
-                  <label class="checkbox-wrap">
-                    <input type="checkbox">
-                    <span class="checkbox-txt">one size</span> </label>
-                </div>
-                <div>
-                  <label class="checkbox-wrap">
-                    <input type="checkbox">
-                    <span class="checkbox-txt">XXS</span> </label>
-                </div>
-                <div>
-                  <label class="checkbox-wrap">
-                    <input type="checkbox">
-                    <span class="checkbox-txt">xs</span> </label>
-                </div>
-                <div>
-                  <label class="checkbox-wrap">
-                    <input type="checkbox">
-                    <span class="checkbox-txt">S</span> </label>
-                </div>
-                <div>
-                  <label class="checkbox-wrap">
-                    <input type="checkbox">
-                    <span class="checkbox-txt">m</span> </label>
-                </div>
-                <div>
-                  <label class="checkbox-wrap">
-                    <input type="checkbox">
-                    <span class="checkbox-txt">l</span> </label>
-                </div>
-                <div>
-                  <label class="checkbox-wrap">
-                    <input type="checkbox">
-                    <span class="checkbox-txt">xl</span> </label>
-                </div>
-                <div>
-                  <label class="checkbox-wrap">
-                    <input type="checkbox">
-                    <span class="checkbox-txt">XXl</span> </label>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        
-        <!--價錢-->
-        <div class="filter-box filter-price">
-          <div class="filter-title has-arrow"> <a href="#">價錢</a>
-            <div class="filter-submenu"> </div>
-          </div>
-        </div>
-        
-        <!--顏色-->
-        <div class="filter-box filter-color">
-          <div class="filter-title has-arrow"> <a href="#">顏色</a>
-            <div class="filter-submenu">
-              <form>
-                <div>
-                  <label class="checkbox-wrap">
-                    <input type="checkbox">
-                    <span class="checkbox-txt check-white"></span> </label>
-                </div>
-                <div>
-                  <label class="checkbox-wrap">
-                    <input type="checkbox">
-                    <span class="checkbox-txt check-red"></span> </label>
-                </div>
-                <div>
-                  <label class="checkbox-wrap">
-                    <input type="checkbox">
-                    <span class="checkbox-txt check-yellow"></span> </label>
-                </div>
-                <div>
-                  <label class="checkbox-wrap">
-                    <input type="checkbox">
-                    <span class="checkbox-txt check-green"></span> </label>
-                </div>
-                <div>
-                  <label class="checkbox-wrap">
-                    <input type="checkbox">
-                    <span class="checkbox-txt check-blue"></span> </label>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </aside>
-      
-      <div class="items-wrap">
-        <div class="items-top">
-          <div class="item-classify"> <a href="#"><span>首頁</span></a> / <a href="#"><span>DESIGNER</span></a> / <a href="#"><span>PRADA</span></a> </div>
-          <div class="sort-wrap">
-            <div class="item-sort">
-              <form>
-                <select>
-                  <option value="0">排列方式</option>
-                  <option value="1">價錢：由低到高</option>
-                  <option value="2">價錢：由高到低</option>
-                  <option value="3">上架時間：新到舊</option>
-                  <option value="4">上架時間：舊到新</option>
-                </select>
-              </form>
-            </div>
-            <div class="item-filter"> <a href="#" id="filter-toggle">filter</a> </div>
-          </div>
-        </div>
-        
-        <!--items-->
-        <div class="items-cnt clearfix">
-          <article class="items-box">
-            <div class="items-box-side"> <a href="#" class="items-cart"></a> <a href="#" class="items-like"></a> </div>
-            <a href="#">
-            <div class="items-box-main">
-              <div class="items-img reveal"> <img src="img/items/1_747487-013613730304_1.jpg"> <img class="hidden" src="img/items/1_712417-PRADA-Black-virgin-wool-blend-coat.jpg"> </div>
-              <div>
-                <h6><span>2017秋冬新款大衣</span></h6>
-                <h5><span>TWD $200,500</span></h5>
-              </div>
-            </div>
-            </a> </article>
-          <article class="items-box">
-            <div class="items-box-side"> <a href="#" class="items-cart"></a> <a href="#" class="items-like"></a> </div>
-            <a href="#">
-            <div class="items-box-main">
-              <div class="items-img reveal"> <img src="img/items/1_712417-PRADA-Black-virgin-wool-blend-coat.jpg"> <img class="hidden" src="img/items/1_712439-PRADA-Black-mikado-dress.jpg"> </div>
-              <div>
-                <h6><span>2017秋冬新款氣質黑色大衣</span></h6>
-                <h5><span>TWD $200,500</span></h5>
-              </div>
-            </div>
-            </a> </article>
-          <article class="items-box">
-            <div class="items-box-side"> <a href="#" class="items-cart"></a> <a href="#" class="items-like"></a> </div>
-            <a href="#">
-            <div class="items-box-main">
-              <div class="items-img reveal"> <img src="img/items/1_712520-PRADA-Black-mikado-dress.jpg"><img class="hidden" src="img/items/1_712439-PRADA-Black-mikado-dress.jpg"> </div>
-              <div>
-                <h6><span>2017秋冬新款氣質黑色連身裙</span></h6>
-                <h5><span>TWD $200,500</span></h5>
-              </div>
-            </div>
-            </a> </article>
-          <article class="items-box">
-            <div class="items-box-side"> <a href="#" class="items-cart"></a> <a href="#" class="items-like"></a> </div>
-            <a href="#">
-            <div class="items-box-main">
-              <div class="items-img reveal"> <img src="img/items/1_747527-BLEHMAN-Black-suede-pumps.jpg"> <img class="hidden" src="img/items/1_712417-PRADA-Black-virgin-wool-blend-coat.jpg"> </div>
-              <div>
-                <h6><span>2017秋冬新款高跟鞋</span></h6>
-                <h5><span>TWD $200,500</span></h5>
-              </div>
-            </div>
-            </a> </article>
-          <article class="items-box">
-            <div class="items-box-side"> <a href="#" class="items-cart"></a> <a href="#" class="items-like"></a> </div>
-            <a href="#">
-            <div class="items-box-main">
-              <div class="items-img reveal"> <img src="img/items/1_747487-013613730304_1.jpg"> <img class="hidden" src="img/items/1_712417-PRADA-Black-virgin-wool-blend-coat.jpg"> </div>
-              <div>
-                <h6><span>2017秋冬新款大衣</span></h6>
-                <h5><span>TWD $200,500</span></h5>
-              </div>
-            </div>
-            </a> </article>
-          <article class="items-box">
-            <div class="items-box-side"> <a href="#" class="items-cart"></a> <a href="#" class="items-like"></a> </div>
-            <a href="#">
-            <div class="items-box-main">
-              <div class="items-img reveal"> <img src="img/items/1_712417-PRADA-Black-virgin-wool-blend-coat.jpg"> <img class="hidden" src="img/items/1_712439-PRADA-Black-mikado-dress.jpg"> </div>
-              <div>
-                <h6><span>2017秋冬新款氣質黑色大衣</span></h6>
-                <h5><span>TWD $200,500</span></h5>
-              </div>
-            </div>
-            </a> </article>
-          <article class="items-box">
-            <div class="items-box-side"> <a href="#" class="items-cart"></a> <a href="#" class="items-like"></a> </div>
-            <a href="#">
-            <div class="items-box-main">
-              <div class="items-img reveal"> <img src="img/items/1_712520-PRADA-Black-mikado-dress.jpg"><img class="hidden"  src="img/items/1_712439-PRADA-Black-mikado-dress.jpg"> </div>
-              <div>
-                <h6><span>2017秋冬新款氣質黑色連身裙</span></h6>
-                <h5><span>TWD $200,500</span></h5>
-              </div>
-            </div>
-            </a> </article>
-          <article class="items-box">
-            <div class="items-box-side"> <a href="#" class="items-cart"></a> <a href="#" class="items-like"></a> </div>
-            <a href="#">
-            <div class="items-box-main">
-              <div class="items-img reveal"> <img src="img/items/1_747527-BLEHMAN-Black-suede-pumps.jpg"> <img class="hidden" src="img/items/1_712417-PRADA-Black-virgin-wool-blend-coat.jpg"> </div>
-              <div>
-                <h6><span>2017秋冬新款高跟鞋</span></h6>
-                <h5><span>TWD $200,500</span></h5>
-              </div>
-            </div>
-            </a> </article>
-        </div>
-        
-        <!--pagigation-->
-        <div class="items-bottom">
-          <div class="items-pagination"> <a href="#" class="pagination-pre"><span>上一頁</span></a><a href="#"><span>1</span></a><a href="#"><span>2</span></a><a href="#"><span>3</span></a><a href="#"><span>4</span></a><a href="#" class="pagination-next"><span>下一頁</span></a> </div>
-          <div class="items-sum">
-            <div>共計<span>90</span>個商品</div>
-            <div>頁數<span>1</span>/<span>4</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!--footer-->
-    <div class="container-narrow">
-      <footer>
-        <div>
-          <p>台灣銀行歐元現金匯率：<span>36.04</span></p>
-          <p>美元現金匯率：<span>30.457</span></p>
-        </div>
-        <div>
-          <p><a href="#" class="underline">隱私條款</a>普惠世紀文化傳媒版權所有，未經書面授權禁止使用</p>
-          <p>Copyright@2008-2017 by puhuei-culture.com all rights reserved</p>
-        </div>
-        <div> <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-weixin" aria-hidden="true"></i></a> </div>
-      </footer>
-    </div>
-  </main>
-  <!-- --> 
-  <!--mobile navigation-->
-  <nav id="mobile-nav">
-    <div class="m-nav-wrap">
-      <div class="m-nav-out">
-        <div class="m-nav-inner">
-          <ul class="nav-cnt m-nav-info">
-            <li>
-              <div class="member-wrap">
-                <div class=""><a href="#"><span>name</span></a>．<a href="#">登出</a> </div>
-                <div class="active"> <a href="signin.html">註冊</a>．<a href="login.html">登入</a> </div>
-              </div>
-            </li>
-            <li>
-              <p class="header-langEx"><a href="#">简</a>/<a href="#" class="active">繁</a>/<a href="#">EN</a></p>
-            </li>
-          </ul>
-          <ul class="nav-cnt">
-            <li class="item-has-children"> <a href="#">關於我們</a>
-              <ul class="sub-menu">
-                <li><a href="#">Brand</a></li>
-                <li><a href="#0">Web Apps</a></li>
-                <li><a href="#0">Mobile Apps</a></li>
-              </ul>
-            </li>
-            <li class="item-has-children"> <a href="#">Designer</a>
-              <ul class="sub-menu">
-                <li><a href="#0">Product 1</a></li>
-                <li><a href="#0">Product 2</a></li>
-                <li><a href="#0">Product 3</a></li>
-                <li><a href="#0">Product 4</a></li>
-                <li><a href="#0">Product 5</a></li>
-              </ul>
-            </li>
-            <li> <a href="#">WOMEN</a></li>
-            <li> <a href="#">MAN</a></li>
-            <li><a href="#">包款</a></li>
-            <li><a href="#">鞋款</a></li>
-            <li><a href="#">服飾</a></li>
-            <li><a href="#">時尚配件</a></li>
-          </ul>
-          <hr class="m-nav-hr">
-          <ul class="nav-cnt">
-            <li> <a href="member-manage.html">個人資料管理</a></li>
-            <li> <a href="member-order.html">訂單查詢</a></li>
-            <li><a href="member-likelist.html">追蹤清單</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav>
-  <!-- --> 
-  <!--mobile filter-->
-  <div class="mobile-filter-wrap">
-  <div class="" id="mobile-filter">
-    <div class="filter-box">
-      <ul>
-        <li class="filter-title"><a href="#"><span>prada</span></a></li>
-        <li class="filter-subtitle"><a href="#"><span>Show All</span></a></li>
-        <li><a href="#"><span>Clothing</span></a></li>
-        <li><a href="#"><span>Shoes</span></a></li>
-        <li><a href="#"><span>Bags</span></a></li>
-        <li><a href="#"><span>Accessories</span></a></li>
-        <li><a href="#"><span>Exclusives</span></a></li>
-      </ul>
-    </div>
-    <div class="filter-box">
-      <div class="filter-title">排序方式</div>
-      <a class="reset-btn">全部清除</a> </div>
-    
-    <!--品牌-->
-    <div class="filter-box filter-brand">
-      <div class="filter-title has-arrow"> <a href="#">品牌</a>
-        <div class="filter-submenu">
-          <form>
-            <div>
-              <input type="checkbox"/>
-              <label><span>PRADA</span></label>
-            </div>
-            <div>
-              <input type="checkbox"/>
-              <label><span>moschino</span></label>
-            </div>
-            <div>
-              <input type="checkbox"/>
-              <label><span>burberry</span></label>
-            </div>
-            <div>
-              <input type="checkbox"/>
-              <label><span>gucci</span></label>
-            </div>
-            <div>
-              <input type="checkbox"/>
-              <label><span>miu miu</span></label>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-    
-    <!--尺寸-->
-    <div class="filter-box filter-size">
-      <div class="filter-title has-arrow"> <a href="#">尺寸</a>
-        <div class="filter-submenu">
-          <form>
-            <div>
-              <label class="checkbox-wrap">
-                <input type="checkbox">
-                <span class="checkbox-txt">one size</span> </label>
-            </div>
-            <div>
-              <label class="checkbox-wrap">
-                <input type="checkbox">
-                <span class="checkbox-txt">XXS</span> </label>
-            </div>
-            <div>
-              <label class="checkbox-wrap">
-                <input type="checkbox">
-                <span class="checkbox-txt">xs</span> </label>
-            </div>
-            <div>
-              <label class="checkbox-wrap">
-                <input type="checkbox">
-                <span class="checkbox-txt">S</span> </label>
-            </div>
-            <div>
-              <label class="checkbox-wrap">
-                <input type="checkbox">
-                <span class="checkbox-txt">m</span> </label>
-            </div>
-            <div>
-              <label class="checkbox-wrap">
-                <input type="checkbox">
-                <span class="checkbox-txt">l</span> </label>
-            </div>
-            <div>
-              <label class="checkbox-wrap">
-                <input type="checkbox">
-                <span class="checkbox-txt">xl</span> </label>
-            </div>
-            <div>
-              <label class="checkbox-wrap">
-                <input type="checkbox">
-                <span class="checkbox-txt">XXl</span> </label>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-    
-    <!--價錢-->
-    <div class="filter-box filter-price">
-      <div class="filter-title has-arrow"> <a href="#">價錢</a>
-        <div class="filter-submenu"> </div>
-      </div>
-    </div>
-    
-    <!--顏色-->
-    <div class="filter-box filter-color">
-      <div class="filter-title has-arrow"> <a href="#">顏色</a>
-        <div class="filter-submenu">
-          <form>
-            <div>
-              <label class="checkbox-wrap">
-                <input type="checkbox">
-                <span class="checkbox-txt check-white"></span> </label>
-            </div>
-            <div>
-              <label class="checkbox-wrap">
-                <input type="checkbox">
-                <span class="checkbox-txt check-red"></span> </label>
-            </div>
-            <div>
-              <label class="checkbox-wrap">
-                <input type="checkbox">
-                <span class="checkbox-txt check-yellow"></span> </label>
-            </div>
-            <div>
-              <label class="checkbox-wrap">
-                <input type="checkbox">
-                <span class="checkbox-txt check-green"></span> </label>
-            </div>
-            <div>
-              <label class="checkbox-wrap">
-                <input type="checkbox">
-                <span class="checkbox-txt check-blue"></span> </label>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
+<div class="wrapper">
+	<!--header-->
+	<div data-include="header"></div>
+
+	<!--main-->
+	<main class="main-content">
+		<section class="container-narrow" id="policy-page">
+			<div class="content clearfix">
+				<!--sideMenu-->
+				<aside class="sideMenu-wrap">
+					<div class="sideMenu">
+						<ul>
+							<li><a href="policy.html">退換貨款政策</a></li>
+							<li><a class="active">隱私條款</a></li>
+						</ul>
+					</div>
+				</aside>
+				<!--inner-cnt-->
+				<div class="inner-cnt-wrap">
+					<div class="inner-title">
+						<h1>隱私條款</h1>
+					</div>
+					<div class="inner-cnt">
+						<div class="list-txt-group">
+							<div>
+								非常歡迎您光臨普惠世紀歐洲天堂精品網（以下簡稱本網站），為了讓您能夠安心使用本網站的各項服務與資訊，特此向您說明本網站的隱私權保護政策，以保障您的權益，請您詳閱下列內容：
+							</div>
+							<ol>
+								<li>
+									<div class="txt-extra"					</div>>隱私權保護政策的適用範圍</div>
+									隱私權保護政策內容，包括本網站如何處理在您使用網站服務時收集到的個人識別資料。隱私權保護政策不適用於本網站以外的相關連結網站，也不適用於非本網站所委託或參與管理的人員。
+								</li>
+								<li>
+									<div class="txt-extra"					</div>>個人資料的蒐集、處理及利用方式</div>
+									<ul>
+										<li>
+											當您造訪本網站或使用本網站所提供之功能服務時，我們將視該服務功能性質，請您提供必要的個人資料，並在該特定目的範圍內處理及利用您的個人資料；非經您書面同意，本網站不會將個人資料用於其他用途。
+										</li>
+										<li>
+											本網站在您使用服務信箱、問卷調查等互動性功能時，會保留您所提供的姓名、電子郵件地址、聯絡方式及使用時間等。
+											於一般瀏覽時，伺服器會自行記錄相關行徑，包括您使用連線設備的IP位址、使用時間、使用的瀏覽器、瀏覽及點選資料記錄等，做為我們增進網站服務的參考依據，此記錄為內部應用，決不對外公佈。
+										</li>
+										<li>
+											為提供精確的服務，我們會將收集的問卷調查內容進行統計與分析，分析結果之統計數據或說明文字呈現，除供內部研究外，我們會視需要公佈統計數據及說明文字，但不涉及特定個人之資料。
+										</li>
+									</ul>
+								</li>
+								<li>
+									<div class="txt-extra"					</div>>資料之保護</div>
+									<ul>
+										<li>
+											本網站主機均設有防火牆、防毒系統等相關的各項資訊安全設備及必要的安全防護措施，加以保護網站及您的個人資料採用嚴格的保護措施，只由經過授權的人員才能接觸您的個人資料，相關處理人員皆簽有保密合約，如有違反保密義務者，將會受到相關的法律處分。
+										</li>
+										<li>
+											如因業務需要有必要委託其他單位提供服務時，本網站亦會嚴格要求其遵守保密義務，並且採取必要檢查程序以確定其將確實遵守。
+										</li>
+									</ul>
+								</li>
+								<li>
+									<div class="txt-extra"					</div>>網站對外的相關連結</div>
+									本網站的網頁提供其他網站的網路連結，您也可經由本網站所提供的連結，點選進入其他網站。但該連結網站不適用本網站的隱私權保護政策，您必須參考該連結網站中的隱私權保護政策。
+								</li>
+								<li>
+									<div class="txt-extra"					</div>>與第三人共用個人資料之政策</div>
+									本網站絕不會提供、交換、出租或出售任何您的個人資料給其他個人、團體、私人企業或公務機關，但有法律依據或合約義務者，不在此限。<br>
+									前項但書之情形包括不限於：
+									<ul>
+										<li>經由您書面同意。</li>
+										<li>法律明文規定。</li>
+										<li>為免除您生命、身體、自由或財產上之危險。</li>
+										<li>
+											與公務機關或學術研究機構合作，基於公共利益為統計或學術研究而有必要，且資料經過提供者處理或蒐集著依其揭露方式無從識別特定之當事人。
+										</li>
+										<li>
+											當您在網站的行為，違反服務條款或可能損害或妨礙網站與其他使用者權益或導致任何人遭受損害時，經網站管理單位研析揭露您的個人資料是為了辨識、聯絡或採取法律行動所必要者。
+										</li>
+										<li>有利於您的權益。</li>
+										<li>
+											本網站委託廠商協助蒐集、處理或利用您的個人資料時，將對委外廠商或個人善盡監督管理之責。
+										</li>
+									</ul>
+								</li>
+								<li>
+									<div class="txt-extra"					</div>>Cookie之使用</div>
+									為了提供您最佳的服務，本網站會在您的電腦中放置並取用我們的Cookie，若您不願接受Cookie的寫入，您可在您使用的瀏覽器功能項中設定隱私權等級為高，即可拒絕Cookie的寫入，但可能會導至網站某些功能無法正常執行
+									。
+								</li>
+								<li>
+									<div class="txt-extra"					</div>>隱私權保護政策之修正</div>
+									本網站隱私權保護政策將因應需求隨時進行修正，修正後的條款將刊登於網站上。
+								</li>
+							</ol>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--footer-->
+		<div data-include="footer"></div>
+	</main>
+
+	<!--mobile nav-->
+	<div data-include="navMobile"></div>
 </div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
-<script src="js/mMenu.js"></script> <!--For naigantion--> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"
+></script>
+<script src="js/mMenu.js"></script> <!--For naigantion-->
 
 <script>
-$(function() {	
-  $(window).scroll(function() {
-	 
-	 //固定menu 
-    if ($(this).scrollTop() > 129)  {  
-       $('header').addClass('fixed');  
-    } else {
-      $('header').removeClass('fixed'); 
-    }
-  });
-	
-});
-</script> 
-<script>
-$(document).ready(function() {
-    $('.header-langEx a').click(function() {
-        $('a.active').removeClass('active');
-        $(this).closest('a').addClass('active');
+    //for header
+    $(function () {
+        $(window).scroll(function () {
+
+            //固定header menu
+            if ($(this).scrollTop() > 129) {
+                $('header').addClass('fixed');
+            } else {
+                $('header').removeClass('fixed');
+            }
+        });
     });
-	$('.items-pagination a').click(function() {
-        $('a.active').removeClass('active');
-        $(this).closest('a').addClass('active');
+
+    //語系切換
+    $(document).ready(function () {
+        $('.header-langEx a').click(function () {
+            $('a.active').removeClass('active');
+            $(this).closest('a').addClass('active');
+        });
     });
-});
 </script>
 </body>
 </html>

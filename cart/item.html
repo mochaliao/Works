@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="icon" href="img/85go-logo-m.png">
+	<title>85go</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/master.css">
+	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/product-items.css">
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script src="https://use.fontawesome.com/8dbb4cc43e.js"></script>
+	<script>
+        //include html setting
+        $(function () {
+            var includes = $('[data-include]');
+            jQuery.each(includes, function () {
+                var file = 'include/' + $(this).data('include') + '.html';
+                $(this).load(file);
+            });
+        });
+        //全部load完，才load mMenu.js
+        $(window).bind("load", function () {
+            $.getScript('js/mMenu.js');
+        });
+	</script>
+</head>
+<body>
+<div class="wrapper">
+	<!--header-->
+	<div data-include="header"></div>
+
+	<!--main-->
+	<main class="main-content">
+		<section class="container-narrow clearfix">
+			<div class="item-classify"><a href="#"><span>首頁</span></a> / <a href="#"><span>DESIGNER</span></a> /
+				<a href="product.html"><span>PRADA</span></a> / <a href="#"><span>短袖迷你裙，帶褶邊鑲條</span></a></div>
+			<!--items-->
+			<div class="items-cnt clearfix">
+				<article class="items-box">
+					<div class="items-box-side"><a class="items-cart"></a> <a class="items-like"></a></div>
+					<a href="#">
+						<div class="items-box-main">
+							<div class="items-img reveal"><img src="img/items/1_747487-013613730304_1.jpg">
+								<img class="hidden" src="img/items/1_712417-PRADA-Black-virgin-wool-blend-coat.jpg">
+							</div>
+							<div>
+								<h6><span>2017秋冬新款大衣</span></h6>
+								<h5><span>TWD $200,500</span></h5>
+							</div>
+						</div>
+					</a></article>
+				<article class="items-box">
+					<div class="items-box-side"><a class="items-cart"></a> <a class="items-like"></a></div>
+					<a href="#">
+						<div class="items-box-main">
+							<div class="items-img reveal">
+								<img src="img/items/1_712417-PRADA-Black-virgin-wool-blend-coat.jpg">
+								<img class="hidden" src="img/items/1_712439-PRADA-Black-mikado-dress.jpg"></div>
+							<div>
+								<h6><span>2017秋冬新款氣質黑色大衣</span></h6>
+								<h5><span>TWD $200,500</span></h5>
+							</div>
+						</div>
+					</a></article>
+				<article class="items-box">
+					<div class="items-box-side"><a class="items-cart"></a> <a class="items-like"></a></div>
+					<a href="#">
+						<div class="items-box-main">
+							<div class="items-img reveal">
+								<img src="img/items/1_712520-PRADA-Black-mikado-dress.jpg"><img class="hidden"
+							src="img/items/1_712439-PRADA-Black-mikado-dress.jpg"
+							>
+							</div>
+							<div>
+								<h6><span>2017秋冬新款氣質黑色連身裙</span></h6>
+								<h5><span>TWD $200,500</span></h5>
+							</div>
+						</div>
+					</a></article>
+				<article class="items-box">
+					<div class="items-box-side"><a class="items-cart"></a> <a class="items-like"></a></div>
+					<a href="#">
+						<div class="items-box-main">
+							<div class="items-img reveal">
+								<img src="img/items/1_747527-BLEHMAN-Black-suede-pumps.jpg">
+								<img class="hidden" src="img/items/1_712417-PRADA-Black-virgin-wool-blend-coat.jpg">
+							</div>
+							<div>
+								<h6><span>2017秋冬新款高跟鞋</span></h6>
+								<h5><span>TWD $200,500</span></h5>
+							</div>
+						</div>
+					</a></article>
+				<article class="items-box">
+					<div class="items-box-side"><a class="items-cart"></a> <a class="items-like"></a></div>
+					<a href="#">
+						<div class="items-box-main">
+							<div class="items-img reveal"><img src="img/items/1_747487-013613730304_1.jpg">
+								<img class="hidden" src="img/items/1_712417-PRADA-Black-virgin-wool-blend-coat.jpg">
+							</div>
+							<div>
+								<h6><span>2017秋冬新款大衣</span></h6>
+								<h5><span>TWD $200,500</span></h5>
+							</div>
+						</div>
+					</a></article>
+				<article class="items-box">
+					<div class="items-box-side"><a class="items-cart"></a> <a class="items-like"></a></div>
+					<a href="#">
+						<div class="items-box-main">
+							<div class="items-img reveal">
+								<img src="img/items/1_712417-PRADA-Black-virgin-wool-blend-coat.jpg">
+								<img class="hidden" src="img/items/1_712439-PRADA-Black-mikado-dress.jpg"></div>
+							<div>
+								<h6><span>2017秋冬新款氣質黑色大衣</span></h6>
+								<h5><span>TWD $200,500</span></h5>
+							</div>
+						</div>
+					</a></article>
+				<article class="items-box">
+					<div class="items-box-side"><a class="items-cart"></a> <a class="items-like"></a></div>
+					<a href="#">
+						<div class="items-box-main">
+							<div class="items-img reveal">
+								<img src="img/items/1_712520-PRADA-Black-mikado-dress.jpg"><img class="hidden"
+							src="img/items/1_712439-PRADA-Black-mikado-dress.jpg"
+							>
+							</div>
+							<div>
+								<h6><span>2017秋冬新款氣質黑色連身裙</span></h6>
+								<h5><span>TWD $200,500</span></h5>
+							</div>
+						</div>
+					</a></article>
+				<article class="items-box">
+					<div class="items-box-side"><a class="items-cart"></a> <a class="items-like"></a></div>
+					<a href="#">
+						<div class="items-box-main">
+							<div class="items-img reveal">
+								<img src="img/items/1_747527-BLEHMAN-Black-suede-pumps.jpg">
+								<img class="hidden" src="img/items/1_712417-PRADA-Black-virgin-wool-blend-coat.jpg">
+							</div>
+							<div>
+								<h6><span>2017秋冬新款高跟鞋</span></h6>
+								<h5><span>TWD $200,500</span></h5>
+							</div>
+						</div>
+					</a></article>
+			</div>
+		</section>
+
+		<!--footer-->
+		<div data-include="footer"></div>
+	</main>
+
+	<!--mobile nav-->
+	<div data-include="navMobile"></div>
+
+
+</div>
+
+<script>
+    //for header
+    $(function () {
+        $(window).scroll(function () {
+
+            //固定header menu
+            if ($(this).scrollTop() > 129) {
+                $('header').addClass('fixed');
+            } else {
+                $('header').removeClass('fixed');
+            }
+        });
+    });
+
+
+    $(document).ready(function () {
+        //語系切換
+        $('.header-langEx a').click(function () {
+            $('a.active').removeClass('active');
+            $(this).closest('a').addClass('active');
+        });
+        //頁面切換
+        $('.items-pagination a').click(function () {
+            $('a.active').removeClass('active');
+            $(this).closest('a').addClass('active');
+        });
+        //商品收藏切換
+        $('.items-like').click(function () {
+            $(this).toggleClass('active');
+        });
+    });
+</script>
+</body>
+</html>
