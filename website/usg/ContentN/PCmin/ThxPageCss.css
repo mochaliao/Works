@@ -1,0 +1,216 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body {
+    margin: 0;
+    background: #FFF;
+    font-family: Arial, Helvetica, sans-serif, \5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4;
+}
+
+img {
+    border: 0;
+    vertical-align: bottom;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 65px;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 30%;
+    height: 65px;
+    float: left;
+}
+
+    .logo img {
+        width: 150px;
+        height: 65px;
+    }
+
+.info {
+    width: 70%;
+    height: 65px;
+    float: left;
+    text-align: right;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    position: relative;
+}
+
+    .info div {
+        position: absolute;
+        bottom: 0;
+        right: -15;
+    }
+
+    .info a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    .info span {
+        padding: 0 15px 0;
+    }
+
+.slider {
+    width: 100%;
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+}
+
+    .slider p {
+        margin: 0;
+        width: 100%;
+        height: 500px;
+        background: url(../../ImagesN/ThxPageBg.jpg) top center no-repeat;
+    }
+
+.content {
+    width: 56%;
+    margin: 0px auto;
+    _margin: 0px auto; /*for ie6*/
+    *margin: 0px auto; /*for ie7*/
+}
+
+.contentsecond {
+    width: 100%;
+    position: absolute;
+    top: 260px;
+}
+
+.contentsecond_title {
+    font-size: 42px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.contentsecond_content {
+    font-size: 22px;
+    margin: 5px 0 0;
+}
+
+.footer {
+    width: 100%;
+    background: #484848;
+    clear: both;
+}
+
+.footerimg {
+    background: #1a1a1a;
+}
+
+    .footerimg img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+.footertext {
+    font-size: 12px;
+    font-weight: normal;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    line-height: 16px;
+    color: #999;
+}
+
+    .footertext a {
+        text-decoration: none;
+        color: #F3F3F3;
+    }
+
+    .footertext div {
+        width: 98%;
+        margin: 0px auto;
+        _margin: 0px auto; /*for ie6*/
+        *margin: 0px auto; /*for ie7*/
+        padding: 10px 0;
+        box-sizing: border-box;
+    }
+
+@media only screen and (max-width: 1024px) {
+    .content {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .logo {
+        width: 50%;
+    }
+
+    .info {
+        width: 50%;
+        font-size: 12px;
+        letter-spacing: 0.04em;
+    }
+
+        .info div {
+            right: 0;
+        }
+
+        .info span {
+            padding: 0 0 0;
+        }
+
+    .slider p {
+        height: 200px;
+        background-size: 768px 200px;
+    }
+
+    .content {
+        width: 94%;
+    }
+
+    .contentsecond {
+        top: 150px;
+    }
+
+    .contentsecond_title {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .contentsecond_content {
+        font-size: 14px;
+        margin: 5px 0 0;
+    }
+
+    .footertext div {
+        width: 96%;
+    }
+}
+
+@media only screen and (max-width: 315px) {
+
+    .header {
+        height: 110px;
+        margin-bottom: 5px;
+        box-sizing: content-box;
+    }
+
+    .logo {
+        width: 100%;
+        margin: 0 0 5px;
+    }
+
+    .info {
+        font-size: 12px;
+        letter-spacing: 0.04em;
+        text-align: left;
+        height: 45px;
+    }
+
+    .contentsecond {
+        top: 200px;
+    }
+}

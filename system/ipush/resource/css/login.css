@@ -1,0 +1,194 @@
+html, body {
+	height: 100% !important;
+}
+
+body:before {
+	content: "";
+	display: block;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -10;
+	background: url("../img/bk-login.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.signIn-wrap {
+	max-width: 414px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	padding: 50px 15px 0;
+}
+
+.login-logo {
+	width: 110px;
+}
+
+.form-title {
+	align-items: center;
+	display: flex;
+	flex-flow: row nowrap;
+	font-size: var(--font-size-l);
+	font-weight: 400;
+	justify-content: space-between;
+	padding: 50px 0 70px;
+}
+
+.form-title li {
+	width: 50%;
+}
+
+.form-title a {
+	border: none !important;
+	border-bottom: var(--sub-border) transparent !important;
+	color: var(--sub-bk-color);
+	display: block;
+	margin: 0 auto;
+	padding: 8px 0;
+	transition: .15s linear;
+	width: 100%;
+}
+
+#modify-pwd-title-wrap a {
+	display: none;
+	width: 50%;
+}
+
+#modify-pwd-title-wrap a.active {
+	display: block;
+}
+
+.form-title a.active {
+	border-bottom-color: var(--main-color) !important;
+	color: var(--main-color) !important;
+}
+
+/*.form-cnt input {*/
+	/*padding: 8px;*/
+/*}*/
+
+/*.form-cnt li {*/
+	/*padding: 0 0 25px;*/
+/*}*/
+
+/*.form-cnt li > div {*/
+	/*display: table-cell !important;*/
+/*}*/
+
+/*.form-cnt li > div:first-child {*/
+	/*padding: 0 20px 0 0;*/
+	/*width: 100%;*/
+/*}*/
+
+/*.form-btn {*/
+	/*padding-top: 25px !important;*/
+/*}*/
+
+.form-agree-term {
+	padding-top: 10px !important;
+}
+
+.forget-ps-link {
+	color: var(--main-color);
+	font-size: var(--font-size-s);
+	width: 100%;
+}
+
+.forget-ps-link:hover {
+	color: var(--main-color);
+}
+
+/*.form-excMark {*/
+	/*color: var(--sub-font-color);*/
+	/*font-size: var(--font-size-xs);*/
+	/*padding: 7px 0 0;*/
+	/*text-align: left;*/
+/*}*/
+
+/*.form-excMark img {*/
+	/*display: inline-block;*/
+	/*width: 15px;*/
+/*}*/
+
+/*.form-excMark span {*/
+	/*display: table-cell;*/
+	/*letter-spacing: -.005em;*/
+/*}*/
+
+/*.form-excMark span:nth-child(2) {*/
+	/*padding: 1px 0 0 5px;*/
+/*}*/
+
+.form-checkbox {
+	height: 18px;
+	margin: 0;
+	position: relative;
+	width: 18px;
+
+}
+
+.form-checkbox input[type="checkbox"] {
+	height: inherit;
+	outline: none;
+	visibility: hidden;
+	width: inherit;
+}
+
+.form-checkbox span {
+	background: url("../img/icon-checkbox.svg") no-repeat;
+	background-size: 18px;
+	display: inline-block;
+	height: 18px;
+	left: 0;
+	position: absolute;
+	top: 3px;
+	width: 18px;
+}
+
+.form-checkbox input:checked ~ span {
+	background-image: url("../img/icon-checkbox-ok.svg");
+}
+
+.form-checkbox ~ span {
+	color: var(--sub-bk-color);
+	font-size: var(--font-size-s);
+	padding: 0 0 0 2px;
+}
+
+.form-checkbox ~ span a {
+	color: var(--main-color);
+}
+
+.tab-content {
+	min-height: 490px;
+}
+
+@media screen and (max-width: 414px) {
+	.tab-content {
+		min-height: 200px;
+	}
+
+}
+
+/*bootstrap bye-bye*/
+.nav-tabs {
+	border-bottom: none;
+}
+
+.nav-tabs .nav-link.active {
+	background: none;
+}
+
+.nav-tabs .nav-link {
+	border-radius: 0 !important;
+}
+
+
+

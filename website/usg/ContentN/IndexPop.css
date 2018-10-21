@@ -1,0 +1,196 @@
+
+.block {
+    display: block !important;
+    width: 160px;
+}
+
+.none {
+    display: none !important;
+}
+
+/*最新消息-彈跳*/
+.may-news-table {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.may-news-list {
+    width: 845px;
+    height: 203px;
+    margin: -275px auto 0;
+    background: url(../Images/news/may-new-bg.png) no-repeat;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+    .may-news-list .news-img {
+        padding: 30px 0 0 25px;
+        width: 180px;
+        float: left;
+    }
+
+    .may-news-list .news-main {
+        padding-top: 30px;
+        width: 600px;
+        float: left;
+    }
+
+    .may-news-list h1 {
+        float: left;
+        font-size: 19px;
+        color: #ce2c00;
+        letter-spacing: 0;
+        margin: 0;
+    }
+
+        .may-news-list h1 a {
+            color: #ce2c00;
+        }
+
+    .may-news-list p {
+        float: left;
+        font-size: 15px;
+        color: #4f4e4e;
+        letter-spacing: 0;
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .may-news-list a {
+        color: #4f4e4e;
+    }
+
+    .may-news-list .blue {
+        color: #005fa9;
+    }
+
+.may-news-close {
+    display: block;
+    background: url(../Images/news/may-news-close.png);
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: none;
+}
+
+@media only screen and (max-width: 1599px) {
+    .may-news-table {
+        top: 15%;
+    }
+}
+
+@media only screen and (max-width: 1267px) {
+
+    /*最新消息-彈跳*/
+    .may-news-table {
+        top: 15%;
+    }
+
+    .may-news-list {
+        width: 600px;
+        height: 200px;
+        background: url(../Images/news/may-new-bg600.png) no-repeat;
+    }
+
+        .may-news-list .news-img {
+            padding: 33px 0 0 25px;
+            width: 180px;
+            float: left;
+        }
+
+        .may-news-list .news-main {
+            padding-top: 30px;
+            width: 360px;
+        }
+
+        .may-news-list h1 {
+            font-size: 16px;
+        }
+
+        .may-news-list p {
+            font-size: 13px;
+            padding-top: 10px;
+        }
+}
+
+@media only screen and (max-width: 768px) {
+    .may-news-table {
+        top: 25%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .block {
+        display: none !important;
+    }
+
+    .none {
+        display: block !important;
+    }
+
+    /*手機板*/
+
+    /*最新消息-彈跳*/
+    .may-news-table {
+        top: 15%;
+    }
+
+    .may-news-list {
+        width: 300px;
+        height: 190px;
+        background: url(../Images/news/may-new-bg300.png) no-repeat;
+    }
+
+        .may-news-list .news-img {
+            padding: 20px 0 0 25px;
+            width: 80%;
+        }
+
+        .may-news-list .news-main {
+            padding: 10px 0 0 25px;
+            width: 85%;
+        }
+
+        .may-news-list h1 {
+            font-size: 14px;
+        }
+
+        .may-news-list p {
+            font-size: 12px;
+            padding-top: 10px;
+        }
+
+    .may-news-close {
+        right: 20px;
+        top: 6px;
+    }
+
+    .right-float {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 461px) and (max-width: 767px) {
+    .may-news-table {
+        top: 0%;
+    }
+}

@@ -1,0 +1,19 @@
+/* CSS Document */
+
+/*live chat-------------------------------------------------------------*/
+.live-chat{
+	top:14px;
+	right:10px;
+	position:absolute;
+	z-index:1000;
+}
+.live-chat a{
+	width:58px;
+	height:22px;
+	display:block;
+	background:url(../ImagesM/top/live-chat.png);
+	background-size:58px 22px;
+	-moz-background-size:58px 22px;
+    -webkit-background-size:58px 22px;
+    -o-background-size:58px 22px;
+}

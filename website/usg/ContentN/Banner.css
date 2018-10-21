@@ -1,0 +1,20 @@
+﻿/* BANNER-EBOOK */
+
+#BannerEbook_C3 {
+    display: block;
+    background-color: #edbb01;
+    width: 180px;
+    text-align: center;
+}
+
+#BannerEbook_C31 {
+    text-decoration: none;
+}
+
+#BannerEbook_C311 {
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+}

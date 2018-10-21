@@ -1,0 +1,21 @@
+﻿.title {
+    direction: rtl;
+}
+.main {
+    direction: rtl;
+}
+a {
+    direction: rtl;
+}
+
+.ArabFontExep {
+    text-align: left;
+}
+
+.ArabDirectExep {
+    direction: ltr;
+}
+
+.ArabRightIndent {
+    margin-right: 16px;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="登入及註冊" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03註冊" transform="translate(-768.000000, -835.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-5" transform="translate(768.000000, 833.000000)">
+                <path d="M3.27272727,3.63636364 C2.36898859,3.63636364 1.63636364,4.36898859 1.63636364,5.27272727 L1.63636364,16.7272727 C1.63636364,17.6310114 2.36898859,18.3636364 3.27272727,18.3636364 L14.7272727,18.3636364 C15.6310114,18.3636364 16.3636364,17.6310114 16.3636364,16.7272727 L16.3636364,5.27272727 C16.3636364,4.36898859 15.6310114,3.63636364 14.7272727,3.63636364 L3.27272727,3.63636364 Z M3.27272727,2 L14.7272727,2 C16.5347501,2 18,3.46524991 18,5.27272727 L18,16.7272727 C18,18.5347501 16.5347501,20 14.7272727,20 L3.27272727,20 C1.46524991,20 0,18.5347501 0,16.7272727 L0,5.27272727 C0,3.46524991 1.46524991,2 3.27272727,2 Z" id="Rectangle-2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

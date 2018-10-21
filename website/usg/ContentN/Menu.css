@@ -1,0 +1,54 @@
+.omm_menuitem {
+    float: left;
+    text-transform: uppercase;
+    width: 16.6%;
+    height: 100%;
+}
+
+.omm_menuitem_normal {
+    color: #000;
+}
+
+.omm_menuitem_hover {
+    color: #000;
+}
+
+.omm_submenuitem {
+    padding: 5px 5px 5px 20px;
+}
+
+.omm_submenuitem_normal {
+    background-color: #EEE;
+}
+
+.omm_submenuitem_hover {
+    background-color: #626262;
+    font-weight: 900;
+}
+
+.omm_submenu {
+    position: absolute;
+    background-color: #EEE;
+    display: none;
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+    width: 300px;
+    z-index: 999;
+    font-weight: 100;
+}
+
+.omm_ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.omm_li {
+    padding: 0px;
+    margin: 0px;
+}
+
+.clear {
+    clear: both;
+}

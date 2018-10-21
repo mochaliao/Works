@@ -1,0 +1,17 @@
+﻿    .MetalsCon {
+        text-align: center;
+    }
+
+        .MetalsCon .row0 td {
+            background-color: initial;
+            font-weight: normal;
+        }
+
+        .MetalsCon th {
+            width: 30%;
+            text-align: center;
+        }
+
+        .MetalsCon td {
+            width: 35%;
+        }

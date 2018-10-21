@@ -1,0 +1,1 @@
+$(function () { $("#SignFreeTrail").click(function () { $("#Usg-Upgrade-02").slideToggle("slow"); $("#FirstName").focus() }); $("#close").click(function () { $("#Usg-Upgrade-02").slideUp("slow") }) });

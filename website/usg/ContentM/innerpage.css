@@ -1,0 +1,904 @@
+﻿.static_page_content > div {
+    margin-left: 10px;
+    /*height :auto ;*/
+}
+
+
+/*section inner font style*/
+.static_page_content .section .section_content {
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.section_title {
+    margin-top: 12px;
+}
+
+
+
+
+/*sectuon space div height*/
+.section_space {
+    height: 27px;
+}
+
+
+.static_page_content .section .section_cell {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+
+/*for table majortable*/
+.majortable {
+    text-align: center;
+    margin-top: 20px;
+    border-style: none;
+    border-width: 1px;
+}
+
+    .majortable .majortable_col {
+        font-weight: 700;
+    }
+
+    .majortable .div_table_tr .div_table_td {
+        border-style: solid;
+        border-width: 1px;
+        padding: 15px;
+        vertical-align: middle;
+    }
+
+
+
+/*for table ContractDetailstable*/
+.contracttable {
+    width: 720px;
+    text-align: center;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+    .contracttable .div_table_tr .div_table_td {
+        border-style: solid;
+        border-width: 1px;
+        padding: 15px;
+        vertical-align: middle;
+        width: 110px;
+        /*height :30px;
+		width :135px;*/
+    }
+
+
+
+/*for table TradingInfotable*/
+.tradingtable {
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+    .tradingtable .div_table_tr .div_table_td {
+        border-style: solid;
+        border-width: 1px;
+        padding: 15px;
+        vertical-align: middle;
+        width: 40%;
+        height: auto;
+        /*width :135px;*/
+    }
+
+/*for table MetalsContracttable*/
+.metalstable {
+    width: 740px;
+    text-align: center;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+    .metalstable .div_table_tr .div_table_td {
+        border-style: solid;
+        border-width: 1px;
+        padding: 15px;
+        vertical-align: middle;
+        width: 70px;
+        /*height :30px;
+		width :135px;*/
+    }
+
+
+
+/*for table ProfitLosstable*/
+.profittable {
+    text-align: center;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+    .profittable .div_table_tr .div_table_td {
+        border-style: solid;
+        border-width: 1px;
+        padding: 15px;
+        vertical-align: middle;
+        width: 140px;
+        line-height: 15px;
+        /*height :30px;
+		width :135px;*/
+    }
+
+
+/*for table faq*/
+.faqtable {
+    background-color: #F0F0F0;
+    width: 100%;
+    border: solid;
+    border-width: 1px;
+}
+
+    .faqtable faqtr {
+        width: auto;
+        border: solid;
+        border-width: 1px;
+    }
+
+    .faqtable .div_table_tr .div_table_td {
+        text-align: left;
+        height: auto;
+        padding: 10px;
+        vertical-align: middle;
+        width: 100%;
+        /*line-height:10px*/
+        /*height :30px;
+		width :135px;*/
+    }
+
+
+/*for table 120103*/
+.guidetable {
+    text-align: left;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    width: auto;
+}
+
+    .guidetable .guidetable_col {
+        height: auto;
+        font-weight: 700;
+    }
+
+    .guidetable .guidetable_content {
+        height: 70px;
+        vertical-align: middle;
+    }
+
+    .guidetable .guidetable_img {
+        height: 70px;
+        text-align: center;
+    }
+
+    .guidetable .div_table_tr .div_table_td {
+        border-style: solid;
+        border-width: 1px;
+        padding: 10px;
+        vertical-align: middle;
+        width: 800px;
+        line-height: 20px;
+        /*height :90px;
+		width :135px;*/
+    }
+
+
+/*for table mobileplatformtable*/
+.mobiletable {
+    text-align: center;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    width: auto;
+}
+
+    .mobiletable .div_table_tr .div_table_td {
+        text-align: center;
+        padding: 15px;
+        vertical-align: middle;
+        width: 250px;
+        float: left;
+        /*height :30px;
+		width :135px;*/
+    }
+
+/*for table mt4table*/
+.mt4table {
+    text-align: center;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 2px;
+    width: 80%;
+    height: 100%;
+}
+
+    .mt4table .mt4table_title {
+        font-weight: 700;
+        border-width: 1px;
+        color: white;
+        background-color: black;
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    .mt4table .div_table_tr .div_table_td {
+        text-align: left;
+        border-style: solid;
+        border-width: 0px;
+        padding: 15px;
+        vertical-align: middle;
+        width: 80%;
+        float: left;
+        height: 100%;
+        /*height :30px;
+		width :135px;*/
+    }
+
+/*for AccountType table*/
+.accounttable {
+    margin-top: 20px;
+    width: 700px;
+}
+
+    .accounttable .div_table_tr .div_table_td {
+        font-weight: 700;
+        text-align: left;
+        border-style: solid;
+        border-width: 0px;
+        padding: 5px;
+        vertical-align: middle;
+        width: auto;
+        float: left;
+        height: auto;
+        /*height :30px;
+		width :135px;*/
+    }
+
+
+/*for FundingOptions table*/
+.fundingtable {
+    margin-top: 20px;
+    width: 1125px;
+    overflow: hidden;
+}
+
+    .fundingtable .div_table_tr .div_table_td {
+        padding: 10px;
+        font-weight: 700;
+        text-align: center;
+        border-style: solid;
+        border-width: 1px;
+        vertical-align: 10%;
+        width: 150px;
+        float: left;
+        height: 90px;
+        line-height: 25px;
+        /*height :30px;
+		width :135px;*/
+    }
+
+    .fundingtable .funding_title {
+        padding: 30px 10px 10px 10px;
+        font-weight: 700;
+        text-align: center;
+        border-style: solid;
+        border-width: 1px;
+        vertical-align: text-bottom;
+        width: 150px;
+        float: left;
+        height: 60px;
+        line-height: 30px;
+        /*height :30px;
+		width :135px;*/
+    }
+
+
+/*for Login table*/
+.logintable {
+    margin-top: 20px;
+    width: auto;
+}
+
+    .logintable .div_table_tr .div_table_td {
+        padding: 10px;
+        text-align: left;
+        vertical-align: 10%;
+        width: 170px;
+        float: left;
+        border-style: solid;
+        border-width: 1px;
+        /*background-color:#F0F0F0;
+        border-color:#AAAAAA;*/
+        /*height :30px;
+		width :135px;*/
+    }
+
+
+/*for Partner table*/
+.partnertable {
+    text-align: center;
+    margin-top: 20px;
+    width: 1100px;
+}
+
+    .partnertable .partnertable_colname {
+        padding: 10px;
+        font-weight: 700;
+        text-align: center;
+        vertical-align: middle;
+        width: 230px;
+        float: left;
+        border-style: solid;
+        border-width: 1px;
+        background-color: #EEEEDE;
+        border-color: #AAAAAA;
+        height: 40px;
+    }
+
+    .partnertable .div_table_tr .div_table_td {
+        padding: 10px;
+        font-weight: 100;
+        text-align: left;
+        vertical-align: 10%;
+        width: 750px;
+        float: left;
+        border-style: solid;
+        border-width: 1px;
+        background-color: #F0F0F0;
+        border-color: #AAAAAA;
+        height: 40px;
+    }
+
+    .partnertable div div {
+        display: inline;
+    }
+
+
+
+/*Ernest*/
+/*for table terminology 110110*/
+.terminologytable {
+    border: 1px solid #BCBCBC;
+    width: 1000px;
+}
+
+    .terminologytable .div_table_tr {
+        display: table-row;
+        border-style: solid;
+    }
+
+    .terminologytable .div_table_td_title {
+        vertical-align: middle;
+        text-align: center;
+        font-weight: bold;
+        text-align: center;
+        display: table-cell;
+        border-bottom: 1px dashed #BCBCBC;
+        border-right: 1px solid #BCBCBC;
+        width: 200px;
+        height: auto;
+    }
+
+    .terminologytable .div_table_td {
+        text-align: left;
+        display: table-cell;
+        border-bottom: 1px dashed #BCBCBC;
+        width: 800px;
+        height: auto;
+    }
+
+    .terminologytable .div_table_tr:nth-child(even) {
+        background-color: #F2F2F2;
+    }
+
+/*for table advantage 120201*/
+.advantagetable {
+    border: 1px solid #BCBCBC;
+    /*border-style: solid;
+    border-width: 1px;*/
+    width: 80%;
+}
+
+    .advantagetable .div_table_tr_title {
+        display: table-row;
+        border-bottom: none;
+        background-color: #E1E1E1;
+    }
+
+    .advantagetable .div_table_tr {
+        display: table-row;
+        border-style: solid;
+    }
+
+    .advantagetable .div_table_td {
+        padding-left: 1em;
+        text-align: left;
+        display: table-cell;
+        width: 80%;
+        height: auto;
+        border-top: none;
+        border-bottom: 1px dashed #BCBCBC;
+    }
+
+    .advantagetable .div_table_tr:nth-child(even) {
+        background-color: #F2F2F2;
+    }
+
+/*for table outfit 120202*/
+.outfittable {
+    width: 80%;
+}
+
+    .outfittable .div_table_tr {
+        display: table-row;
+        border-style: solid;
+    }
+
+    .outfittable .div_table_td_title {
+        vertical-align: top;
+        text-align: left;
+        display: table-cell;
+        width: 30%;
+    }
+
+    .outfittable .div_table_td {
+        text-align: left;
+        display: table-cell;
+        width: 70%;
+        height: auto;
+    }
+
+/*for table TimeZone*/
+.timezonetable {
+    border: 1px #BCBCBC solid;
+    border-right: none;
+    width: auto;
+}
+
+    .timezonetable .div_table_tr_title {
+        background-color: #E1E1E1;
+        display: table-row;
+    }
+
+    .timezonetable .div_table_tr {
+        display: table-row;
+    }
+
+    .timezonetable .div_table_td {
+        display: table-cell;
+        border-right: 1px solid #BCBCBC;
+        border-top: 1px dashed #BCBCBC;
+        width: 300px;
+        height: 30px;
+    }
+
+    .timezonetable .div_table_tr:nth-child(even) {
+        background-color: #F2F2F2;
+    }
+
+    .timezonetable .div_table_td_bottom {
+        border-top: 1px solid #BCBCBC;
+        border-right: 1px solid #BCBCBC;
+        background-color: #F2F2F2;
+        vertical-align: middle;
+        display: table-cell;
+        height: auto;
+    }
+
+
+/*for table TransactionTime 120205*/
+.transactiontimetable {
+    border: 1px solid #BCBCBC;
+    border-right: none;
+    border-bottom: none;
+    width: 903px;
+}
+
+    .transactiontimetable .div_table_tr_title {
+        font-weight: 900;
+        display: table-row;
+        border-bottom: none;
+        background-color: #EEEDE1;
+        text-align: center;
+    }
+
+    .transactiontimetable .div_table_tr {
+        display: table-row;
+        border-style: solid;
+    }
+
+    .transactiontimetable .div_table_td {
+        display: table-cell;
+        width: 200px;
+        height: 32px;
+        border-right: 1px solid #BCBCBC;
+        border-bottom: 1px solid #BCBCBC;
+    }
+
+/*for table AccountType 120211*/
+.accounttypetable {
+    border: 1px solid #BCBCBC;
+    width: 680px;
+}
+
+    .accounttypetable .div_table_tr {
+        border-style: solid;
+        height: 50px;
+    }
+
+    .accounttypetable .div_table_td {
+        width: auto;
+        text-align: center;
+        border: 1px solid #BCBCBC;
+    }
+
+    .accounttypetable .div_table_tr:nth-child(1) {
+        background-color: #666666;
+        color: white;
+        font-weight: 900;
+    }
+
+    .accounttypetable .div_table_td:nth-child(1) {
+        background-color: #EAEAEA;
+        color: #000;
+        font-weight: 900;
+    }
+
+/*register table*/
+.registertable {
+    margin: 0 auto;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+    .registertable registertable_title {
+        border-style: solid;
+        border-width: 1px;
+        padding: 15px;
+        vertical-align: middle;
+        width: 100px;
+        line-height: 10px;
+    }
+
+    .registertable .div_table_tr .div_table_td {
+        border-style: solid;
+        border-width: 1px;
+        padding: 15px;
+        vertical-align: middle;
+        width: 200px;
+        line-height: 10px;
+        height: 30px;
+        /*width :135px;*/
+    }
+
+/*getpassword table*/
+.getpasswordtable {
+    margin: 0 auto;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    width: auto;
+}
+
+    .getpasswordtable .div_table_tr .div_table_td {
+        border-style: solid;
+        border-width: 1px;
+        padding: 15px;
+        vertical-align: middle;
+        width: 200px;
+        line-height: 10px;
+        height: 20px;
+        /*width :135px;*/
+    }
+
+/*10.22 整合*/
+
+/*H*/
+/*For all table auto height*/
+.td_autoH {
+    height: auto;
+}
+
+.tr_autoH {
+    height: 100%;
+}
+/*End all table auto height*/
+/*FOR Rss table*/
+.RssNew {
+}
+
+    .RssNew .RssNewsBrand {
+        float: left;
+        width: 40px;
+        margin-right: 7px;
+    }
+
+    .RssNew .RssNewsContent {
+        float: left;
+        width: 80%;
+    }
+
+        .RssNew .RssNewsContent div:nth-child(2n+2) {
+            border-bottom: 1px dashed #BCBCBC;
+        }
+
+        .RssNew .RssNewsContent div {
+            /*background-color:inherit;*/
+            padding: 6px;
+        }
+
+.RssNews .RssNew:nth-child(2n+2) .RssNewsContent {
+    background-color: #F6F6F6;
+}
+
+.textmiddle {
+    margin: 5px;
+    text-align: center;
+}
+/*End Rss table*/
+
+/*FOR RssNews table*/
+.RssNewsHead {
+    border-bottom: 1px dashed #999999;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+
+.RssNewsTable {
+    width: 98%;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.box {
+    border: 1px solid black;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.RssMargin {
+    margin: 20px auto 20px auto;
+    padding: 8px;
+}
+/*END RssNews table*/
+
+
+
+/*for table Currency Converter 150102*/
+.covertertable {
+    width: 85%;
+    border: 2px solid #EEEEEE;
+}
+
+    .covertertable .div_table_th {
+        color: white;
+        background-color: #666666;
+        border-top: 4px solid #990000;
+        text-align: left;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    .covertertable div {
+        padding: 3px;
+    }
+
+        .covertertable div:nth-child(2n+3) {
+            background-color: #FFFFFF;
+        }
+
+        .covertertable div:nth-child(2n+2) {
+            background-color: #EEEEEE;
+        }
+
+        .covertertable div .div_table_td_th {
+            font-weight: bold;
+            padding-left: 25px;
+            background-color: inherit;
+        }
+
+        .covertertable div .div_table_td_td {
+            text-align: center;
+            background-color: inherit;
+        }
+
+/*H*/
+
+
+/*Ernest NEW*/
+.BulletinFxtable {
+    border-bottom: 1px dashed #BCBCBC;
+    width: 90%;
+}
+
+    .BulletinFxtable .div_table_td {
+        width: 80%;
+        height: 25px;
+    }
+
+    .BulletinFxtable .div_table_tr:nth-child(2) {
+        background-color: #F2F2F2;
+        color: #990000;
+        height: 35px;
+        line-height: 35px;
+    }
+
+.BulletinFxContenttable {
+    border-collapse: collapse;
+    border: 1px solid #BCBCBC;
+    border-bottom: none;
+    width: 90%;
+}
+
+    .BulletinFxContenttable .div_table_tr {
+        height: 100%;
+    }
+
+    .BulletinFxContenttable .div_table_td {
+        border-bottom: 1px solid #BCBCBC;
+        padding: 10px;
+        width: 80%;
+        height: auto;
+    }
+
+        .BulletinFxContenttable .div_table_td:nth-child(1) {
+            text-align: center;
+            background-color: #F2F2F2;
+            width: 20%;
+        }
+
+.Lecturetable {
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #BCBCBC;
+    border-bottom: none;
+    border-right: none;
+}
+
+    .Lecturetable .div_table_tr {
+        height: 100%;
+    }
+
+        .Lecturetable .div_table_tr:nth-child(1) {
+            font-weight: 900;
+            background-color: #E1E1E1;
+        }
+
+    .Lecturetable .div_table_td {
+        border-bottom: 1px solid #BCBCBC;
+        border-right: 1px solid #BCBCBC;
+        padding: 10px;
+        width: 200px;
+        height: auto;
+    }
+
+        .Lecturetable .div_table_td:nth-child(2) {
+            text-align: left;
+        }
+
+.LectureDetail_td {
+    width: 600px;
+    height: 20px;
+}
+
+.LectureDetailtable .div_table_td {
+    border-top: 1px dashed #BCBCBC;
+    border-bottom: 1px dashed #BCBCBC;
+}
+
+.LectureDetailtable .LectureDetail_td_title {
+    width: auto;
+}
+
+.fgtable {
+    text-align: center;
+    width: 90%;
+    border: 1px solid #000;
+}
+
+    .fgtable .div_table_tr {
+        height: 100%;
+    }
+
+    .fgtable .div_table_td {
+        vertical-align: top;
+        border-bottom: 1px solid #BCBCBC;
+        border-right: 1px solid #BCBCBC;
+        width: 50px;
+        height: auto;
+    }
+
+        .fgtable .div_table_td:nth-child(2) {
+            text-align: left;
+            width: 90%;
+        }
+
+    .fgtable .div_table_tr:nth-child(1) {
+        background-color: #E1E1E1;
+    }
+
+
+
+/*For Adviser*/
+
+.adviser_box {
+    border: 1px solid #B7B7B7;
+    margin: 1px;
+    padding: 1px;
+}
+
+.adviser_title {
+    background-color: #999999;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+.adviser_td_title {
+    background-color: #B7B7B7;
+    text-align: center;
+    /*line-height:30px;*/
+}
+
+.div_table_ABCD {
+    width: 882px;
+    height: 30px;
+    /*width: 840px;*/
+    float: left;
+    padding: 5px;
+}
+
+.div_table_A {
+    width: 174px;
+    height: 30px;
+    float: left;
+    padding: 5px;
+}
+
+.div_table_B {
+    width: 236px;
+    height: 30px;
+    float: left;
+    padding: 5px;
+}
+
+.div_table_BCD {
+    width: 694px;
+    /*width: 666px;*/
+    height: 30px;
+    float: left;
+    padding: 5px;
+}
+
+.div_table_C {
+    width: 160px;
+    height: 30px;
+    float: left;
+    padding: 5px;
+}
+
+.div_table_D {
+    width: 270px;
+    height: 30px;
+    float: left;
+    padding: 5px;
+}
+/*style="height:40px"*/
+.div_table_high_A {
+    height: 40px;
+}
+/*End Adviser*/

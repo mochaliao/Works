@@ -1,0 +1,94 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.language {
+    color: #FFFFFF;
+    height: 10px;
+    width: 110px;
+    margin-bottom: 8px;
+}
+
+    .language, .language li, .language ul, a {
+        text-decoration: none;
+        list-style: none;
+    }
+
+        .language li {
+            width: 115px;
+            position: relative; /*接下來要有下拉選單，讓定位點有參考*/
+            float: right; /*橫向拓展*/
+        }
+
+            .language li li {
+                width: 120px;
+                padding-left: 0;
+            }
+
+            .language li a {
+                width: 115px;
+                padding-top: 5px;
+                font-size: 16px;
+                color: #fff;
+            }
+            /*針對第一層選單 hover 時做顏色變化
+        .language > li > a:hover { 
+            color: #FFF;
+        }
+    */
+
+            .language li ul {
+                z-index: 5000;
+            }
+
+            .language li ul {
+                display: none;
+                float: left;
+                list-style-type: none;
+                text-decoration: none;
+                position: absolute;
+                left: -32px;
+                margin: 0;
+                padding-top: 5px;
+            }
+            /* 當第一層選單被觸發時，指定第二層顯示 */
+            .language li:hover > ul {
+                display: block;
+            }
+        /* 特定在第二層或之後下拉部分 li 之樣式 */
+        .language ul li {
+            border-bottom: 0px solid #DDD;
+        }
+            /* 特定在第二層或之後下拉部分 li （最後一項不要底線）之樣式 */
+            .language ul li:last-child {
+                border-bottom: none;
+            }
+
+        .language li ul li a {
+            width: 120px;
+            text-align: left;
+            background-color: rgba(0, 97, 133, 0.6);
+            display: block;
+            font-weight: 100;
+        }
+
+
+            .language li ul li a:hover {
+                color: #FFF;
+            }
+
+        /*.arrow-down {
+    width: 22px;
+    height: 7px;
+    background-repeat: no-repeat;
+    background: url(../images/arrow-01.png);
+    float:right;
+    margin-top: 7px;
+    position: absolute;
+    top: 9px;
+    right: 0;
+}*/
+
+        .language img {
+            vertical-align: middle;
+            margin-right: 5px;
+        }

@@ -1,0 +1,139 @@
+﻿.language {
+    color: #fff;
+    height: 24px;
+}
+
+    .language, .language li, .language ul, a {
+        text-decoration: none;
+        list-style: none;
+        padding: 0;
+        text-align: left;
+    }
+
+        .language i {
+            margin : 0 6px 0;
+            vertical-align :middle ;
+        }
+
+        .language li {
+            position: relative;
+            float: left;
+        }
+
+            .language li a {
+                font-size: 16px;
+                color: #fff;
+                padding: 7px 0;
+            }
+
+            .language li ul {
+                z-index: 5000;
+            }
+
+            .language li ul {
+                display: none;
+                float: left;
+                list-style-type: none;
+                text-decoration: none;
+                position: absolute;
+                left: -5px;
+                margin: 0;
+                text-align: left;
+            }
+
+            .language li:hover > ul {
+                display: block;
+            }
+
+        .language ul li {
+            border-bottom: 0 solid #DDD;
+        }
+
+            .language ul li:last-child {
+                border-bottom: 0;
+            }
+
+        .language li ul li a {
+            width: 190px;
+            text-align: left;
+            background-color: rgba(0,97,133,0.6);
+            display: block;
+            font-weight: 400;
+            padding: 7px 5px 0;
+        }
+
+@media only screen and (max-width:1024px) {
+    .language li a {
+        width: 24px;
+        font-size: 0;
+    }
+
+    .language li ul {
+        left: -104px;
+    }
+
+        .language li ul li a {
+            width: 170px;
+            font-size: 13px;
+        }
+
+    .language i {
+        vertical-align: middle;
+    }
+}
+        .lang_en {
+           display: inline-block;
+           width:24px; height:24px; background:url(../ImagesN/lang/flag.png) 0px 0px;
+        }
+        .lang_hk {
+            display: inline-block;
+           width:24px; height:24px; background:url(../ImagesN/lang/flag.png) 0px -34px;
+        }
+        .lang_cn {
+           display: inline-block;
+           width:24px; height:24px; background:url(../ImagesN/lang/flag.png) 0px -68px;
+        }
+		.lang_vn {
+           display: inline-block;
+           width:24px; height:24px; background:url(../ImagesN/lang/flag.png) 0px -102px;
+        }
+		.lang_id {
+           display: inline-block;
+           width:24px; height:24px; background:url(../ImagesN/lang/flag.png) 0px -136px;
+        }
+		.lang_my {
+          display: inline-block;
+           width:24px; height:24px; background:url(../ImagesN/lang/flag.png) 0px -170px;
+        }
+		.lang_in {
+          display: inline-block;
+           width:24px; height:24px; background:url(../ImagesN/lang/flag.png) 0px -204px;
+        }
+		.lang_ru {
+          display: inline-block;
+           width:24px; height:24px; background:url(../ImagesN/lang/flag.png) 0px -238px;
+        }
+		.lang_fr {
+            display: inline-block;
+           width:24px; height:24px; background:url(../ImagesN/lang/flag.png) 0px -272px;
+        }
+		.lang_de {
+           display: inline-block;
+           width:24px; height:24px; background:url(../ImagesN/lang/flag.png) 0px -306px;
+        }
+		.lang_it {
+           display: inline-block;
+           width:24px; height:24px; background:url(../ImagesN/lang/flag.png) 0px -340px;
+        }
+		.lang_es {
+           display: inline-block;
+           width:24px; height:24px; background:url(../ImagesN/lang/flag.png) 0px -374px;
+        }
+		.lang_pt {
+           display: inline-block;
+           width:24px; height:24px; background:url(../ImagesN/lang/flag.png) 0px -408px;
+        }
+        .lang_ae {
+           display: inline-block;
+           width:24px; height:24px; background:url(../ImagesN/lang/flag.png) 0px -443px;
+        }
