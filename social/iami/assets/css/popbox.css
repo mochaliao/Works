@@ -1,0 +1,111 @@
+.pop-info-wrap{
+	display: block;
+    /*position: absolute;*/
+    width: 400px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.pop-info-top{
+	position: relative;
+	height: 144px;
+}
+.pop-cover{
+	border-radius: 10px 10px 0 0;
+	overflow: hidden;
+	height: 120px;
+}
+.pop-info-top .user-pic-xl{
+	position: absolute;
+    display: inline-block;
+    left: calc(50% - 48px);
+    bottom: 0;
+}
+
+.pop-info-profile > div{
+	text-align: center;
+}
+.pop-info-profile h2{
+	max-width: 200px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.pop-info-profile .h5{
+	padding: 8px 0 0;
+	color: #a0a0a0;
+}
+.pop-info-profile span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.pop-info-list{
+	padding: 8px 0 0;
+	text-align: center;
+}
+.pop-info-list li,
+.pop-info-list h4,
+.pop-info-list h5{
+	display: inline-block;
+	color: #a0a0a0;
+}
+.pop-info-list h5{
+	color: #a0a0a0;
+}
+.pop-info-list h4{
+	/*color: #f8b551;/*0503*/
+    font-weight: 700;
+}
+.pop-info-list li{padding: 0 14px;}
+.pop-info-list li:nth-of-type(2){
+	border-left: 1px solid #c9c9c9;
+	border-right: 1px solid #c9c9c9;
+}
+.pop-info-btn{
+	text-align: center;
+	padding: 10px 0 16px;
+}
+.pop-info-btn .follow-btn{
+	font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 16px;
+}
+/*
+箭頭*/
+.pop-info-arrow{
+	position: relative;
+}
+.pop-info-arrow span {
+	position: absolute;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+    border-width: 8px 6px;
+    left: calc(50% - 16px / 2);
+}
+
+/*向下箭頭*/
+.pop-info-arrow.bottom span.bot{
+    border-style:dashed dashed solid dashed; 
+    border-color:#e0e0e0 transparent transparent transparent; 
+    bottom:-17px;
+}
+.pop-info-arrow.bottom span.top{
+    border-style:dashed dashed solid dashed; 
+    border-color:#fff transparent transparent transparent; 
+    bottom:-15px;
+}
+
+/*向上箭頭*/
+.pop-info-arrow.top span.bot{
+    border-style:dashed dashed solid dashed; 
+    border-color:transparent transparent #e0e0e0 transparent; 
+    top:-16px;
+}
+.pop-info-arrow.top span.top{
+    border-style:dashed dashed solid dashed; 
+    border-color:transparent transparent #fff transparent; 
+    top:-14px;
+}

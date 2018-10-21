@@ -1,0 +1,110 @@
+.media-wrap {
+	width: 100%;
+	padding: 0 0 10px;
+	overflow: hidden;
+}
+.media-wrap > article {
+	display: inline-block;
+	position: relative;
+	float: left;
+	width: calc(25% - 42px / 4);
+	height: auto;
+	max-height: 290px;
+	margin-right: 14px;
+	margin-bottom: 14px;
+	
+}
+.media-wrap > article:nth-of-type(4n+4) {
+	margin-right: 0;
+}
+.media-wrap a {
+	height: inherit;
+	display: block!important;
+	position: relative;
+	overflow: hidden;
+	border: 3px solid #eee;
+	transition: all .4s;
+	cursor: pointer;
+	outline: none;
+	background: #000;
+	
+}
+.media-wrap a:hover {
+	border: 3px solid rgba(248,182,84,1);
+}
+.media-wrap img {
+	/*20180226 add*/
+	object-fit: cover;
+    object-position: center;
+	/*20180226*****/	
+}
+.media-add-btn:hover {
+	border: 3px solid #eee!important;
+}
+.media-add-btn img{
+	opacity: 1!important;
+}
+.media-wrap span {
+	position: absolute;
+	display: none;
+	top: 5px;
+	right: 12px;/*20180307 modify*/
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/icon-detail-white.svg);
+	background-repeat: no-repeat;
+	background-size: 20px;/*20180307 modify*/
+	background-position: right top;/*20180307 modify*/
+}
+.media-wrap article:hover span {
+	display: block!important;
+}
+.media-wrap article:hover img{
+	opacity: .5;
+}
+
+@media screen and (max-width:1366px){
+.media-wrap span {
+	display: block!important;
+	top:-12px;/*20180307 modify*/
+	right: 2px;/*20180307 modify*/
+	background-image: url(../img/svg_icon-52.svg);/*20180307 modify*/
+	background-size: 14px;/*20180307 modify*/
+}
+.media-wrap {
+	padding: 10px;/*20180307 modify*/
+}
+.media-wrap a:hover, .media-wrap a:focus {
+	border: 3px solid rgba(248,182,84,1);/*20180307 modify*/
+}
+.media-wrap article:hover img{
+	opacity: 1;/*20180307 modify*/
+}
+}
+@media screen and (max-width:768px){
+.media-wrap span {
+	top:-8px;/*20180307 modify*/
+	background-size: 10px;/*20180307 modify*/
+}
+}
+
+@media screen and (max-width:480px) {
+.media-wrap span {
+	top:-6px;/*20180307 modify*/
+}
+.media-wrap > article {
+	width: calc(33.333% - 20px / 3);
+}
+.media-wrap > article {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.media-wrap > article:nth-of-type(4n+4) {
+	margin-right: 10px;
+}
+.media-wrap > article:nth-of-type(3n+3) {
+	margin-right: 0;
+}
+
+}

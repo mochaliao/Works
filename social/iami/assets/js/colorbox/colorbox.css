@@ -1,0 +1,229 @@
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	overflow: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#cboxWrapper {
+	max-width: none;
+	min-height: 20px;/*20180321 add*/
+}
+#cboxOverlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+#cboxMiddleLeft, #cboxBottomLeft {
+	clear: left;
+}
+#cboxContent {
+	position: relative;
+}
+#cboxLoadedContent {
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+#cboxTitle {
+	margin: 0;
+}
+#cboxLoadingOverlay, #cboxLoadingGraphic {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
+	cursor: pointer;
+}
+.cboxPhoto {
+	float: left;
+	margin: auto;
+	border: 0;
+	display: block;
+	/*max-width: 80vw;
+	height: auto!important;/*20180307*/
+	-ms-interpolation-mode: bicubic;
+	/*padding: 20px 30px;/*20180323*/
+}
+.cboxIframe {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+#colorbox, #cboxContent, #cboxLoadedContent {
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+}
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay {
+	background: #000;
+	opacity: 0.7;
+	filter: alpha(opacity = 70);
+}
+#colorbox {
+	outline: 0;
+	min-height: 20px;/*20180321 add*/
+    overflow: visible!important;/*20180322 add*/
+}
+/*#cboxTopLeft {
+	width: 25px;
+	height: 25px;
+	background: url(images/border1.png) no-repeat 0 0;
+}
+#cboxTopCenter {
+	height: 25px;
+	background: url(images/border1.png) repeat-x 0 -50px;
+}
+#cboxTopRight {
+	width: 25px;
+	height: 25px;
+	background: url(images/border1.png) no-repeat -25px 0;
+}
+#cboxBottomLeft {
+	width: 25px;
+	height: 25px;
+	background: url(images/border1.png) no-repeat 0 -25px;
+}
+#cboxBottomCenter {
+	height: 25px;
+	background: url(images/border1.png) repeat-x 0 -75px;
+}
+#cboxBottomRight {
+	width: 25px;
+	height: 25px;
+	background: url(images/border1.png) no-repeat -25px -25px;
+}
+#cboxMiddleLeft {
+	width: 25px;
+	background: url(images/border2.png) repeat-y 0 0;
+}
+#cboxMiddleRight {
+	width: 25px;
+	background: url(images/border2.png) repeat-y -25px 0;
+}*/
+#cboxContent {
+    min-height: 40px;/*20180321 add*/
+	/*20180321
+	background: #fff;
+	max-height: 100vh;
+	border-radius: 10px;
+	/*****/
+}
+.cboxIframe {
+	background: #fff;
+}
+#cboxError {
+	padding: 50px;
+	border: 1px solid #ccc;
+}
+#cboxLoadedContent {/*20180320 modify*/
+	/*margin-top: 20px;
+	margin-bottom: 20px;
+	max-height: calc(100vh - 40px);
+	overflow: hidden!important;*/
+}
+#cboxTitle {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	color: #999;
+}
+#cboxCurrent {
+	position: absolute;
+	bottom: 0px;
+	left: 100px;
+	color: #999;
+	display: none!important;
+}
+#cboxLoadingOverlay {
+	/*background: #fff url(images/loading.gif) no-repeat 5px 5px;*/
+	background: transparent url(images/loading.gif) no-repeat center;/*20180312 modify*/
+}
+/* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	/*overflow: visible;
+	width: auto;
+	background: none;*/
+	background-color: transparent;
+}
+/* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+#cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {
+	outline: 0;
+}
+#cboxSlideshow {
+	position: absolute;
+	bottom: 0px;
+	right: 42px;
+	color: #444;
+}
+#cboxPrevious, #cboxNext{
+	width: 10px;
+	height: 20px;
+}
+#cboxPrevious {
+	position: absolute;
+    bottom: 50%;
+    left: 10px;
+    color: transparent;
+	background-image: url(../../img/media-arrow-l.png);
+	background-repeat: no-repeat;
+	outline: none;
+}
+
+#cboxNext {
+	position: absolute;
+	bottom: 50%;
+    right: 10px;
+    color: transparent;
+	background-image: url(../../img/media-arrow-r.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	outline: none;
+}
+#cboxClose {
+    /*20180322 modify*/
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 0px;
+    right: 0px;
+    background-image: url(images/svg_icon-38.svg);
+    background-size: 14px;
+	background-repeat: no-repeat;
+    background-position: right center;
+    outline: none;
+    display: none;
+    /*******/
+}
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cboxIE #cboxTopLeft, .cboxIE #cboxTopCenter, .cboxIE #cboxTopRight, .cboxIE #cboxBottomLeft, .cboxIE #cboxBottomCenter, .cboxIE #cboxBottomRight, .cboxIE #cboxMiddleLeft, .cboxIE #cboxMiddleRight {
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF);
+}
+body.modal-open {
+	position: fixed;
+	width: 100%;
+}

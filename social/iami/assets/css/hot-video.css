@@ -1,0 +1,172 @@
+.hot-video-title {
+    width: 100%;
+    margin: 0px auto 0;
+    display: block;
+}
+
+.hot-video-title > h4 {
+    /*color: #8361c2; /*0502*/
+    margin: 0px 0 20px;
+    line-height: 36px;
+    /*border-bottom: 2px solid #8361c2; /*0502*/
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .hot-video-title {
+        width: 100%;
+        min-width: 100%;
+        /*0316 padding: 0 10px;*/
+    }
+}
+
+.h-video-items-wrap {
+    width: 100% !important;
+}
+
+.h-video-clip {
+    clear: both;
+    margin: 25px 0 15px;
+}
+
+.h-video-item-name {
+    margin-top: 10px;
+}
+
+.h-video-item-min {
+    margin-top: -10px
+}
+
+.items-txt {
+    margin: 20px 0 5px;
+}
+
+.hv-photo-wrap {
+    float: left;
+    width: 60px;
+}
+
+.hv-item-wrap {
+    float: right;
+    width: calc(100% - 75px);
+}
+
+/*.items-cnt {*/
+    /*padding: 0;*/
+    /*margin-top: -10px;*/
+/*}*/
+
+/*.items-like-wrap {*/
+    /*padding: 20px 15px 0 12px;*/
+/*}*/
+
+/*.items-tool {*/
+    /*padding: 12px 0 0;*/
+/*}*/
+
+@media screen and (max-width: 480px) {
+    .items-name-wrap {
+        padding: inherit;
+    }
+
+    .cnt-photo-wrap {
+        position: absolute;
+        top: inherit;
+        left: inherit;
+    }
+
+    .items-txt {
+        margin: 0;
+        padding: inherit;
+    }
+}
+
+/*----左側----*/
+.h-tag-side {
+    text-align: center;
+}
+
+.h-tag-side ul {
+    margin: 0;
+}
+
+.tag-hot-post {
+    /*color: #8361c2; /*0503*/
+}
+
+.tag-hot-post span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.tag-hot-post li {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+}
+
+.tag-hot-post ul {
+    display: inline-block;
+}
+
+.tag-hot-video {
+    /*color: #8361c2; /*0503*/
+}
+
+.tag-hot-video span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.tag-hot-video li {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+}
+
+.tag-hot-video ul {
+    display: inline-block;
+}
+
+.tag-events {
+    /*color: #8361c2; /*0503*/
+}
+
+.tag-events span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.tag-events li {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+}
+
+.tag-events ul {
+    display: inline-block;
+}
+
+.tag-clubs {
+    /*color: #8361c2;/*0503*/
+}
+
+.tag-clubs span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.tag-clubs li {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+}
+
+.tag-clubs ul {
+    display: inline-block;
+}

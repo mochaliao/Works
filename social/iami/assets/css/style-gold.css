@@ -1,0 +1,6 @@
+.btn-gold-gra {
+    background: -moz-linear-gradient(0deg, rgb(238, 193, 106), rgb(251, 211, 127), rgb(228, 189, 105), rgb(234, 201, 114), rgb(243, 216, 126));
+    background: -webkit-linear-gradient(0deg, rgb(238, 193, 106), rgb(251, 211, 127), rgb(228, 189, 105), rgb(234, 201, 114), rgb(243, 216, 126));
+    background: -ms-linear-gradient(0deg, rgb(238, 193, 106), rgb(251, 211, 127), rgb(228, 189, 105), rgb(234, 201, 114), rgb(243, 216, 126));
+    background: linear-gradient(0deg, rgb(238, 193, 106), rgb(251, 211, 127), rgb(228, 189, 105), rgb(234, 201, 114), rgb(243, 216, 126));
+}

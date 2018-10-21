@@ -1,0 +1,172 @@
+/*0516*/
+body{
+	overflow-y: scroll;
+}
+/****/
+
+/*content-wraper*/
+.wrapper,
+.container-wide,
+.container-middle,
+.container-mid-c,
+.container-narrow {
+	margin: 0 auto;
+}
+.wrapper {
+	width: 100%;
+}
+.container-wide {
+	width: 100%;
+	max-width: 1920px;
+}
+.container-mid-c {
+	width: 62.5%;
+	min-width: 1200px;
+}
+
+/*RWD*/
+@media screen and (max-width:1200px) {
+.container-mid-c {
+	width: 100%;
+	max-width: 1200px;
+	min-width: 320px;
+}
+}
+/*** ***/
+
+/*-------
+內頁框架
+---------*/
+
+/*single page * 3colums*/
+.ctn-wrap {
+	width: 100%;
+}
+
+/*0516b add*/
+.cnt-wrap:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*****/
+
+.ctn-left, .ctn-middle, .ctn-right {
+    /*display: inline-block;0516de*/
+    vertical-align: top;
+    float: left;
+    padding-top: 12px;/*0516*/
+    position: relative;/*0516*/
+}
+
+.ctn-middle {
+    width: calc(100% - 540px - 20px);
+    /*min-width: 640px; 0516*/
+    margin: 0 10px;
+    height: 100%;/*0516 add*/
+    min-height: 1430px;
+    padding-bottom: 33px;/*0516 add*/
+    z-index: 1;/*0522*/
+}
+
+#inner-page .ctn-middle{
+    /*min-height: 100%;*/
+}
+.ctn-middle:after{
+    content: "";
+    width: calc(100% - 540px - 20px);/*0516*/
+    /*min-width: 640px; 0516*/
+    margin: 0 10px;
+    display: block;
+}
+.ctn-left, .ctn-right {
+    width: 270px;
+    /*0516
+    width: 22.5%;
+    min-width: 270px;*/
+    z-index: 2;/*0522*/
+}
+
+/*0516*/
+.cnt-left-cnt,
+.cnt-mid-cnt,
+.cnt-right-cnt{
+    width: 100%;
+}
+
+/*0522*/
+.cnt-left-cnt,
+.cnt-right-cnt{
+    z-index: 2;
+}
+/****/
+
+.cnt-left-cnt.fixed,
+.cnt-right-cnt.fixed{
+    width: inherit;
+    position: fixed;
+    bottom: 0;
+}
+
+.cnt-left-cnt.fixedTop,
+.cnt-right-cnt.fixedTop,
+.cnt-mid-cnt.fixedTop{
+    width: inherit;
+    position: fixed;
+    top: 65px;
+}
+
+.cnt-mid-cnt.fixedTop{
+    max-width: 640px;
+}
+
+
+.ctn-center{
+    width: calc(100% - 270px - 10px);/*0516*/
+    margin-left: 10px;
+}
+
+/*0522*/
+.notFd-wrapper{
+    width: 100%;
+}
+
+.notFd{
+    font-size: 20px;
+    text-align: center;
+    color: #313131;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+/****/
+
+/*RWD*/
+
+@media screen and (max-width:900px) {
+    .ctn-middle, .ctn-middle:after {
+        width: 100%;
+        max-width: 900px;
+        margin: 0;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .ctn-middle{
+        min-height: 100%;
+    }
+    .cnt-mid-cnt.fixedTop{
+        position: static;
+
+    }
+    .ctn-left, .ctn-right {
+        display: none;
+    }
+    .lv-page .ctn-left{
+        width: 100%;
+        display: block;
+    }
+    .ctn-center {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+/*** ***/

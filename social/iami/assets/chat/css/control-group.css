@@ -1,0 +1,81 @@
+/*cog-icon*/
+.cog-icon-wrap {
+	width: 100%;
+	position: relative;
+}
+.cog-icon-l{
+	position: absolute;	
+}
+.cog-icon-l a{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 16px;
+	background: #f8b551;
+	transition: background .4s;
+}
+.cog-icon-l a:hover{
+	background: #fdce73;
+}
+.cog-icon-l img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 18px;
+	margin: 0 6px;
+}
+.cog-icon {
+	position: absolute;
+	top: 4px;
+	right: 8px;
+}
+.cog-icon a {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+}
+
+
+/*cog-icon location in other pages*/
+.inner-header-container > .cog-icon-l{
+	top: 4px;
+	right: 8px;	
+}
+.edit-pic-cnt > .cog-icon-l{
+	top: 20px;
+	right: 12px;
+}
+
+.cog-icon-wrap .cog-icon {
+	top: -10px;
+	right: -6px;
+}
+.inner-header-container .cog-icon, .edit-pic-cnt .cog-icon {
+	z-index: 100;
+}
+.edit-pic-cnt .cog-icon {
+	top: 10px;
+	right: 16px;
+}
+/*cog-title*/
+.cog-title{
+	color: #f8b551;
+}
+.cog-title li{
+	display: inline-block;
+	vertical-align: middle;
+	height: 30px;
+}
+.cog-side-icon span{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-right: 14px;
+}
+/*cog-cnt*/
+.cog-cnt{
+	text-align: center;
+	padding: 20px 0;
+	color: #a0a0a0;
+	border-bottom: 1px solid #eee;
+}
+

@@ -1,0 +1,149 @@
+.live-show-title {
+	width: 100%;
+	margin: 0px auto 0;
+	display: block;
+}
+.live-show-title>h4 {
+	color: #f8b551;
+	margin: 0px 0 20px;
+	line-height: 36px;
+	border-bottom: 2px solid #f8b551;
+	width: 100%;
+	height: auto;
+}
+
+@media (max-width: 768px) {
+.live-show-title {
+	width: 100%;
+	min-width: 100%;
+	padding: 0 10px;
+}
+}
+.liveshow-cnt {
+	padding: 0;
+}
+.liveshow-cnt .cnt-photo img{
+	border-color: #fff;
+}
+.live-photo {
+	width: 120px;
+}
+.live-show-info {
+	margin: 40px 0 0 50px;
+}
+.live-show-info ul.items-name-wrap {
+	margin: 0 0 0 80px;
+}
+.live-show-item {
+	float: right;
+	width: 50px;
+}
+.live-show-button {
+	float: right;
+	margin: -35px 0 0 0;
+}
+.live-show-button a {
+	font-size: 1.2em;
+	border: 1px solid #f8b551;
+	color: #f8b551;
+	padding: 8px 12px;
+	border-radius: 50px
+}
+.liveshow-pic-cnt {
+	width: 130px;
+	height: 120px;
+	float: left;
+}
+.liveshow-icon {
+	width: 28px;
+	height: 28px;
+	background-size: 28px;
+}
+.edit-pic-cnt .liveshow-icon {
+	top: 8px;
+	right: 10px;
+}
+.award.icon-s {
+	background-size: 16px;
+	width: 16px;
+	height: 24px;
+}
+/*-----直播畫面POP-----*/
+.glightbox-clean .gslide-description {
+	text-align: right;
+	background: #000;
+	color: #fff;
+	font-size: 18px;
+}
+/*----左側----
+.h-tag-side {
+	text-align: center;
+}
+.h-tag-side ul {
+	margin: 0;
+}
+.tag-hot-post {
+	color: #f8b551;
+}
+.tag-hot-post span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+.tag-hot-post li {
+	display: inline-block;
+	vertical-align: middle;
+	height: 30px;
+}
+.tag-hot-post ul {
+	display: inline-block;
+}
+.tag-hot-video {
+	color: #f8b551;
+}
+.tag-hot-video span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+.tag-hot-video li {
+	display: inline-block;
+	vertical-align: middle;
+	height: 30px;
+}
+.tag-hot-video ul {
+	display: inline-block;
+}
+.tag-events {
+	color: #f8b551;
+}
+.tag-events span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+.tag-events li {
+	display: inline-block;
+	vertical-align: middle;
+	height: 30px;
+}
+.tag-events ul {
+	display: inline-block;
+}
+.tag-clubs {
+	color: #f8b551;
+}
+.tag-clubs span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+.tag-clubs li {
+	display: inline-block;
+	vertical-align: middle;
+	height: 30px;
+}
+.tag-clubs ul {
+	display: inline-block;
+}
+*/
