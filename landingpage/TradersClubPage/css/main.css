@@ -1,0 +1,712 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, p, ul, ol {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", "微軟正黑體";
+	color: #fff;
+}
+
+.StripBg {
+	background: #001930;
+	background: -webkit-linear-gradient(135deg,
+	#001930 46%, #062138 0, #062138 50%,
+	#001930 0, #001930 96%, #062138 0);
+	background: -o-linear-gradient(135deg,
+	#001930 46%, #062138 0, #062138 50%,
+	#001930 0, #001930 96%, #062138 0);
+	background: -moz-linear-gradient(135deg,
+	#001930 46%, #062138 0, #062138 50%,
+	#001930 0, #001930 96%, #062138 0);
+	background: linear-gradient(135deg,
+	#001930 46%, #062138 0, #062138 50%,
+	#001930 0, #001930 96%, #062138 0);
+	background-size: 35px 35px;
+}
+
+.DarkBlueBg {
+	background: #000810;
+}
+
+.Div-L {
+	width: 100%;
+}
+
+.Div-M {
+	width: 92%;
+	margin: 0 auto;
+}
+
+.Div-S {
+	width: 12%;
+	/*background: #000;*/
+}
+
+.TitleStyle {
+	font-family: Century, "Times New Roman";
+	font-size: 36px;
+	line-height: 40px;
+}
+
+.ContentStyle {
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 500;
+}
+
+.TxtItalic {
+	font-style: italic;
+}
+
+.ClearDiv {
+	clear: both;
+}
+
+/*TopArea*/
+.TopArea {
+	max-width: 1920px;
+	height: 950px;
+	background: url(../img/head.jpg);
+}
+
+.TopArea .Div-L {
+	display: table;
+}
+
+.TopArea .Div-L > div {
+	display: table-cell;
+}
+
+.TopInfo {
+	display: table;
+	width: 100%;
+	padding-top: 28px;
+}
+
+.TopInfo > div {
+	display: table-cell;
+	width: 50%;
+	vertical-align: bottom;
+}
+
+.TopInfoLogo img {
+	width: 126px;
+	height: auto;
+}
+
+.TopInfoCtx ul {
+	font-size: 12px;
+	color: #fff;
+	list-style: none;
+}
+
+.TopInfoCtx li {
+	float: right;
+	margin-left: 20px;
+}
+
+.TopInfoCtx li img {
+	padding-right: 5px;
+	vertical-align: middle;
+	max-width: 18px;
+	height: auto;
+}
+
+.TopCtxG {
+	list-style: none;
+	text-align: center;
+	color: #001930;
+	padding: 70px 0;
+}
+
+.TopCtxG li {
+	padding: 10px 0;
+}
+
+.TopCtxTitle {
+	font-family: Century, "Times New Roman";
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.TopCtxLogo img {
+	width: 240px;
+	height: auto;
+}
+
+.TopCtxUp, .TopCtxDown {
+	font-size: 20px;
+	font-style: italic;
+}
+
+.TopCtxUp {
+	padding: 0 220px !important;
+	box-sizing: border-box;
+	font-weight: 500;
+}
+
+.TopCtxUp > span, .TopCtxDown {
+	font-weight: 700;
+}
+
+.TopCtxBtn a {
+	display: inline-block;
+	font-size: 22px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #84bd00;
+	border-top: 2px solid #84bd00;
+	border-bottom: 2px solid #84bd00;
+	padding: 16px 15px;
+	box-sizing: border-box;
+}
+
+/*FloatArea*/
+.FloatArea {
+	background: #84bd00;
+	text-align: center;
+	padding: 14px 0 4px;
+	box-sizing: border-box;
+}
+
+.FloatArea .Div-L {
+	display: table;
+}
+
+.FloatArea .Div-L > div {
+	display: table-cell;
+}
+
+.FloatTitle {
+	font-size: 17px;
+	font-style: italic;
+	color: #e5e5e5;
+}
+
+.FloatRg {
+	width: 100%;
+	display: table;
+	padding: 10px 0 0;
+	box-sizing: border-box;
+}
+
+.FloatRg input, select {
+	width: 16.5%;
+	display: table-cell;
+	font-size: 12px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border: 1px solid #fff;
+	background: #cee599;
+	color: #393849;
+	box-sizing: border-box;
+	margin-right: 2%;
+}
+
+.FloatRg input {
+	padding: 6px 10px;
+}
+
+.FloatRgBtn {
+	display: inline-block;
+	width: 7.5%;
+	padding: 7px 0;
+	background: #313131;
+	border: 0;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-sizing: border-box;
+	vertical-align: bottom;
+	cursor: pointer;
+}
+
+.FloatRgBtn img {
+	display: inline-block;
+	max-width: 17px;
+	height: auto;
+	vertical-align: middle;
+}
+
+.FloatRg select {
+	padding: 5px 5px;
+}
+
+.FloatRg input::-webkit-input-placeholder {
+	color: #393849;
+}
+
+.FloatRg input:-moz-placeholder {
+	color: #393849;
+}
+
+.FloatRg input::-moz-placeholder {
+	color: #393849;
+}
+
+.FloatRg input:-ms-input-placeholder {
+	color: #393849;
+}
+
+/*EducateArea*/
+.EducateArea .Div-L {
+	display: table;
+	width: 100%;
+}
+
+.EducateArea .Div-L > div, .EducateArea .Div-L > div > div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.EducateArea ul {
+	list-style: none;
+}
+
+.EducateArea ul > li {
+	padding: 10px 0;
+	box-sizing: border-box;
+}
+
+.EduPic {
+	width: 40%;
+	text-align: left;
+}
+
+.EduPic img {
+	display: inline-block;
+	width: 100%;
+	max-width: 716px;
+	height: auto;
+}
+
+.EduCtxG {
+	width: 60%;
+	padding: 30px 0 30px 100px;
+	box-sizing: border-box;
+}
+
+.EduCtxG .line {
+	margin-left: 90px;
+}
+
+.Edulist {
+	font-size: 16px;
+	list-style: url(../img/listStyle.png);
+	margin-left: 46px;
+}
+
+.Edulist li {
+	padding: 0 0 10px 12px;
+}
+
+.Edulist li:last-child {
+	padding: 0 0 0 12px;
+}
+
+/*ProgramArea*/
+.ProgramArea {
+	color: #fff;
+	text-align: center;
+	padding: 40px 0;
+	clear: both;
+}
+
+.ProgramArea p {
+	padding: 0 0 20px;
+}
+
+.ProgramArea ol {
+	list-style: none;
+}
+
+.ProTitle {
+	font-family: Century, "Times New Roman";
+	font-size: 30px;
+}
+
+.ProCtx {
+	width: 42%;
+	margin: 0 auto;
+}
+
+.ProList {
+	display: block;
+	list-style: none;
+	touch-action: pan-y; /*  20170523 */
+	user-select: none; /* 20170523 */
+	-webkit-user-drag: none; /* 20170523 */
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* 20170523 */
+	width: 1445px; /* 20170523 */
+	transform: translate3d(430px, 0px, 0px); /* 20170523 */
+	-webkit-transform-style: preserve-3d; /* 20170523 */
+	-ms-transform-style: preserve-3d; /* 20170523 */
+	transform-style: preserve-3d; /* 20170523 */
+}
+
+.ProList > li {
+	width: 290px;
+	height: 445px;
+	float: left;
+	margin-right: 40px;
+}
+
+.ProList > li:last-child {
+	margin-right: 0;
+}
+
+.ProList ol {
+	height: 400px;
+}
+
+.ProListTitle {
+	font-size: 20px;
+	font-weight: 700;
+	padding-top: 20px;
+	min-height: 44px;
+	vertical-align: middle;
+}
+
+.ProListCtx {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.ProListBtn {
+	display: inline-block;
+	font-size: 19px;
+	font-weight: 500;
+	color: #84bd00;
+}
+
+.ProAreaBottom {
+	padding: 20px 0;
+	width: 100%; /* 20170523 */
+	overflow: hidden; /* 20170523 */
+}
+
+.ProAreaBottom > div {
+	clear: both;
+}
+
+/*RobArea*/
+.RobArea {
+	color: #fff;
+	padding: 35px 0;
+}
+
+.RobCtxG {
+	width: 86%;
+	float: right;
+}
+
+.RobCtxG > div {
+	width: 100%;
+}
+
+.RobCtxR, .RobCtxL {
+	display: inline-block;
+	float: right;
+}
+
+.RobCtxR {
+	position: relative;
+	width: 55%;
+	top: 140px;
+	padding-left: 100px;
+	box-sizing: border-box;
+}
+
+.RobCtxR-T {
+	position: absolute;
+	left: -70px;
+	top: 250px;
+}
+
+.RobTitle {
+	display: none;
+	float: left;
+	width: 100%;
+	padding-bottom: 100px;
+}
+
+.RobWord {
+	font-size: 20px;
+	text-align: right;
+	text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+	float: left;
+	padding-top: 180px; /*change*/
+}
+
+.RobWord img {
+	padding-right: 15px;
+	-webkit-filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 1));
+	filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 1))
+}
+
+.RobWord span {
+	font-size: 24px;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.RobImg {
+	text-align: right;
+}
+
+.RobImg img {
+	width: 100%;
+	max-width: 716px;
+	height: auto;
+}
+
+.RobCtxL {
+	width: 45%;
+}
+
+.RobCtxL ul {
+	list-style-type: none;
+}
+
+.RobCtxL li {
+	padding: 10px 0;
+}
+
+.RobCtxL .line {
+	margin-left: 90px;
+}
+
+.Roblist {
+	font-size: 16px;
+	list-style: url(../img/listStyle2.png);
+	margin-left: 46px;
+}
+
+.Roblist li {
+	padding-left: 12px;
+}
+
+.RoblistT {
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.RoblistImg {
+	padding-right: 20px;
+}
+
+/*RegArea*/
+.RegArea {
+	color: #fff;
+	padding: 35px 0;
+	box-sizing: border-box;
+}
+
+.RegArea .Div-M > div, .RegArea .Div-M > div > div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.RegAreaCtxG > div:first-child {
+	width: 34.5%;
+}
+
+.RegAreaCtxG > div:nth-child(2) {
+	width: 65.5%;
+	padding: 0 9% 0 18%;
+	box-sizing: border-box;
+}
+
+.RegAreaCtxG ul {
+	list-style: none;
+}
+
+.RegAreaCtxG li {
+	padding: 0 0 20px;
+}
+
+.RegRg input, .RegRg select {
+	width: 100%;
+	border: 1px solid #fff;
+	background: #161e2a;
+	font-size: 16px;
+	color: #fff;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+.RegRg > input:first-child, .RegRg > input:nth-child(2) {
+	display: table-cell;
+	width: 49%;
+}
+
+.RegRg > input:first-child {
+	margin-right: 1%;
+}
+
+.RegRg > input:last-child {
+	margin-bottom: 0;
+}
+
+.RegRg input {
+	padding: 10px 10px;
+}
+
+/*.RegRg input[type=submit]{
+	padding:9px 2px;
+	width:30%;
+	color:#fff}*/
+.RegRg select {
+	padding: 9px 5px;
+	border-radius: 0;
+}
+
+.RegRg input::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.RegRg input:-moz-placeholder {
+	color: #fff;
+}
+
+.RegRg input::-moz-placeholder {
+	color: #fff;
+}
+
+.RegRg input:-ms-input-placeholder {
+	color: #fff;
+}
+
+.RegAreaCtxR {
+	text-align: center;
+	font-size: 18px;
+}
+
+.RegAreaCtxR > img {
+	display: inline-block;
+	padding: 0 0 40px;
+	margin: 0 auto;
+	max-width: 239px;
+	height: auto;
+}
+
+.RegAreaCtxR p img {
+	max-width: 34px;
+	height: auto;
+}
+
+.RegImg1 {
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+.RegImg2 {
+	text-align: right;
+	padding-top: 10px;
+}
+
+.RegAreaCtxR span {
+	font-size: 28px;
+	font-weight: 700;
+}
+
+/*AwardArea*/
+.AwardArea {
+	color: #fff;
+	padding: 35px 0;
+}
+
+.AwardArea > div > div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.AwardCtxUp {
+	display: table;
+	padding-top: 80px;
+	margin-right: -30px;
+}
+
+.AwardCtxUp > div {
+	display: table-cell;
+	width: 33%;
+	font-size: 18px;
+	padding-right: 30px;
+}
+
+.AwardCtxUpImg img {
+	max-width: 20px;
+	height: auto;
+}
+
+.AwardCtxUpC {
+	padding: 6px 0 0 22px;
+	box-sizing: border-box;
+	text-align: left;
+	min-height: 125px;
+}
+
+.AwardCtxUpT {
+	text-align: right;
+	font-weight: 500;
+	padding-top: 20px;
+}
+
+.AwardCtxDown {
+	text-align: center;
+	padding: 130px 0 0;
+}
+
+.AwardCtxDown > img {
+	max-width: 170px;
+	height: auto;
+}
+
+.AwardCtxDownImgG {
+	padding: 40px 0 0;
+}
+
+.AwardCtxDownImgG a {
+	display: inline-block;
+	width: 33%;
+	float: left;
+}
+
+.AwardCtxDownImgC {
+	font-size: 16px;
+	padding: 40px 200px 0;
+	clear: both;
+}
+
+/*PaymentArea*/
+.PaymentArea {
+	background: #1a1a1a;
+}
+
+.PaymentG {
+	width: 100%;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 5px 200px;
+	box-sizing: border-box;
+}
+
+.PaymentG img {
+	display: inline-block;
+}
+
+/*FooterArea*/
+.FooterArea {
+	background: #000;
+}
+
+.FooterArea > div {
+	font-size: 12px;
+	line-height: 14px;
+	color: #aaa;
+	padding: 20px;
+	box-sizing: border-box;
+}

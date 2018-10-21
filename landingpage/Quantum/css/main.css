@@ -1,0 +1,1369 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: "Open Sans", "微軟正黑體";
+    overflow-x: hidden;
+}
+
+body, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/*font*/
+.mainTitle {
+    font-size: 34px;
+    line-height: 38px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.mainCtx {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.Title {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+    .Title span {
+        font-weight: 700;
+    }
+
+.subTitle {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.Ctx {
+    font-size: 18px;
+}
+
+.CtxBtn {
+    border: 2px solid #313131;
+    border-radius: 4px;
+    padding: 8px 14px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #313131;
+    background: none;
+    position: relative;
+    z-index: 9999;
+}
+
+    .CtxBtn:hover {
+        border: 2px solid #313131;
+        text-decoration: none;
+        color: #fff;
+        background: #313131;
+    }
+
+.QuoteFront {
+    width: 100%;
+}
+
+    .QuoteFront img, .QuoteBack img {
+        display: block;
+        width: 35px;
+        height: auto;
+    }
+
+.QuoteBack img {
+    float: right;
+    transform: rotate(180deg);
+}
+
+.block {
+    height: 30px;
+}
+
+.layer1, .layer2, .layer4, .layer5 {
+    width: 100%;
+    height: 1080px;
+}
+
+.layer6 {
+    width: 100%;
+    height: 690px;
+}
+/*floatArea*/
+.floatArea{
+	width:100%;
+	background:rgba(0,0,0,0.4);
+	padding:25px 0;
+	position:fixed;
+	bottom:0;
+	z-index:20000;
+}
+  .floatArea div{
+	  width:96%;
+	  margin:0 auto;
+	  color:#fff;
+	  font-size:20px;
+	  text-align:center;
+  }
+  .floatArea a{
+	  background:#090;
+	  font-size:16px;
+	  padding:12px 30px;
+	  text-decoration:none;
+	  color:#fff;
+	  margin:0 0 0 30px;
+	  border-radius:4px;
+  }
+  .floatArea a:hover{
+	  background:#060;
+	  text-decoration:none;
+	  color:#fff;
+  }
+/*layer1*/
+.layer1 {
+    background: url(../images/Layer1BG.jpg) no-repeat;
+    background-position: center;
+}
+
+    .layer1 > div {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+        .layer1 > div > div {
+            width: 100%;
+        }
+
+.header {
+    color: #fff;
+    padding-top: 30px;
+    display: table;
+    position: relative;
+    z-index: 9999;
+}
+
+.header_left, .header_right {
+    display: table-cell;
+}
+
+.header_left {
+    text-align: left;
+}
+
+    .header_left img {
+        width: 164px;
+        height: 68px;
+    }
+
+.header_right {
+    text-align: right;
+    vertical-align: bottom;
+}
+
+    .header_right span {
+        padding-left: 50px;
+    }
+
+    .header_right i {
+        padding-right: 8px;
+    }
+
+    .header_right a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .header_right a:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+
+.middle {
+    text-align: center;
+    color: #1f2437;
+    padding: 250px 20% 0;
+}
+
+.upperContent {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.SubTitle {
+    font-size: 22px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.Qicon {
+    width: 450px;
+    height: 148.7px;
+    padding: 20px 0;
+    position: relative;
+    z-index: 9999;
+}
+
+.mouseMove {
+    padding: 150px 0 0;
+}
+
+    .mouseMove img {
+        display: block;
+        width: 40px;
+        height: 64px;
+        margin: 0 auto;
+    }
+/*layer2*/
+.layer2 {
+    display: table;
+    background: url(../images/Layer2BG.jpg) no-repeat;
+    background-position: top; 
+}
+
+    .layer2 > div {
+        display: table-cell;
+        height: 100%;
+        vertical-align: top;
+    }
+
+        .layer2 > div:first-child {
+            width: 13%;
+        }
+
+        .layer2 > div:nth-child(2) {
+            width: 30%;
+            padding: 100px 0 0;
+        }
+
+        .layer2 > div:nth-child(3) {
+            width: 7%;
+        }
+
+        .layer2 > div:nth-child(4) {
+            width: 30%;
+            padding: 350px 0 0;
+        }
+
+        .layer2 > div:nth-child(5) {
+            width: 13%;
+        }
+
+.RgArea > div {
+    background: rgba(255,255,255,.5);
+    padding: 20px 16px;
+    box-sizing: border-box;
+}
+
+.RgForm form > div {
+    display: table;
+    width: 100%;
+    padding-top: 35px;
+}
+
+    .RgForm form > div:first-child {
+        padding-top: 0px;
+    }
+
+    .RgForm div:first-child i{
+        vertical-align: bottom;
+    }
+
+.RgForm span, .RgForm input, .RgForm select {
+    display: table-cell;
+}
+
+.RgForm input, .RgForm select {
+    font-size: 16px;
+    color: #626262;
+}
+
+.RgForm  form > div > input, .RgForm select {
+    width: 100% !important;
+}
+
+.RgForm input, .RgForm select {
+    height: 35px;
+    border: 0;
+    border-bottom: 2px solid #333;
+    background: none;
+    border-radius: 0;
+}
+
+.RgForm span {
+    width: 35px;
+    padding-right: 10px;
+}
+
+.RgForm i {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 35px;
+    line-height: 35px;
+    color: #434343;
+}
+
+.RgForm input {
+    padding-left: 16px;
+}
+
+.RgForm select {
+    padding-left: 12px;
+}
+
+.RgForm section {
+    display: table;
+    width: 100%;
+}
+
+    .RgForm section input {
+        float: left;
+        width: 49%;
+    }
+    /*.RgForm div:first-child span, .RgForm div:first-child input{
+        float: left;
+    }*/
+
+        .RgForm section input:first-child {
+            margin-right: 2%;
+        }
+/* placeholder color */
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #626262;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #626262;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #626262;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #626262;
+}
+
+.RgFormBtn {
+    background: #434343 !important;
+    height: auto !important;
+    font-size: 20px !important;
+    color: #fff !important;
+    padding: 10px 0;
+    border: 0 !important;
+    border-radius: 4px;
+}
+
+/*layer3*/
+.layer3, .cardWrapper .face {
+    display: table !important;
+    width: 100%;
+    height: 550px;
+}
+
+.cardWrapper {
+    display: table-cell;
+    width: 25%;
+    height: auto;
+    perspective: 1000px;
+    position: relative;
+}
+
+.card {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+    .card:hover .front {
+        transform: rotateY(-180deg);
+    }
+
+    .card:hover .back {
+        transform: rotateY(0deg);
+    }
+
+.face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: 0.75s ease-out;
+    color: #fff;
+}
+
+    .face.front {
+        transform: rotateY(0deg);
+    }
+
+    .face.back {
+        transform: rotateY(180deg);
+    }
+
+.card a.btn {
+    max-width: 60%;
+    /*display: block;*/
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 10px;
+    color: #fff;
+    font-style: italic;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+    .card a.btn:hover {
+        background: #fff;
+        color: #000;
+        border: 1px solid transparent;
+    }
+
+.inner {
+    cursor: -moz-grab;
+    box-sizing: border-box;
+    transform: translateY(-50%) translateZ(120px) scale(1);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    perspective: inherit;
+    z-index: 2;
+    backface-visibility: hidden;
+    padding: 100px 50px;
+    box-sizing: border-box;
+}
+
+    .inner ul {
+        /*list-style-image: url(../images/list2.png);*/
+        list-style: none;
+        
+        margin: 0 10px;
+        padding: 0 10px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+        width: 90%;
+    }
+
+    .inner ul li{
+        background: url(../images/list2.png) no-repeat;
+        padding-left: 30px;
+    }
+
+.bgColor01 {
+    background: #1f2437;
+}
+
+.bgColor02 {
+    background: #3d435d;
+}
+
+.bgColor03 {
+    background: #282e48;
+}
+
+.bgColor04 {
+    background: #21242b;
+}
+
+.FlipTitle {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.FlipContent {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.icon01 {
+    width: 104px;
+    height: auto;
+}
+
+.icon02 {
+    width: 70px;
+    height: auto;
+}
+
+.icon03 {
+    width: 104px;
+    height: auto;
+}
+
+.icon04 {
+    width: 90px;
+    height: auto;
+}
+/*layer4*/
+.layer4 {
+    display: table;
+    background: url(../images/Layer4BG.jpg) no-repeat;
+    background-position: left;
+}
+
+    .layer4 li {
+        list-style-image: url(../images/list.png);
+        list-style-position: inside;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .layer4 > div {
+        position: relative;
+    }
+
+        .layer4 > div:first-child {
+            width: 42%;
+            top: 140px;
+            left: 13%;
+        }
+
+        .layer4 > div:nth-child(2) {
+            width: 34%;
+            top: 300px;
+            left: 53%;
+        }
+
+.layer4Btn {
+    text-align: center;
+}
+
+.MListG {
+    padding-left: 30px;
+}
+
+.MList {
+    display: table;
+    padding-bottom: 20px;
+}
+
+    .MList > img {
+        display: table-cell;
+        width: 45px;
+        height: 44px;
+        margin-right: 20px;
+    }
+
+    .MList > div {
+        height: 60px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .imglist1{
+        width: 260px;
+        height: 20px;
+    }
+    .imglist2{
+        width: 164px; 
+        height: 33px;
+    }
+    .imglist3{
+        width: 217px;
+        height: 27px;
+    }
+
+.QuoteT, .QuoteSubT {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+    .QuoteT span {
+        display: inline-block;
+        font-weight: 600;
+        font-style: italic;
+        padding-left: 40px;
+    }
+
+.QuoteSubT {
+    font-weight: 600;
+    font-style: italic;
+    text-align: right;
+}
+
+/*layer5*/
+.layer5 {
+    color: #fff;
+    background: url(../images/Layer5BG.jpg) no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: 70%; 
+    background-size: cover;
+}
+
+    .layer5 a.CtxBtn {
+        border: 1px solid #fff;
+        color: #fff;
+    }
+
+    .layer5 > div {
+        position: relative;
+    }
+
+        .layer5 > div:first-child {
+            width: 74%;
+            top: 160px;
+            left: 13%;
+        }
+
+        .layer5 > div:nth-child(2) {
+            width: 32%;
+            top: 700px;
+            left: 12%;
+        }
+
+.QuoteT2 {
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    margin:10px;
+}
+
+.layer5 .QuoteFront img, .layer5 .QuoteBack img {
+    fill: #fff;
+}
+/*layer6*/
+.layer6 {
+    display: table;
+    text-align: center;
+    background: url(../images/Layer6BG.jpg) no-repeat;
+    background-size: cover;
+}
+
+    .layer6 > div {
+        display: table-cell;
+        width: 50%;
+        margin: 0 auto;
+        vertical-align: middle;
+    }
+
+    .layer6 p {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+/*layer7*/
+.layer7 {
+    background: #1a1a1a;
+}
+
+    .layer7 > div:first-child {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+.footerimg {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+    .footerimg img {
+        display: inline-block;
+    }
+
+.footer {
+    width: 100%;
+    background: #484848;
+    clear: both;
+}
+
+.footertext {
+    clear: both;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #999;
+    padding: 10px 5% 10px;
+}
+
+    .footertext a {
+        text-decoration: none;
+        color: #F3F3F3;
+    }
+
+    .footertext div {
+        margin: 0px auto;
+        _margin: 0px auto; /*for ie6*/
+        *margin: 0px auto; /*for ie7*/
+        padding: 5px 10px;
+    }
+
+/* ernest */
+/* 動畫 Start */
+@keyframes custSlideInDown {
+    from {
+        transform: translate3d(0, -100%, 0);
+        visibility: visible;
+    }
+
+    to {
+        transform: translate3d(0, -60%, 0);
+    }
+}
+
+@-moz-keyframes custSlideInDown {
+    from {
+        -moz-transform: translate3d(0, -100%, 0);
+        visibility: visible;
+    }
+
+    to {
+        -moz-transform: translate3d(0, -60%, 0);
+    }
+}
+
+@-webkit-keyframes custSlideInDown {
+    from {
+        -webkit-transform: translate3d(0, -100%, 0);
+        visibility: visible;
+    }
+
+    to {
+        -webkit-transform: translate3d(0, -60%, 0);
+    }
+}
+
+@-o-keyframes custSlideInDown {
+    from {
+        -o-transform: translate3d(0, -100%, 0);
+        visibility: visible;
+    }
+
+    to {
+        -o-transform: translate3d(0, -60%, 0);
+    }
+}
+
+.custSlideInDown {
+    animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-name: custSlideInDown;
+    -moz-animation-name: custSlideInDown;
+    -o-animation-name: custSlideInDown;
+    -webkit-animation-name: custSlideInDown;
+}
+/* 動畫 End */
+
+/* 11/7 begin */
+.svg-rhombus{
+    display: none;
+}
+
+p{
+    position: relative;
+    z-index: 999;
+}
+
+.layer1, .layer2, .layer4{
+    background-size: cover;
+}
+
+.block2 {
+    height: 0px;
+}
+
+.layer3 .card .front .btn.readme {
+    display: none;
+}
+
+#QuantumRegForm {
+    z-index: 9999;
+    position: relative;
+}
+
+@media only screen and (max-width: 1800px){
+    .layer2 > div:nth-child(4) {
+        width: 35%;
+    }
+    .layer6 {
+        width: 100%;
+        height: 500px;
+    }
+
+
+        .layer6 p {
+            width: 60%;
+        }
+
+    .layer6 .Qicon {
+        width: 350px;
+        height: 84.54px;
+        padding: 0;
+    }
+
+
+    .layer6 .Ctx {
+        font-size: 18px;
+    }
+
+    .layer4 > div:nth-child(2){
+        width: 36%;
+        top: 200px;
+    }
+
+
+    .QuoteT, .QuoteSubT{
+        line-height: 35px;
+    }
+    .layer5 > div:nth-child(2){
+        top: 600px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .layer2 > div:nth-child(4) {
+        padding: 100px 0 0;
+    }
+
+    .layer2 > div:nth-child(4) .Title {
+        font-size: 26px;
+    }
+    .layer2 > div:nth-child(4) .subTitle{
+        font-size: 17px;
+        line-height: 19px;
+    }
+    .layer2 > div:nth-child(4) .Ctx{
+        font-size: 16px;
+    }
+    .layer1, .layer2, .layer4{
+        height: 800px;
+    }
+    .layer1 .middle {
+        padding: 130px 10% 0;
+    }
+    .layer1 .Qicon{
+        width: 350px;
+        height: 84.54px;
+        padding: 0;
+    }
+    .block2{
+        height: 30px;
+    }
+
+    .layer3, .cardWrapper .face {
+        height: 450px;
+    }
+    .FlipContent{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .inner ul{
+        margin: 0 20px;
+    }
+    /*.layer1 .mainTitle{
+        font-size: 28px;
+    }*/
+    .layer4 > div:nth-child(2){
+        top: 50px;
+    }
+    .QuoteT, .QuoteSubT{
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .layer5 > div:nth-child(2){
+        top: 410px;
+    }
+    .layer5{
+        height: 750px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .layer6 {
+        height: 400px;
+    }
+
+        .layer6 p {
+            width: 70%;
+        }
+
+    .layer6 .Qicon {
+        width: 350px;
+        height: 84.54px;
+        padding: 0;
+    }
+
+    .layer6 .Ctx {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    
+    .layer2 > div:first-child {
+        width: 3%;
+    }
+
+    .layer2 > div:nth-child(5) {
+        width: 3%;
+    }
+
+    .layer4 > div:nth-child(2) {
+        left: 50%;
+        width: 38%;
+        top: 0px;
+    }
+    .layer4 > div:first-child{
+        left: 3%;
+    }
+
+}
+
+@media only screen and (max-width: 1280px) {
+    .FlipContent{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .inner ul{
+        margin: 0 10px;
+        font-size: 14px;
+        line-height: 16px;
+        width: 110%;
+    }
+    .QuoteT2{
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .layer4 > div:nth-child(2) {
+        top: 35%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    .header_right span:first-child{
+        padding-left: 0px;
+    }
+    .header > div {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .header, .header a, .header a:hover {
+        color: #000;
+    }
+    .header .header_right {
+        line-height: 40px;
+    }
+    .layer1 > div {
+        width: 80%;
+    }
+    .layer1 .middle {
+        padding: 100px 0 0;
+    }
+    .mouseMove{
+        padding: 100px 0 0;
+        display: none;
+    }
+    .layer2 > div:nth-child(4){
+        width: 40%;
+    }
+    .card a.btn {
+        max-width: 65%;
+    }
+
+    .MList > img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .layer4 > div:nth-child(2) {
+        width: 42%;
+        left: 53%;
+    }
+    .QuoteT{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .layer5 > div:nth-child(2){
+        top: 350px;
+    }
+
+    .svg-rhombus:first-child img, .svg-rhombus:nth-child(2) img{
+        width: 930px;
+        height: 930px;
+    }
+    .svg-rhombus:nth-child(3) img{
+        width: 760px;
+        height: 760px;
+        top: -760px;
+        left: -760px;
+    }
+     .svg-rhombus:nth-child(4) img{
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 1024px){
+    .svg-rhombus img{
+        position: fixed;
+    }
+
+    .layer3 .card .front a.btn.readme {
+        display: block;
+    }
+
+    .card:hover .front {
+        transform: none;
+    }
+
+    .card:hover .back {
+        transform: none;
+    }
+
+    .face.front {
+        transform: none;
+    }
+
+    .face.back {
+        transform: none;
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .layer2 > div{
+        float: left;
+        width: 100%;
+    }
+    .layer2 > div:first-child, .layer2 > div:nth-child(3){
+        display: none;
+    }
+    .layer2 > div:nth-child(2), .layer2 > div:nth-child(4), .layer2 > div:nth-child(5){
+        width: 100%;
+        padding: 50px 3% 0;
+    }
+    .RgArea > div {
+        background: rgba(255,255,255,.8);
+    }
+    .cardWrapper{
+        width: 50%;
+        float: left;
+        height: 450px;
+    }
+        .layer3, .cardWrapper .face {
+            width: calc(100% + 1px);
+        }
+    .cardWrapper .card{
+        display: inline-block;
+        height: 450px;
+        position: relative;
+    }
+
+    .layer4 > div:first-child, .layer4 > div:nth-child(2) {
+        width: 100%;
+        top: 0px;
+        float: left;
+        left:0;
+    }
+    .layer4 > div:first-child{
+        padding: 50px 3% 0;
+    }
+    .layer4 > div:nth-child(2){
+        text-align: center;
+        padding: 50px 18% 0;
+        margin: auto;
+    }
+    .layer5 > div:first-child{
+        top: 100px;
+    }
+    .layer5 > div:nth-child(2){
+        width: 40%;
+        top: 300px;
+    }
+    .QuoteT2 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+    .layer1 > div{
+        width: 90%;
+    }
+    
+    .header_right span{
+        padding-left: 20px;
+    }
+    .mainTitle {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .mainCtx {
+        font-size: 20px;
+    }
+    .layer1 .Qicon {
+        width: 300px;
+        height: 72.36px;
+    }
+    .block2 {
+        height: 15px;
+    }
+    .layer4 > div:nth-child(2){
+        padding: 50px 10% 50px;
+    }
+
+    .svg-rhombus:first-child img, .svg-rhombus:nth-child(2) img{
+        width: 610px;
+        height: 610px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+	/*.floatArea a{
+	  display:inline-block;
+	  margin:8px 0 0 20px;}*/
+    .header > div {
+        float: left;
+        width: 50%;
+        text-align: left; 
+    }
+    .header .header_right {
+        line-height: 40px;
+        float: right;
+    }
+    .header_right span {
+        float: left;
+        width: 100%;
+        text-align: right;
+        line-height: 20px;
+    }
+    .header_right span, .header_right a, .header_right a:hover{
+        color: #fff;
+    }
+    .header_right i{
+        display: none;
+    }
+    .mainTitle {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .mainCtx {
+        font-size: 16px;
+    }
+    .layer1 .Qicon {
+        width: 250px;
+        height: 60.3px;
+    }
+    .block2 {
+        height: 10px;
+    }
+    .layer1{
+        height: 650px; 
+    }
+    .header_left img {
+        width: 140px;
+        height: 58.09px;
+    }
+
+    .cardWrapper{
+        height: 350px;
+    }
+    .cardWrapper .card{
+        height: 350px;
+    }
+    .cardWrapper .face {
+        height: 350px;
+    }
+    .icon01 {
+        width: 65px;
+        height: auto;
+    }
+    .icon02 {
+        width: 50px;
+        height: auto;
+    }
+    .icon03 {
+        width: 65px;
+        height: auto;
+    }
+
+    .icon04 {
+        width: 65px;
+        height: auto;
+    }
+    .inner{
+        padding: 50px 30px;
+    }
+    .FlipContent {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .FlipTitle {
+        font-size: 16px;
+    }
+
+    .CtxBtn {
+        font-size: 18px;
+    }
+    .layer5 > div:nth-child(2){
+        width: 76%;
+    }
+    .layer6 p {
+        width: 90%;
+    }
+    .layer6 .Ctx {
+        font-size: 14px;
+    }
+    .layer6 .Qicon {
+        width: 250px;
+        height: 60.3px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+.floatArea{
+	padding:12px 0;
+}
+  .floatArea div{
+	  width:98%;
+	  font-size:16px;
+  }
+  .floatArea a{
+	  font-size:14px;
+	  padding:0;
+	  width:50%;
+	  padding:8px 0;
+	  display:block;
+	  margin:4px auto 0;
+  }
+    .header_left{
+        width: 40%;
+    }
+    .header_right{
+        width: 60%;
+    }
+    .header_right span, .header_right a, .header_right a:hover {
+        letter-spacing: 0.001em;
+        font-size: 12px;
+    }
+    .header_right span {
+        padding-left: 0;
+    }
+     .mainTitle {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .mainCtx {
+        line-height: 20px;
+
+    }
+    .layer1 .Qicon {
+        width: 200px;
+        height: 48px;
+    }
+    .mouseMove img {
+        width: 30px;
+        height: 48px;
+    }
+
+    .Title {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .Ctx {
+        font-size: 16px;
+    }
+
+
+    .cardWrapper{
+        width: 100%;
+    }
+    .layer3, .cardWrapper .face {
+        width: 100%;
+    }
+    .inner {
+        padding: 50px 60px;
+    }
+
+    .imglist1{
+        width: 180px;
+        height: 14px;
+    }
+    .imglist2{
+        width: 110px; 
+        height: 22px;
+    }
+    .imglist3{
+        width: 157px;
+        height: 19px;
+    }
+    .MList > img{
+        width: 28px;
+        height: 28px;
+    }
+    .MList > div {
+        vertical-align: top;
+    }
+
+    .layer4 > div:nth-child(2){
+        text-align: left;
+    }
+    .QuoteT {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .QuoteT span {
+        padding-left:0px;
+    }
+    .QuoteFront {
+        padding-bottom: 10px;
+    }
+
+
+    .RgForm > div {
+        padding-top: 26px;
+    }
+
+    .layer2 .block {
+        height: 10px;
+    }
+
+    .layer5 > div:first-child {
+        width: 94%;
+        top: 140px;
+        left: 3%;
+    }
+
+    /*.svg-rhombus:nth-child(2) svg{
+        width: 500px;
+        height: 500px;
+    }*/
+}
+
+@media only screen and (max-width: 320px) {
+	.floatArea div{
+	  font-size:15px;  }
+  .floatArea a{
+	  font-size:13px;  }
+	.mouseMove {
+        padding: 80px 0 0;
+    }
+}
+/* 11/7 end */
