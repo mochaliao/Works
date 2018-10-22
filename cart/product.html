@@ -10,8 +10,13 @@
 	<link rel="stylesheet" href="css/font.css">
 	<link rel="stylesheet" href="css/nav.css">
 	<link rel="stylesheet" href="css/product-items.css">
-	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<!--<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>-->
 	<script src="https://use.fontawesome.com/8dbb4cc43e.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 	<script>
         //include html setting
         $(function () {
@@ -26,6 +31,21 @@
             $.getScript('js/mMenu.js');
         });
 	</script>
+    <script>
+        $( function() {
+            $( ".slider-range" ).slider({
+                range: true,
+                min: 0,
+                max: 500,
+                values: [ 75, 300 ],
+                slide: function( event, ui ) {
+                    $( ".amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+                }
+            });
+            $( ".amount" ).val( "$" + $( ".slider-range" ).slider( "values", 0 ) +
+                " - $" + $( ".slider-range" ).slider( "values", 1 ) );
+        } );
+    </script>
 </head>
 <body>
 <div class="wrapper">
@@ -36,7 +56,7 @@
 	<main class="main-content">
 		<section class="container-narrow clearfix" id="product-items">
 			<!--filter-->
-			<aside class="filter-wrap">
+			<aside class="filter-wrap" >
 				<div class="filter-box">
 					<ul>
 						<li class="filter-title"><a href="#"><span>prada</span></a></li>
@@ -135,7 +155,12 @@
 				<!--價錢-->
 				<div class="filter-box filter-price">
 					<div class="filter-title has-arrow"><a href="#">價錢</a>
-						<div class="filter-submenu"></div>
+						<div class="filter-submenu">
+                            <p>
+                                <input type="text" class="amount" readonly style="border:0;font-weight:bold;">
+                            </p>
+                            <div class="slider-range"></div>
+                        </div>
 					</div>
 				</div>
 				
@@ -177,7 +202,7 @@
 			
 			<div class="items-wrap">
 				<div class="items-top">
-					<div class="item-classify"><a href="#"><span>首頁</span></a> / <a href="#"><span>DESIGNER</span></a> /
+					<div class="item-classify"><a href="index.html"><span>首頁</span></a> / <a href="#"><span>DESIGNER</span></a> /
 						<a href="#"><span>PRADA</span></a></div>
 					<div class="sort-wrap">
 						<div class="item-sort">
@@ -342,7 +367,7 @@
 			<div class="filter-box">
 				<div class="filter-title">排序方式</div>
 				<a class="reset-btn">全部清除</a></div>
-			
+
 			<!--品牌-->
 			<div class="filter-box filter-brand">
 				<div class="filter-title has-arrow"><a href="#">品牌</a>
@@ -372,7 +397,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<!--尺寸-->
 			<div class="filter-box filter-size">
 				<div class="filter-title has-arrow"><a href="#">尺寸</a>
@@ -422,14 +447,19 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<!--價錢-->
-			<div class="filter-box filter-price">
-				<div class="filter-title has-arrow"><a href="#">價錢</a>
-					<div class="filter-submenu"></div>
-				</div>
-			</div>
-			
+            <div class="filter-box filter-price">
+                <div class="filter-title has-arrow"><a href="#">價錢</a>
+                    <div class="filter-submenu">
+                        <p>
+                            <input type="text" class="amount" readonly style="border:0;font-weight:bold;">
+                        </p>
+                        <div class="slider-range"></div>
+                    </div>
+                </div>
+            </div>
+
 			<!--顏色-->
 			<div class="filter-box filter-color">
 				<div class="filter-title has-arrow"><a href="#">顏色</a>

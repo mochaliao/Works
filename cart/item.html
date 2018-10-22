@@ -1,18 +1,18 @@
 <!doctype html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<link rel="icon" href="img/85go-logo-m.png">
-	<title>85go</title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/master.css">
-	<link rel="stylesheet" href="css/font.css">
-	<link rel="stylesheet" href="css/nav.css">
-	<link rel="stylesheet" href="css/product-items.css">
-	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-	<script src="https://use.fontawesome.com/8dbb4cc43e.js"></script>
-	<script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="icon" href="img/85go-logo-m.png">
+    <title>85go</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/product-items.css">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://use.fontawesome.com/8dbb4cc43e.js"></script>
+    <script>
         //include html setting
         $(function () {
             var includes = $('[data-include]');
@@ -25,97 +25,170 @@
         $(window).bind("load", function () {
             $.getScript('js/mMenu.js');
         });
-	</script>
+    </script>
 </head>
+
 <body>
 <div class="wrapper">
-	<!--header-->
-	<div data-include="header"></div>
+    <!--header-->
+    <div data-include="header"></div>
 
-	<!--main-->
-	<main class="main-content">
-		<section class="container-narrow clearfix">
-			<!--breadcrumbs-->
-			<div class="item-classify item-bread"><a href="#"><span>首頁</span></a> / <a
-			href="#"><span>DESIGNER</span></a> /
-				<a href="product.html"><span>PRADA</span></a> / <a href="#"><span>短袖迷你裙，帶褶邊鑲條</span></a></div>
+    <!--main-->
+    <main class="main-content">
+        <section class="container-narrow clearfix">
+            <!--breadcrumbs-->
+            <div class="item-classify item-bread"><a href="index.html"><span>首頁</span></a> / <a
+                    href="#"><span>DESIGNER</span></a> /
+                <a href="product.html"><span>PRADA</span></a> / <a href="#"><span>短袖迷你裙，帶褶邊鑲條</span></a></div>
 
-			<!--item info-->
-			<div class="item-info-g container-narrow-s">
-				<!--photo-->
-				<div class="item-gallery"></div>
-				<!--info-->
-				<div class="item-info-wrap">
-					<ol class="item-info">
-						<li class="item-brand">PRADA</li>
-						<li class="item-info">短袖迷你裙，帶褶邊鑲條</li>
-						<li class="item-price">TWD 63.000,00
-							<p>保證最低價 TWD 63,000.00</p>
-						</li>
-						<li class="item-no">Item: P35M7GS1721PLU_F0002</li>
-						<li class="item-des">
-							<div>產品描述 <span>－</span></div>
-							<div>
-								53% 醋酸纖維, 47% 粘膠<br>
-								絲綢襯裡<br>
-								後領口處為帶鈕扣的孔眼式封口<br>
-								側面拉鍊<br>
-								貨號484797Y012W1000<br>
-								法國製造
-							</div>
-						</li>
-						<li class="item-size">
-							<div>尺寸說明 <span>＋</span></div>
-							<div>
-								s m l xl
-							</div>
-						</li>
-						<li class="item-choose">
-							<div>
-								顏色
-								<select>
-									<option value="0">選擇</option>
-									<option value="1">紅色</option>
-								</select>
-							</div>
-							<div>
-								尺寸
-								<select>
-									<option value="0">選擇</option>
-									<option value="1">UK14</option>
-								</select>
-							</div>
-						</li>
-						<li class="item-add-cart">
-							<button>加入購物車</button>
-						</li>
-						<li class="item-add-like"><a class="items-like"></a>加入收藏清單</li>
-					</ol>
-				</div>
+            <!--item info-->
+            <div class="item-info-g container-narrow-s">
+                <!--photo-->
+                <div class="item-gallery-wrap">
+                    <div class="item-gallery">
+                        <div class="item-slide-wrap">
+                            <div class="item-slide">
+                                <img src="img/items/1_712417-PRADA-Black-virgin-wool-blend-coat.jpg">
+                            </div>
 
-			</div>
+                            <div class="item-slide">
+                                <img src="img/items/1_712439-PRADA-Black-mikado-dress.jpg">
+                            </div>
+
+                            <div class="item-slide">
+                                <img src="img/items/1_712462-PRADA-Black-mikado-dress.jpg">
+                            </div>
+
+                            <div class="item-slide">
+                                <img src="img/items/1_712520-PRADA-Black-mikado-dress.jpg">
+                            </div>
+
+                            <a class="item-prev" onclick="plusSlides(-1)">❮</a>
+                            <a class="item-next" onclick="plusSlides(1)">❯</a>
+                        </div>
+
+                        <div class="row">
+                            <div>
+                                <img class="item-slide-side" src="img/items/1_712417-PRADA-Black-virgin-wool-blend-coat.jpg"
+                                     onclick="currentSlide(1)" alt="">
+                            </div>
+                            <div>
+                                <img class="item-slide-side" src="img/items/1_712439-PRADA-Black-mikado-dress.jpg"
+                                     onclick="currentSlide(2)" alt="">
+                            </div>
+                            <div>
+                                <img class="item-slide-side" src="img/items/1_712462-PRADA-Black-mikado-dress.jpg"
+                                     onclick="currentSlide(3)" alt="">
+                            </div>
+                            <div>
+                                <img class="item-slide-side" src="img/items/1_712520-PRADA-Black-mikado-dress.jpg"
+                                     onclick="currentSlide(4)" alt="">
+                            </div>
+
+                        </div>
+                    </div>
 
 
-			<!--history item-->
-			<div class="container-narrow-s">
-				<p>最近瀏覽</p>
-				<ol>
-					<li>
-						<span>2017秋冬新款氣質黑色大衣<br>TWD $30,500</span>
-					</li>
+                </div>
+                <!--info-->
+                <div class="item-info-wrap">
+                    <ol class="item-info">
+                        <li class="item-brand">PRADA</li>
+                        <li class="item-info">短袖迷你裙，帶褶邊鑲條</li>
+                        <li class="item-price">TWD 63.000,00
+                            <p class="mobile-hide">保證最低價 TWD 63,000.00</p>
+                        </li>
+                        <li class="item-no mobile-hide">Item: P35M7GS1721PLU_F0002</li>
+                        <li class="item-des">
+                            <div class="item-info-btn">產品描述<span></span></div>
+                            <div class="item-info-cnt">
+                                53% 醋酸纖維, 47% 粘膠<br>
+                                絲綢襯裡<br>
+                                後領口處為帶鈕扣的孔眼式封口<br>
+                                側面拉鍊<br>
+                                貨號484797Y012W1000 <br>
+                                法國製造
+                            </div>
+                        </li>
+                        <li class="item-size">
+                            <div class="item-info-btn">尺寸說明<span></span></div>
+                            <div class="item-info-cnt">
+                                s m l xl
+                            </div>
+                        </li>
+                        <li class="item-choose">
+                            <div>
+                                顏色
+                                <select>
+                                    <option value="0">選擇</option>
+                                    <option value="1">紅色</option>
+                                </select>
+                            </div>
+                            <div>
+                                尺寸
+                                <select>
+                                    <option value="0">選擇</option>
+                                    <option value="1">UK14</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li class="item-add-cart">
+                            <button>加入購物車</button>
+                        </li>
+                        <li class="item-add-like"><a class="items-like"></a>加入收藏清單</li>
+                    </ol>
+                </div>
 
-				</ol>
+            </div>
 
-			</div>
 
-		</section>
+            <!--history item-->
+            <div class="container-narrow-s item-history-wrap mobile-hide">
+                <p class="item-history-title">最近瀏覽</p>
+                <ol class="item-history">
+                    <li>
+                        <a href="#">
+                        <span>2017秋冬新款氣質黑色大衣<br>TWD $30,500</span>
+                        <img src="img/items/1_712417-PRADA-Black-virgin-wool-blend-coat.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <span>2017秋冬新款氣質黑色大衣<br>TWD $30,500</span>
+                        <img src="img/items/1_747487-013613730304_1.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <span>2017秋冬新款氣質黑色大衣<br>TWD $30,500</span>
+                        <img src="img/items/1_712520-PRADA-Black-mikado-dress.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <span>2017秋冬新款氣質黑色大衣<br>TWD $30,500</span>
+                        <img src="img/items/1_712568-PRADA-Black-mikado-dress.jpg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <span>2017秋冬新款氣質黑色大衣<br>TWD $30,500</span>
+                        <img src="img/items/1_747527-BLEHMAN-Black-suede-pumps.jpg">
+                        </a>
+                    </li>
 
-		<!--footer-->
-		<div data-include="footer"></div>
-	</main>
+                </ol>
 
-	<!--mobile nav-->
-	<div data-include="navMobile"></div>
+            </div>
+
+        </section>
+
+        <!--footer-->
+        <div data-include="footer"></div>
+    </main>
+
+    <!--mobile nav-->
+    <div data-include="navMobile"></div>
 
 
 </div>
@@ -150,7 +223,46 @@
         $('.items-like').click(function () {
             $(this).toggleClass('active');
         });
+        //商品資訊
+        $('.item-des .item-info-btn').click(function () {
+            $(this).toggleClass('open');
+            $(".item-des .item-info-cnt").slideToggle();
+        });
+        $('.item-size .item-info-btn').click(function () {
+            $(this).toggleClass('open');
+            $(".item-size .item-info-cnt").slideToggle();
+        });
     });
+</script>
+
+<!--item gallery-->
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("item-slide");
+        var dots = document.getElementsByClassName("item-slide-side");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+    }
 </script>
 </body>
 </html>
