@@ -1,3 +1,4 @@
+<<<<<<< HEAD:social/css/hot-post.css
 .hot-post-title {
 	width: 100%;
 	margin: 0px auto 0;
@@ -57,4 +58,65 @@
     display: inline-block;
     vertical-align: middle;
     height: 30px;}
+=======
+.hot-post-title {
+	width: 100%;
+	margin: 0px auto 0;
+	display: block;
+}
+.hot-post-title>h4 {
+    color: #f8b551;
+    margin: 0px 0 20px;
+    line-height: 36px;
+    border-bottom: 2px solid #f8b551;
+    width: 100%;
+    height: auto;
+}
+
+/*----左側----*/
+.h-tag-side {text-align:center;}
+.h-tag-side ul {margin:0;}
+.tag-hot-post {color:#f8b551;}
+.tag-hot-post span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;}
+.tag-hot-post li {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;}
+.tag-hot-post ul {display: inline-block;}
+
+.tag-hot-video {color:#f8b551;}
+.tag-hot-video span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;}
+.tag-hot-video li {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;}
+.tag-hot-video ul {display: inline-block;}
+
+.tag-events {color:#f8b551;}
+.tag-events span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;}
+.tag-events li {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;}
+.tag-events ul {display: inline-block;}
+
+.tag-clubs {color:#f8b551;}
+.tag-clubs span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;}
+.tag-clubs li {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;}
+>>>>>>> 819cbb7e1eae787fdecca07f5736914c6b47ddab:social/css/hot-post.css
 .tag-clubs ul {display: inline-block;}
