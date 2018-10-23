@@ -1,0 +1,144 @@
+/*.header-left, .header-middle, .header-right {padding:8px 0 0;}*/
+
+
+/* ------------------ Banner ------------------- */
+
+/*0402*/
+.videobanner {
+	height: 200px;
+	margin-top: 50px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.videobanner > img {
+	height: inherit;
+	position: absolute;
+	top: 0;
+	left: calc(50% - 1920px /2);
+	width: auto;
+}
+
+/*0402*/
+
+@media (max-width: 768px) {
+/*0402*/
+.videobanner {
+	margin-top: 80px;
+}
+/*0402*/
+.form-footer {
+	padding: 8px 0!important;
+	border-top: 1px solid #dcdcdc;
+	border-bottom: 1px solid #dcdcdc;
+	margin: 0 0 60px 0;
+}
+.form-footer-cnt-wrap li {
+	font-size: 13px!important;
+}
+}
+
+@media (max-width: 480px) {
+}
+.logo_left {
+	width: 10%;
+	margin: 0 20px 0 50px;
+	display: inline-flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.logo_left img {
+	width: auto;
+	height: auto;
+}
+.logo_right {
+	/*width:25%;0313*/ margin: 0 20px;
+	display: inline-flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	float: right;
+}
+
+/**0313 hide
+@media (max-width:1023px) {
+  .logo_left {display: none;}
+  .logo_right {display: none;}}**/
+@media (max-width:768px) {
+.logo_left {
+	margin: 0 30px 0 60px;
+}
+.logo_right {
+	margin: 0;
+}
+}
+
+@media (max-width:480px) {
+.logo_left {
+	margin: 0 20px 0 20px;
+}
+.logo_right {
+	width: 40%;
+	margin: 0;
+}
+}
+.banner-center {
+	margin: 0 auto 0 0px;
+	width: 65%;
+	display: inline-flex;
+	position: relative;
+}
+
+@media (max-width:1024px) {
+.banner-center {
+	width: 100%;
+}
+}
+/* ------------------------Masonry-------------------- */
+
+.row {
+	-moz-column-width: 18em;
+	-webkit-column-width: 18em;
+	-moz-column-gap: 1em;
+	-webkit-column-gap: 1em;
+}
+.item {
+	display: inline-block;
+	padding: .25rem;
+	width: 100%;
+}
+.well {
+	position: relative;
+	display: block;
+}
+.video-wall {
+	width: 80%;
+	max-width: 1049px;
+	margin: 10px auto 40px auto;
+}
+
+@media (max-width: 768px) {
+.video-wall {
+	margin: 10px auto -40px auto;
+}
+}
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	/*16:9是56.25%，4:3是75%*/
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+.video-container iframe, .video-container object, .video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+.video-title {
+	margin: 5px 0;
+}

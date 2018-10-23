@@ -1,0 +1,62 @@
+/*
+@font-face {
+	font-family: iamifont;
+	src: local(SourceHanSansCN),
+		 url(../fonts/SourceHanSansCN-Regular.otf) format("opentype"),
+		 url(../fonts/SourceHanSansCN-Normal.otf) format("opentype"),
+		 url(../fonts/SourceHanSansCN-Bold.otf) format("opentype");
+}*/
+
+/*font-size*/
+h1, h2, h3, h4, h5, h6, h7,
+.h1, .h2, .h3, .h4, .h5, .h6, .h7{
+	font-weight: 400;
+	font-family: "source-han-sans-traditional","Microsoft JhengHei",sans-serif;
+	letter-spacing: .05em;
+	margin: 0;
+	padding: 0;
+}
+h1, .h1{
+	font-size: 30px;
+}
+h2, .h2{
+	font-size: 24px;
+}
+h3, .h3{
+	font-size: 20px;
+}
+h4, .h4{
+	font-size: 18px;
+}
+h5, .h5{
+	font-size: 16px;
+}
+h6, .h6{
+	font-size: 14px;
+}
+h7, .h7{
+	font-size: 12px;
+}
+
+
+.colorf8b551{
+	color:#f8b551;
+}
+.color959595{
+	color:#959595;
+}
+.color313131{
+	color: #313131;
+}
+.colora0a0a0{
+	color: #a0a0a0;
+}
+
+/*20180328 add*/
+.font-bold{
+	font-weight: 700;
+}
+.font-normal{
+	font-weight: 400;
+}
+/*20180328****/

@@ -1,0 +1,76 @@
+/*content-wraper*/
+.wrapper, .container-middle, .container-mid-c, .container-narrow {
+	margin: 0 auto;
+}
+.wrapper {
+	width: 100%;
+}
+.container-wide {
+	width: 100%;
+	max-width: 1920px;
+}
+.container-mid-c {
+	width: 62.5%;
+	min-width: 1200px;
+}
+
+/*RWD*/
+@media screen and (max-width:1200px) {
+.container-mid-c {
+	width: 100%;
+	max-width: 1200px;
+	min-width: 320px;
+}
+}
+/*** ***/
+
+/*-------
+內頁框架
+---------*/
+
+/*single page * 3colums*/
+.ctn-wrap {
+	width: 100%;
+}
+.ctn-left, .ctn-middle, .ctn-right {
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+}
+.ctn-middle {
+	width: calc(55% - 20px);
+	min-width: 640px;
+	margin: 0 10px;
+}
+.ctn-middle:after{
+	content: "";
+	width: calc(55% - 20px);
+	min-width: 640px;
+	margin: 0 10px;
+}
+.ctn-left, .ctn-right {
+	width: 22.5%;
+	min-width: 270px;
+}
+
+/*RWD*/
+@media screen and (max-width:1200px) {
+.ctn-middle, .ctn-middle:after {
+	width: calc(100% - 540px - 20px);
+	max-width: 640px;
+	min-width: 320px;
+}
+}
+
+@media screen and (max-width:900px) {
+.ctn-middle, .ctn-middle:after {
+	width: 100%;
+	max-width: 900px;
+	margin: 0;
+	padding: 0 10px;
+}
+.ctn-left, .ctn-right {
+	display: none;
+}
+}
+/*** ***/

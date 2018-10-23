@@ -1,0 +1,131 @@
+html, body {
+	height: 100%
+}
+body {
+	margin: 0;
+}
+/* 去除設置div 高度100% 浏覽器右側產生滾動條 */ 
+.divfull {
+	height: 100%;
+}
+.fullbox {
+	height: 100%;
+	background: #000;
+	color: #fff;
+}
+.clearfix {
+	overflow: auto;
+}
+
+/*------------------------------------------*/
+
+.noticebox {
+	width: 34%;
+	min-width: 660px;
+	margin: 60px auto 0;
+	display: block;
+}
+.noticebox h4 {
+    color: #333;
+    margin: 50px 0 20px;
+    line-height: 36px;
+    border-bottom: 2px solid #f8b551;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+.noticebox {
+	width: 100%;
+	min-width: 100%;
+	padding: 0 10px;
+}
+.noticebox h4 {margin:0 0 20px;}
+
+}
+.notice-wrapper {
+	border-radius: 15px;
+	background: #fff;
+	border: 2px solid #eee;
+	overflow: hidden;
+	padding: 10px 10px 10px;
+	margin: 0 0 10px;
+}
+.notice-wrapper:hover {
+	border: 2px solid #f8b551;
+	transition: all .05s ease-in-out;
+}
+.notice-wrapper a {
+	font-weight: 800;
+	color: #333;
+}
+.wrapper-unread {
+	background: #fde8c8;
+}
+.notice-head img {
+	border-radius: 50px;
+	background-position: center;
+	background-repeat: repeat;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 0 15px 0 0;
+	overflow: auto;
+	border: 3px solid #fff;
+}
+.notice-txt {
+	width: calc(100% - 55px);
+    /*line-height: 1.4em;*/
+    margin: 5px 0 0 55px;
+    /*z-index: 1;
+    position: relative;
+    border: 0px dashed #000;*/	
+}
+.notice-time {
+	float: right;
+	margin: 3px 4px 0 0;
+	font-size: 12px;
+	color:#666;
+}
+.notice-icon {
+	margin: 5px 0 0 0;
+	z-index: 2;
+	position: relative;
+	bottom: 0;
+	border: 0px dashed #000;
+	float: right;
+    text-align: right;
+}
+.notice-head {
+	min-height: 50px;
+	display: block;
+	width: 50px;
+	float: left;
+}
+
+
+/* ----------------- icons --------------- */
+
+.page-icons {
+	float: right;
+	bottom: 0;
+	height: 25px;
+	width: 25px;
+	margin:-2px 0 0 0;
+}
+.icon-heart {
+	background: url(../img/svg_icon-15.svg) 80% center no-repeat;
+	background-size:25px;
+}
+.icon-star {
+	background: url(../img/svg_icon-12.svg) 80% center no-repeat;
+	background-size:25px;
+}
+.icon-share {
+	background: url(../img/svg_icon-04.svg) 80% center no-repeat;
+	background-size:25px;
+}
+.icon-reply {
+	background: url(../img/svg_icon-13.svg) 80% center no-repeat;
+	background-size:25px;
+}

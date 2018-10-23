@@ -1,0 +1,1694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9c880f8-2e3e-4374-92cb-f73a5b9f8e68" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/fullpage/resource/css/style.css" afterPath="$PROJECT_DIR$/fullpage/resource/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/cache/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/config/autoload.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/config/config.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/config/constants.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/config/database.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/config/doctypes.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/config/email.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/config/foreign_chars.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/config/hooks.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/config/memcached.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/config/migration.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/config/mimes.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/config/profiler.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/config/routes.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/config/smileys.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/config/user_agents.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Ajaxtest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Api.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Chat.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Chat_pop.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Chatroom.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Feedback.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Friend.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Hot.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Invite.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Inviter.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Jeff.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Jerry.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Label.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Language.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Like.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Live.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Member.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Money.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Notice.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Page.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Page_backup-20180523-01-40.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Picture.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Post.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Push.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Recaptcha.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/T.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Tags.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Test.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Trace.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/Welcome.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/controllers/chat_controller.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/core/MY_Security.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/core/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/helpers/common_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/helpers/member_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/hooks/LanguageLoader.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/hooks/PreLoader.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/english/common_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/english/db_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/english/email_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/english/form_validation_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/english/friend_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/english/invite_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/english/like_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/english/live_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/english/member_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/english/picture_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/english/post_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/english/trace_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/english/upload_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-CN/common_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-CN/db_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-CN/email_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-CN/form_validation_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-CN/friend_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-CN/invite_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-CN/like_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-CN/live_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-CN/member_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-CN/picture_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-CN/post_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-CN/trace_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-CN/upload_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-TW/common_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-TW/db_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-TW/email_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-TW/form_validation_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-TW/friend_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-TW/invite_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-TW/like_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-TW/live_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-TW/member_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-TW/picture_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-TW/post_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-TW/trace_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/language/zh-TW/upload_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/Bulloss.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/Mobile_detect.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/Recaptcha.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/ResizeImage.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/bull/Qiniu/Auth.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/bull/Qiniu/Cdn/CdnManager.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/bull/Qiniu/Config.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/bull/Qiniu/Etag.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/bull/Qiniu/Http/Client.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/bull/Qiniu/Http/Error.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/bull/Qiniu/Http/Request.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/bull/Qiniu/Http/Response.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/bull/Qiniu/Processing/ImageUrlBuilder.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/bull/Qiniu/Processing/Operation.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/bull/Qiniu/Processing/PersistentFop.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/bull/Qiniu/Storage/BucketManager.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/bull/Qiniu/Storage/FormUploader.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/bull/Qiniu/Storage/ResumeUploader.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/bull/Qiniu/Storage/UploadManager.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/bull/Qiniu/Zone.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/bull/Qiniu/functions.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/sensitive_word_txt/sensitive_all.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/sensitive_word_txt/sensitive_english.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/sensitive_word_txt/sensitive_zh-CN.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/sensitive_word_txt/sensitive_zh-TW.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/libraries/simple-php-captcha.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/logs/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/messages_20180206.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Chat_Model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Country_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Feedback_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Fivesec_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Friend_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Hot_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Invite_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Inviter_Model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Inviter_Model_20180206.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Label_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Language_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Like_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Live_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Lives_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Member_company_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Member_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Member_school_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Message_Model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Money_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Notice_Model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Notice_Model2.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Notice_Model_20180206.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Picture_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Post_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Tags_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/models/Trace_model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/Captcha/Captcha.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/Gmail.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/SECURITY.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/VERSION" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/get_oauth_token.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-am.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-ar.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-az.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-ba.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-be.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-bg.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-ca.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-ch.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-cs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-da.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-de.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-el.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-eo.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-es.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-et.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-fa.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-fi.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-fo.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-fr.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-gl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-he.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-hi.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-hr.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-hu.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-id.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-it.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-ja.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-ka.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-ko.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-lt.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-lv.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-ms.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-nb.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-nl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-pl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-pt.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-pt_br.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-ro.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-rs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-ru.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-sk.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-sl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-sv.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-tr.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-uk.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-vi.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-zh.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/language/phpmailer.lang-zh_cn.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/src/Exception.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/src/OAuth.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/src/PHPMailer.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/src/POP3.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/PHPMailer/src/SMTP.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/bull/Qiniu/Auth.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/bull/Qiniu/Cdn/CdnManager.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/bull/Qiniu/Config.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/bull/Qiniu/Etag.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/bull/Qiniu/Http/Client.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/bull/Qiniu/Http/Error.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/bull/Qiniu/Http/Request.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/bull/Qiniu/Http/Response.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/bull/Qiniu/Processing/ImageUrlBuilder.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/bull/Qiniu/Processing/Operation.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/bull/Qiniu/Processing/PersistentFop.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/bull/Qiniu/Storage/BucketManager.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/bull/Qiniu/Storage/FormUploader.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/bull/Qiniu/Storage/ResumeUploader.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/bull/Qiniu/Storage/UploadManager.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/bull/Qiniu/Zone.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/bull/Qiniu/autoload.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/bull/Qiniu/functions.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/pili-sdk/lib/Pili.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/pili-sdk/lib/Pili/Api.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/pili-sdk/lib/Pili/Config.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/pili-sdk/lib/Pili/Hub.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/pili-sdk/lib/Pili/Stream.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/pili-sdk/lib/Pili/Transport.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/pili-sdk/lib/Qiniu/Credentials.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/pili-sdk/lib/Qiniu/HttpRequest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/pili-sdk/lib/Qiniu/HttpResponse.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/pili-sdk/lib/Qiniu/Utils.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/qiniu/auth_digest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/qiniu/conf.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/qiniu/fop.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/qiniu/http.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/qiniu/io.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/qiniu/resumable_io.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/qiniu/rs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/qiniu/rs_utils.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/qiniu/rsf.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/third_party/qiniu/utils.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/404_view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/Captcha.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/ajaxtest.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/chat.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/errors/cli/error_404.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/errors/cli/error_db.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/errors/cli/error_exception.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/errors/cli/error_general.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/errors/cli/error_php.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/errors/cli/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/errors/html/error_404.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/errors/html/error_db.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/errors/html/error_exception.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/errors/html/error_general.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/errors/html/error_php.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/errors/html/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/errors/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/feedback.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/getpasswordfailed.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/hot_post.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/hot_video.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/includes/footer.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/includes/footer2.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/includes/getlanguage.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/includes/header.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/includes/header2.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/includes/header_20180207.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/includes/include-js.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/includes/include.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/includes/left_sidebar.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/includes/m_nav.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/includes/popup.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/includes/right_sidebar.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/includes/top.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/includes/top2.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/includes/top3.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/info_view-backup-20180523-01-41.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/info_view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/invite_notice_view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/live_view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/main_view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/media_view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/member_forget_view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/member_login_view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/member_policy_view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/message_notice_view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/message_view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/notice2_view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/push_client_view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/recaptcha.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/useless-hot-post.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/useless-hot-video.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/application/views/video_show2_view.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/TMP5MHYPQ.htm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/TMPKCK562.htm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/TMPSDLH7Y.htm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/ajaxFileUpload/jquery-1.6.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/ajaxFileUpload/jquery.ajaxfileupload.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/ajaxFileUpload/svg_icon-24.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/ajaxFileUpload/upload.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/ajaxFileUpload/uploads/cat.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/ajaxFileUpload/uploads/tzuyu.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/.gitattributes" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/CNAME" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/CONTRIBUTING.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/Gruntfile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/_config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/dist/css/bootstrap-theme.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/dist/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/dist/css/bootstrap.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/dist/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/dist/js/bootstrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/dist/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/dist/js/npm.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/grunt/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/grunt/bs-commonjs-generator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/grunt/bs-glyphicons-data-generator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/grunt/bs-lessdoc-parser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/grunt/bs-raw-files-generator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/grunt/configBridge.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/grunt/sauce_browsers.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/.jscsrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/affix.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/alert.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/button.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/collapse.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/dropdown.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/modal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/popover.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/scrollspy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tab.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/unit/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/unit/affix.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/unit/alert.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/unit/button.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/unit/carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/unit/collapse.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/unit/dropdown.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/unit/modal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/unit/phantom.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/unit/popover.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/unit/scrollspy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/unit/tab.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/unit/tooltip.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/vendor/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/vendor/qunit.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/vendor/qunit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/visual/affix.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/visual/alert.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/visual/button.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/visual/carousel.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/visual/collapse.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/visual/dropdown.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/visual/modal.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/visual/popover.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/visual/scrollspy.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/visual/tab.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tests/visual/tooltip.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/tooltip.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/js/transition.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/.csscomb.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/.csslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/alerts.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/badges.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/bootstrap.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/breadcrumbs.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/button-groups.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/buttons.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/carousel.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/close.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/code.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/component-animations.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/dropdowns.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/forms.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/glyphicons.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/grid.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/input-groups.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/jumbotron.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/labels.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/list-group.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/media.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/alerts.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/background-variant.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/border-radius.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/buttons.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/center-block.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/clearfix.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/forms.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/gradients.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/grid-framework.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/grid.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/hide-text.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/image.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/labels.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/list-group.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/nav-divider.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/nav-vertical-align.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/opacity.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/pagination.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/panels.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/progress-bar.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/reset-filter.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/resize.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/responsive-visibility.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/size.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/tab-focus.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/table-row.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/text-emphasis.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/text-overflow.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/mixins/vendor-prefixes.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/modals.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/navbar.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/navs.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/normalize.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/pager.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/pagination.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/panels.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/popovers.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/print.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/progress-bars.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/responsive-embed.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/responsive-utilities.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/scaffolding.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/tables.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/theme.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/thumbnails.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/tooltip.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/type.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/utilities.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/variables.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/less/wells.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/package.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/test-infra/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/test-infra/S3Cachefile.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/test-infra/npm-shrinkwrap.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/test-infra/requirements.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/test-infra/s3_cache.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/bootstrap-3.3.4/test-infra/uncached-npm-install.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/captcha/backgrounds/45-degree-fabric.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/captcha/backgrounds/cloth-alike.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/captcha/backgrounds/grey-sandbag.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/captcha/backgrounds/kinda-jean.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/captcha/backgrounds/polyester-lite.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/captcha/backgrounds/stitched-wool.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/captcha/backgrounds/white-carbon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/captcha/backgrounds/white-wave.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/captcha/fonts/times_new_yorker.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/ajaxFileUpload/jquery-1.6.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/ajaxFileUpload/jquery.ajaxfileupload.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/ajaxFileUpload/svg_icon-24.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/ajaxFileUpload/upload.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/ajaxFileUpload/uploads/cat.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/ajaxFileUpload/uploads/tzuyu.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/assets/royalslider/blank.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/assets/royalslider/grab.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/assets/royalslider/grabbing.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/assets/royalslider/jquery-1.8.3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/assets/royalslider/jquery.easing-1.3.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/assets/royalslider/jquery.royalslider.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/assets/royalslider/royalslider.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/assets/royalslider/skins/default-inverted/rs-default-inverted.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/assets/royalslider/skins/default-inverted/rs-default-inverted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/assets/royalslider/skins/default/rs-default.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/assets/royalslider/skins/default/rs-default.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/assets/royalslider/skins/minimal-white/rs-minimal-white.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/assets/royalslider/skins/minimal-white/rs-minimal-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/assets/royalslider/skins/preloaders/preloader-white.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/assets/royalslider/skins/preloaders/preloader.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/assets/royalslider/skins/universal/rs-universal.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/assets/royalslider/skins/universal/rs-universal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/common.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/control-group.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/dist/build.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/dist/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/form.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/gallery-page.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/glightbox.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/hot-post.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/hot-video.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/index-page.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/invite.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/live-show.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/live.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/master.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/media-page.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/message.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/notice.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/pgwslider.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/policy.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/popbox.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/reg-page.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/royalslider.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/rs-default.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/rs-default.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/self-page.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/setting.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/share.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/spotligt.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/style-m.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/theme.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/video-show.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/css/w3.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/5s-video-icon.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/add.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/ajax-loader.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/befriend-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/big-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/chat-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/checkbox-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/checkbox-arrow2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/cnt-items-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/cover.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/cross.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/friend-cover.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/friend2-cover.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/ga-pic_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/ga-pic_10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/ga-pic_11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/ga-pic_12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/ga-pic_13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/ga-pic_14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/ga-pic_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/ga-pic_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/ga-pic_4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/ga-pic_5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/ga-pic_6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/ga-pic_7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/ga-pic_8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/ga-pic_9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/gallery-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/gallery-plus-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/gift.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/head-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/head-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/header-icon-5sVideo-gold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/header-icon-5sVideo-white.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/iami-logo-header.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/iami-logo-header.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/iami-logo-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/iami-logo-login.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/iami-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/iami_logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/iami_slogan.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/icon-add.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/icon-detail-white.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/icon-eye.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/icon-heart.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/icon-live-gold-o.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/icon-live-gold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/icon-live-white.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/icon-mInfo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/icon-reply.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/icon-search-gold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/icon-search-gray.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/icon-search-white-b.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/icon-sharing.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/icon-star.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/img-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/img-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/img-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/img-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/img-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/img-6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/img-7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/img-8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/img-9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/login-header-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/login-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/medal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/media-add-btn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/media-arrow-l.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/media-arrow-r.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/media-delete-btn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/microphone.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/money-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/montreal-s.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/montreal.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/msg-setting.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/new-york-s.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/new-york.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/new_chat.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/new_chat_hover.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/other-page-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/paris-s.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/paris.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/pic-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/pic-10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/pic-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/pic-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/pic-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/pic-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/pic-6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/pic-7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/pic-8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/pic-9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/previews/home/animated-blocks.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/previews/home/content-slider.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/previews/home/deeplinking.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/previews/home/fullwidth.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/previews/home/gallery-fade.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/previews/home/gallery.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/previews/home/lightbox.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/previews/home/simple-vertical.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/previews/home/slider-in-laptop.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/previews/home/video-gallery.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/previews/home/visible-nearby.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/self-cover.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/self-groupm-addicon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/self-groupm-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/self-img-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/self-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/self-user-pic.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/shanghai-s.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/shanghai.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/show-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-01.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-02.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-03.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-04.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-05.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-06.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-07.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-08.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-09.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-10.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-11.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-12.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-13.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-14.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-15.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-16.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-17.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-18.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-19.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-20.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-21.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-22.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-23.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-24.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-25.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-26.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-27.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-28.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-29.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-30.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-31.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-32.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-33.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-35.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-36.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-37.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-38.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-39.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-40.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-41.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-42.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-43.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-44.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-45.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-46.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-47.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-48.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-49.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-50.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-51.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-52.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-53.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-54.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-55.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-56.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-57.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-58.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-59.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-60.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-61.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-62.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-63.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-64.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-65.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-66.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-67.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-68.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-69.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/svg_icon-70.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/tab-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/tab-bg2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/tab-bg3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/tab_bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/talk01.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/talk02.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/tool-icon-g.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/tool-icon-g.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/triangle-gal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/triangle.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/upload.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/upload.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/user-gallery.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/user-info-bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/user-pic.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/userpic-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/userpic-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/userpic-self.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/video-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/video-preview.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/videodemo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/videodemo01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/videodemo02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/videodemo03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/img/views.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/bootstrap.3.3.6.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/codemirror.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/colorbox/colorbox.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/colorbox/images/border.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/colorbox/images/border1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/colorbox/images/border2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/colorbox/images/controls.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/colorbox/images/loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/colorbox/images/loading_background.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/colorbox/jquery.colorbox-min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/glightbox.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/jquery-1.8.3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/jquery.1.11.0.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/jquery.royalslider.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/mMenu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/modernizr-custom.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/pgwslider.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/site.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/chat/js/textarea-resize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/chat.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/color.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/common.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/control-group.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/default.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/dist/build.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/dist/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/draw.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/form.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/gallery-page.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/glightbox.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/grab.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/hot-post.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/hot-video.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/index-page.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/invite.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/live-show.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/live.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/master.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/media-page.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/message.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/new_define.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/notice.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/pgwslider.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/policy.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/popbox.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/reg-page.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/royalslider.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/rs-default.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/rs-default.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/self-page.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/setting.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/share.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/slide-to-submit.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/spotligt.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/style-gold.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/style-m.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/style-purple.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/theme.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/video-show.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/css/w3.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/fonts/SourceHanSansCN-Bold.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/fonts/SourceHanSansCN-Normal.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/fonts/SourceHanSansCN-Regular.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/friend.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/friend2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/5s-video-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/5s-video-icon.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/add.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/ajax-loader.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/assn01.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/assn02.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/assn03.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/assn04.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/assn05.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/assn06.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/assn07.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/assn09.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/assn_bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/banner-5s-m.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/banner-5s.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/banner-mama-ver1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/befriend-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/big-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/chat-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/checkbox-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/checkbox-arrow2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/cnt-items-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/cover.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/cross.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/default.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/default_movie.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/flyout-pic.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/friend-cover.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/friend2-cover.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/ga-pic_1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/ga-pic_10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/ga-pic_11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/ga-pic_12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/ga-pic_13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/ga-pic_14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/ga-pic_2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/ga-pic_3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/ga-pic_4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/ga-pic_5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/ga-pic_6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/ga-pic_7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/ga-pic_8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/ga-pic_9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/gallery-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/gallery-plus-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/gift.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/head-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/head-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/header-icon-5sVideo-gold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/header-icon-5sVideo-white.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/header-icon.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/iami-logo-header.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/iami-logo-header.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/iami-logo-icon-sh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/iami-logo-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/iami-logo-login.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/iami-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/iami_logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/iami_slogan.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/icon-add.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/icon-detail-white.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/icon-eye.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/icon-heart.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/icon-live-gold-o.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/icon-live-gold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/icon-live-white.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/icon-mInfo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/icon-reply.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/icon-search-gold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/icon-search-gray.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/icon-search-white-b.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/icon-sharing.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/icon-star.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/icon_part2-01.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/icon_part2-06.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/img-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/img-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/img-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/img-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/img-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/img-6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/img-7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/img-8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/img-9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/items-delete-btn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/live-btn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/login-header-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/login-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/login-subtitle-tw.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/medal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/media-add-btn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/media-arrow-l.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/media-arrow-l.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/media-arrow-r.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/media-arrow-r.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/media-delete-btn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/microphone.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/minPic.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/money-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/montreal-s.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/montreal.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/msg-setting.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/new-york-s.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/new-york.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/new_chat.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/new_chat_hover.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/other-page-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/paris-s.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/paris.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/pic-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/pic-10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/pic-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/pic-3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/pic-4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/pic-5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/pic-6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/pic-7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/pic-8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/pic-9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/previews/home/animated-blocks.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/previews/home/content-slider.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/previews/home/deeplinking.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/previews/home/fullwidth.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/previews/home/gallery-fade.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/previews/home/gallery.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/previews/home/lightbox.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/previews/home/simple-vertical.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/previews/home/slider-in-laptop.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/previews/home/video-gallery.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/previews/home/visible-nearby.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/self-cover.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/self-groupm-addicon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/self-groupm-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/self-img-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/self-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/self-user-pic.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/shanghai-s.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/shanghai.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/show-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/smile.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-01.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-02.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-03.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-04.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-05.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-06.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-07.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-08.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-09.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-10.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-11.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-12.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-13.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-14.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-15.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-16.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-17.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-18.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-19.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-20.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-21.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-22.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-23.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-24.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-25.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-26.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-27.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-28.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-29.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-30.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-31.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-32.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-33.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-35.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-36.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-37.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-38-w.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-38.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-39.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-40.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-41.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-42.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-43.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-44.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-45.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-46.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-47.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-48.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-49.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-50.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-51.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-52.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-53.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-54-dis.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-54.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-55.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-56.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-57.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-58.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-59.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-60.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-61.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-62.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-63.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-64-dis.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-64.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-65.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-66.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-67.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-68.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-69.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-70.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-71.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-72.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-73.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-74.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-75.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-76-dis.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-76.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-77.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-78.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-79.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-80-dis.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/svg_icon-80.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/tab-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/tab-bg2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/tab-bg3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/tab_bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/tag-label-ar.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/talk01.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/talk02.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/triangle-gal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/triangle.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/upload.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/upload.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/user-gallery.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/user-info-bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/user-pic.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/userpic-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/userpic-2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/userpic-self.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/video-1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/video-preview.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/videodemo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/videodemo01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/videodemo02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/videodemo03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/img/views.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/info.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/invite.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/AUTHORS.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/external/jquery/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-af.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-ar-DZ.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-ar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-az.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-be.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-bg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-bs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-cs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-cy-GB.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-da.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-de.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-el.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-en-AU.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-en-GB.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-en-NZ.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-eo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-es.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-et.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-eu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-fa.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-fi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-fo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-fr-CA.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-fr-CH.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-fr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-gl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-he.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-hi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-hr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-hu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-hy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-id.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-is.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-it-CH.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-it.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-ja.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-ka.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-kk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-km.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-ko.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-ky.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-lb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-lt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-lv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-mk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-ml.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-ms.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-nb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-nl-BE.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-nl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-nn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-no.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-pl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-pt-BR.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-pt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-rm.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-ro.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-ru.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-sk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-sl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-sq.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-sr-SR.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-sr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-sv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-ta.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-th.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-tj.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-tr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-uk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-vi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-zh-CN.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-zh-HK.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/i18n/datepicker-zh-TW.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-bg_diagonals-medium_20_d34d17_40x40.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-bg_gloss-wave_45_817865_500x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-bg_gloss-wave_60_fece2f_500x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-bg_gloss-wave_70_ffdd57_500x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-bg_gloss-wave_90_fff9e5_500x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-bg_highlight-soft_100_feeebd_1x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-bg_inset-soft_30_ffffff_1x100.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-icons_3d3d3d_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-icons_444444_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-icons_555555_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-icons_777620_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-icons_777777_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-icons_bd7b00_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-icons_d19405_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-icons_e60000_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-icons_eb990f_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-icons_ed9f26_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-icons_fadc7a_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-icons_ffe180_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/images/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/jquery-ui.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/jquery-ui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/jquery-ui.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/jquery-ui.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/jquery-ui.structure.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/jquery-ui.structure.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/jquery-ui.theme.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/jquery-ui.theme.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/jquery-ui-1.12.1/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/8dbb4cc43e.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/at/jquery.atwho.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/at/jquery.atwho.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/at/jquery.caret.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/beforecommon.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/bootstrap.3.3.6.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/chplayer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/chplayer.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/chplayer.swf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/codemirror.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/colorbox/colorbox.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/colorbox/images/border.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/colorbox/images/border1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/colorbox/images/border2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/colorbox/images/controls.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/colorbox/images/loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/colorbox/images/loading_background.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/colorbox/images/svg_icon-38.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/colorbox/jquery.colorbox-min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/column_fixed.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/common.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/fileupload/jquery.fileupload-angular.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/fileupload/jquery.fileupload-audio.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/fileupload/jquery.fileupload-image.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/fileupload/jquery.fileupload-jquery-ui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/fileupload/jquery.fileupload-process.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/fileupload/jquery.fileupload-ui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/fileupload/jquery.fileupload-validate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/fileupload/jquery.fileupload-video.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/fileupload/jquery.fileupload.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/fileupload/jquery.iframe-transport.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/fileupload/vendor/jquery.ui.widget.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/glightbox.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/henry_common.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/include.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/jquery-1.11.0.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/jquery-1.8.3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/jquery-1.9.1.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/jquery-3.3.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/jquery.1.11.0.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/jquery.caret.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/jquery.cookie.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/jquery.media.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/jquery.mousewheel.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/jquery.royalslider.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/jquery.ui.touch-punch.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/mMenu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/modernizr-custom.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/nailthumb/jquery.nailthumb.1.1.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/nailthumb/jquery.nailthumb.1.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/pgwslider.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/sfs2zji.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/site.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/slide-to-submit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/socket.io.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/textarea-resize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/js/wei_common.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/live.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/media.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/message-nopopup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/message.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/notice.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/policy.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/pop-info.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/reg.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/royalslider/blank.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/royalslider/grab.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/royalslider/grabbing.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/royalslider/jquery-1.8.3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/royalslider/jquery.easing-1.3.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/royalslider/jquery.royalslider.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/royalslider/royalslider.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/royalslider/skins/default-inverted/rs-default-inverted.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/royalslider/skins/default-inverted/rs-default-inverted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/royalslider/skins/default/rs-default.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/royalslider/skins/default/rs-default.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/royalslider/skins/minimal-white/rs-minimal-white.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/royalslider/skins/minimal-white/rs-minimal-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/royalslider/skins/preloaders/preloader-white.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/royalslider/skins/preloaders/preloader.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/royalslider/skins/universal/rs-universal.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/royalslider/skins/universal/rs-universal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/assets/video-show.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/index.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/license.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/Benchmark.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/CodeIgniter.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/Common.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/Config.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/Controller.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/Exceptions.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/Hooks.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/Input.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/Lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/Loader.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/Log.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/Model.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/Output.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/Router.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/Security.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/URI.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/Utf8.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/compat/hash.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/compat/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/compat/mbstring.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/compat/password.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/compat/standard.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/core/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/DB.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/DB_cache.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/DB_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/DB_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/DB_query_builder.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/DB_result.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/DB_utility.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/cubrid/cubrid_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/cubrid/cubrid_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/cubrid/cubrid_result.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/cubrid/cubrid_utility.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/cubrid/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/ibase/ibase_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/ibase/ibase_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/ibase/ibase_result.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/ibase/ibase_utility.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/ibase/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/mssql/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/mssql/mssql_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/mssql/mssql_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/mssql/mssql_result.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/mssql/mssql_utility.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/mysql/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/mysql/mysql_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/mysql/mysql_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/mysql/mysql_result.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/mysql/mysql_utility.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/mysqli/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/mysqli/mysqli_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/mysqli/mysqli_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/mysqli/mysqli_result.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/mysqli/mysqli_utility.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/oci8/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/oci8/oci8_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/oci8/oci8_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/oci8/oci8_result.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/oci8/oci8_utility.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/odbc/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/odbc/odbc_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/odbc/odbc_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/odbc/odbc_result.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/odbc/odbc_utility.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/pdo_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/pdo_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/pdo_result.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/pdo_utility.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_4d_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_4d_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_cubrid_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_cubrid_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_dblib_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_dblib_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_firebird_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_firebird_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_ibm_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_ibm_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_informix_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_informix_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_mysql_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_mysql_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_oci_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_oci_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_odbc_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_odbc_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_pgsql_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_pgsql_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_sqlite_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_sqlite_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_sqlsrv_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/pdo/subdrivers/pdo_sqlsrv_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/postgre/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/postgre/postgre_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/postgre/postgre_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/postgre/postgre_result.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/postgre/postgre_utility.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/sqlite/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/sqlite/sqlite_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/sqlite/sqlite_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/sqlite/sqlite_result.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/sqlite/sqlite_utility.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/sqlite3/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/sqlite3/sqlite3_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/sqlite3/sqlite3_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/sqlite3/sqlite3_result.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/sqlite3/sqlite3_utility.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/sqlsrv/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/sqlsrv/sqlsrv_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/sqlsrv/sqlsrv_forge.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/sqlsrv/sqlsrv_result.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/drivers/sqlsrv/sqlsrv_utility.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/database/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/fonts/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/fonts/texb.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/array_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/captcha_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/cookie_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/date_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/directory_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/download_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/email_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/file_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/form_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/html_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/inflector_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/language_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/number_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/path_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/security_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/smiley_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/string_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/text_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/typography_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/url_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/helpers/xml_helper.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/language/english/calendar_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/language/english/date_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/language/english/db_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/language/english/email_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/language/english/form_validation_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/language/english/ftp_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/language/english/imglib_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/language/english/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/language/english/migration_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/language/english/number_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/language/english/pagination_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/language/english/profiler_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/language/english/unit_test_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/language/english/upload_lang.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/language/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Cache/Cache.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Cache/drivers/Cache_apc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Cache/drivers/Cache_dummy.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Cache/drivers/Cache_file.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Cache/drivers/Cache_memcached.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Cache/drivers/Cache_redis.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Cache/drivers/Cache_wincache.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Cache/drivers/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Cache/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Calendar.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Cart.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Email.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Encrypt.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Encryption.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Form_validation.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Ftp.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Image_lib.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Javascript.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Javascript/Jquery.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Javascript/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Migration.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Pagination.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Parser.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Profiler.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Session/Session.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Session/SessionHandlerInterface.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Session/Session_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Session/drivers/Session_database_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Session/drivers/Session_files_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Session/drivers/Session_memcached_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Session/drivers/Session_redis_driver.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Session/drivers/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Session/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Trackback.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Typography.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Unit_test.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Upload.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/User_agent.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Xmlrpc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Xmlrpcs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/Zip.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/system/libraries/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/temp/10x10/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/social/iami/temp/70p/.gitkeep" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cart/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="813" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cart" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="website" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9c880f8-2e3e-4374-92cb-f73a5b9f8e68" name="Default" comment="" />
+      <created>1540275724907</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540275724907</updated>
+      <workItem from="1540275726011" duration="2274000" />
+      <workItem from="1540286950165" duration="157000" />
+      <workItem from="1540293435050" duration="224000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2655000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="813" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cart/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
