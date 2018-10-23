@@ -1,0 +1,1264 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0; user-scalable=0;">
+  <link rel="icon" href="img/iami-logo-icon.png">
+  <title>I am I</title>
+  <!--20180201-->
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/self-page.css">
+  <link rel="stylesheet" href="css/message.css">
+  <link rel="stylesheet" href="css/share.css">
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="css/dist/build.css" />
+  <link rel="stylesheet" href="css/dist/font-awesome.css" />
+  <!-- 一起聊天的tick用 -->
+  <style>
+  html,
+  body {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+      overflow-y: hidden;
+  }
+  </style>
+  <!--****20180201****-->
+</head>
+
+<body>
+  <div class="wrapper">
+    <!--20180312 add-->
+    <!--fixMenu-->
+    <div class="fixMenu">
+      <ul class="fixMenu-cnt">
+        <li>
+          <a href="index.html">
+            <div class="index"><img src="img/svg_icon-44.svg"></div>
+            <h7>首頁</h7>
+          </a>
+        </li>
+        <li>
+          <a href="invite.html">
+            <div class="bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <div><img src="img/svg_icon-03.svg"></div>
+            <h7>邀請</h7>
+          </a>
+        </li>
+        <li>
+          <a href="notice.html">
+            <div class="bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <div><img src="img/svg_icon-07.svg"></div>
+            <h7>通知</h7>
+          </a>
+        </li>
+        <li>
+          <a href="message.html">
+            <div class="bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <div><img src="img/svg_icon-06.svg"></div>
+            <h7>訊息</h7>
+          </a>
+        </li>
+        <li>
+          <a href="info.html">
+            <div> <img class="self-pic-m" src="img/userpic-self.jpg"> </div>
+            <h7>主頁</h7>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!--header-m-->
+    <div class="header-m">
+      <div class="header-container-m clearfix">
+        <!--header-left-->
+        <div class="header-left-m"> <a href="#" class="live-icon-m"><img src="img/icon-live-white.svg"></a> <a href="video-show.html" class="video-icon-m"><img src="img/header-icon-5sVideo-white.svg"></a> </div>
+        <!--header-middle-->
+        <div class="header-middle-m"> <a href="index.html" class="header-logo-m"><img src="img/iami-logo-login.svg"></a> </div>
+        <!--header-right-->
+        <div class="header-right-m"> <a class="search"><img src="img/icon-search-white-b.svg"></a>
+          <!--mobile-ham-btn-->
+          <div class="m-header-menu mobile"><a id="menu-trigger" href="#"><span class="menu-icon"></span></a></div>
+        </div>
+      </div>
+      <div class="m-search-area"> <a class="m-search-btn"></a>
+        <input type="text" placeholder="在iami搜尋">
+      </div>
+    </div>
+    <!--subHeader-m-->
+    <div class="subHeader-m">
+      <ul>
+        <li><a href="hot-post.html" class="active">熱門話題</a></li>
+        <li><a href="hot-video.html">熱門視頻</a></li>
+        <li><a href="#">abcde</a></li>
+        <li><a href="#">123456</a></li>
+        <li><a href="#">淒淒魯加巧克力</a></li>
+        <li><a href="#">熱門時段</a></li>
+        <li><a href="#">bbbbbb</a></li>
+        <li><a href="#">yyyyyy</a></li>
+      </ul>
+    </div>
+    <!--20180312 *****-->
+    <div class="header">
+      <div class="container-wide">
+        <div class="dec-line"></div>
+        <div class="header-container clearfix">
+          <!--header-left-->
+          <div class="header-left">
+            <div class="header-logo"><a href="index.html"><img alt="" src="img/iami-logo-header.png"></a></div>
+            <!--20180312 modify-->
+            <div class="video-ac-area"><a href="video-show.html"><span class="video-icon"><img src="img/5s-video-icon.svg"></span><span class="video-txt">5秒秀自己</span></a></div>
+            <div class="video-ac-area header-hot"><a href="hot-video.html"><span class="video-icon"><img src="img/svg_icon-70.svg"></span><span class="video-txt">熱門視頻</span></a></div>
+            <div class="video-ac-area header-hot"><a href="hot-post.html"><span class="video-icon"><img src="img/svg_icon-67.svg"></span><span class="video-txt">熱門貼文</span></a></div>
+            <!--****-->
+          </div>
+          <!--header-middle-->
+          <div class="header-middle">
+            <!--20180201 modify-->
+            <div class="header-search"> <a></a>
+              <input type="text" placeholder="在iami搜尋">
+            </div>
+            <!--20180201****-->
+          </div>
+          <!--header-right-->
+          <div class="header-right">
+            <ul class="header-icon-g">
+              <li>
+                <div class="bubble-wrap">
+                  <p class="bubble-txt"><span>99+</span></p>
+                </div>
+                <a href="#">
+                  <div class="invite"><span>邀請</span></div>
+                </a>
+              </li>
+              <li>
+                <div class="bubble-wrap">
+                  <p class="bubble-txt"><span>99+</span></p>
+                </div>
+                <a href="#">
+                  <div class="notify"><span>通知</span></div>
+                </a>
+              </li>
+              <li>
+                <div class="bubble-wrap">
+                  <p class="bubble-txt"><span>99+</span></p>
+                </div>
+                <a href="#">
+                  <div class="message"><span>訊息</span></div>
+                </a>
+              </li>
+            </ul>
+            <ul class="self-dropdown">
+              <li class="self-dropdown-img"><img src="img/userpic-self.jpg"></li>
+              <!--20180227 delete--->
+            </ul>
+            <!--mobile-ham-btn-->
+            <div class="m-header-menu"><a id="menu-trigger" href="#0"><span class="menu-icon"></span></a></div>
+            <!--交友邀請-->
+            <div class="flyout-box" id="invite">
+              <div class="flyout-triangle"> <span class="bot"></span> <span class="top"></span> </div>
+              <div class="flyout-cnt-wrap">
+                <ul>
+                  <!--ppl-no1-->
+                  <li>
+                    <div class="flyout-btn"><a href="#" class="f-check-btn">確認</a><a href="#" class="f-delete-btn">刪除</a></div>
+                    <div class="flyout-cnt">
+                      <a href="#">
+                        <div class="user-pic-s"><img src="img/ga-pic_1.jpg"></div>
+                        <div class="pic-s-info">
+                          <h5>普惠小姐</h5>
+                          <!--20180302--><span class="icon-s award"></span>
+                          <!--20180302 end--><span class="lev-btn">Lv.1</span> </div>
+                      </a>
+                    </div>
+                  </li>
+                  <!--ppl-no2-->
+                  <li>
+                    <div class="flyout-btn"><a href="#" class="f-check-btn">確認</a><a href="#" class="f-delete-btn">刪除</a></div>
+                    <div class="flyout-cnt">
+                      <a href="#">
+                        <div class="user-pic-s"><img src="img/ga-pic_6.jpg"></div>
+                        <div class="pic-s-info">
+                          <h5>二二二二二二二二二二 Wakin Chau</h5>
+                          <!--20180302--><span class="icon-s award"></span>
+                          <!--20180302 end--><span class="lev-btn">Lv.1</span> </div>
+                      </a>
+                    </div>
+                  </li>
+                  <!--ppl-no3-->
+                  <li>
+                    <div class="flyout-btn"><a href="#" class="f-check-btn">確認</a><a href="#" class="f-delete-btn">刪除</a></div>
+                    <div class="flyout-cnt">
+                      <a href="#">
+                        <div class="user-pic-s"><img src="img/ga-pic_14.jpg"></div>
+                        <div class="pic-s-info">
+                          <h5>吳宗憲 Jacky chen</h5>
+                          <!--20180302--><span class="icon-s award"></span>
+                          <!--20180302 end--><span class="lev-btn">Lv.1</span> </div>
+                      </a>
+                    </div>
+                  </li>
+                  <!--ppl-no4-->
+                  <li>
+                    <div class="flyout-btn"><a href="#" class="f-check-btn">確認</a><a href="#" class="f-delete-btn">刪除</a></div>
+                    <div class="flyout-cnt">
+                      <a href="#">
+                        <div class="user-pic-s"><img src="img/ga-pic_8.jpg"></div>
+                        <div class="pic-s-info">
+                          <h5>喬妹</h5>
+                          <!--20180302--><span class="icon-s award"></span>
+                          <!--20180302 end--><span class="lev-btn">Lv.1</span> </div>
+                      </a>
+                    </div>
+                  </li>
+                  <!--ppl-no3-->
+                  <li>
+                    <div class="flyout-btn"><a href="#" class="f-check-btn">確認</a><a href="#" class="f-delete-btn">刪除</a></div>
+                    <div class="flyout-cnt">
+                      <a href="#">
+                        <div class="user-pic-s"><img src="img/ga-pic_11.jpg"></div>
+                        <div class="pic-s-info">
+                          <h5>IU</h5>
+                          <!--20180302--><span class="icon-s award"></span>
+                          <!--20180302 end--><span class="lev-btn">Lv.1</span> </div>
+                      </a>
+                    </div>
+                  </li>
+                  <!--ppl-no4-->
+                  <li>
+                    <div class="flyout-btn"><a href="#" class="f-check-btn">確認</a><a href="#" class="f-delete-btn">刪除</a></div>
+                    <div class="flyout-cnt">
+                      <a href="#">
+                        <div class="user-pic-s"><img src="img/ga-pic_12.jpg"></div>
+                        <div class="pic-s-info">
+                          <h5>Jessica</h5>
+                          <!--20180302--><span class="icon-s award"></span>
+                          <!--20180302 end--><span class="lev-btn">Lv.1</span> </div>
+                      </a>
+                    </div>
+                  </li>
+                  <!--ppl-no5-->
+                  <li>
+                    <div class="flyout-btn"><a href="#" class="f-check-btn">確認</a><a href="#" class="f-delete-btn">刪除</a></div>
+                    <div class="flyout-cnt">
+                      <a href="#">
+                        <div class="user-pic-s"><img src="img/ga-pic_13.jpg"></div>
+                        <div class="pic-s-info">
+                          <h5>蚱蜢王</h5>
+                          <!--20180302--><span class="icon-s award"></span>
+                          <!--20180302 end--><span class="lev-btn">Lv.1</span> </div>
+                      </a>
+                    </div>
+                  </li>
+                  <!--ppl-no6-->
+                  <li>
+                    <div class="flyout-btn"><a href="#" class="f-check-btn">確認</a><a href="#" class="f-delete-btn">刪除</a></div>
+                    <div class="flyout-cnt">
+                      <a href="#">
+                        <div class="user-pic-s"><img src="img/ga-pic_10.jpg"></div>
+                        <div class="pic-s-info">
+                          <h5>GD</h5>
+                          <!--20180302--><span class="icon-s award"></span>
+                          <!--20180302 end--><span class="lev-btn">Lv.1</span> </div>
+                      </a>
+                    </div>
+                  </li>
+                  <!--ppl-no7-->
+                  <li>
+                    <div class="flyout-btn"><a href="#" class="f-check-btn">確認</a><a href="#" class="f-delete-btn">刪除</a></div>
+                    <div class="flyout-cnt">
+                      <a href="#">
+                        <div class="user-pic-s"><img src="img/ga-pic_7.jpg"></div>
+                        <div class="pic-s-info">
+                          <h5>蕭敬騰</h5>
+                          <!--20180302--><span class="icon-s award"></span>
+                          <!--20180302 end--><span class="lev-btn">Lv.1</span> </div>
+                      </a>
+                    </div>
+                  </li>
+                  <!--ppl-no8-->
+                  <li>
+                    <div class="flyout-btn"><a href="#" class="f-check-btn">確認</a><a href="#" class="f-delete-btn">刪除</a></div>
+                    <div class="flyout-cnt">
+                      <a href="#">
+                        <div class="user-pic-s"><img src="img/self-img.jpg"></div>
+                        <div class="pic-s-info">
+                          <h5>霹靂可愛萌萌噠</h5>
+                          <!--20180302--><span class="icon-s award"></span>
+                          <!--20180302 end--><span class="lev-btn">Lv.1</span> </div>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <h6><a href="invite.html">顯示全部</a></h6>
+            </div>
+            <!--通知-->
+            <div class="flyout-box" id="notify">
+              <div class="flyout-triangle"> <span class="bot"></span> <span class="top"></span> </div>
+              <div class="flyout-cnt-wrap">
+                <ul>
+                  <!--ppl-no1 未讀狀態-->
+                  <li>
+                    <div class="flyout-dot"><a></a></div>
+                    <div class="flyout-cnt">
+                      <a href="#">
+                        <div class="user-pic-s"><img src="img/ga-pic_6.jpg"></div>
+                        <div class="pic-s-info">
+                          <h5>二二二二二二二二二二 Wakin Chau</h5>
+                          <h6 class="f-group-cnt">在你的貼文中留言。</h6>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <!--ppl-no2 已讀狀態-->
+                  <li>
+                    <div class="flyout-cnt">
+                      <a href="#">
+                        <div class="user-pic-s"><img src="img/ga-pic_6.jpg"></div>
+                        <div class="pic-s-info">
+                          <h5>二二二二二二二二二二 Wakin Chau</h5>
+                          <h6 class="f-group-cnt">喜歡你的貼文。</h6>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <h6><a href="notice.html">顯示全部</a></h6>
+            </div>
+            <!--訊息通知-->
+            <div class="flyout-box" id="message">
+              <div class="flyout-triangle"> <span class="bot"></span> <span class="top"></span> </div>
+              <div class="flyout-cnt-wrap">
+                <ul>
+                  <!--ppl-no1 未讀狀態-->
+                  <li>
+                    <div class="flyout-dot"><a></a></div>
+                    <div class="flyout-cnt">
+                      <a href="#">
+                        <div class="user-pic-s"><img src="img/ga-pic_6.jpg"></div>
+                        <div class="pic-s-info">
+                          <a href="#" id="addClass">
+                            <h5>二二二二二二二二二二 Wakin Chau</h5>
+                            <h6 class="f-group-cnt">HIHI</h6>
+                          </a>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <!--ppl-no2 已讀狀態-->
+                  <li>
+                    <div class="flyout-cnt">
+                      <a href="#">
+                        <div class="user-pic-s"><img src="img/ga-pic_6.jpg"></div>
+                        <div class="pic-s-info">
+                          <h5>二二二二二二二二二二 Wakin Chau</h5>
+                          <h6 class="f-group-cnt">HIHI</h6>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <h6><a href="message.html">顯示全部</a></h6>
+            </div>
+            <!--self-dropdown-內容-->
+            <div class="flyout-box" id="dropdown">
+              <div class="flyout-triangle"> <span class="bot"></span> <span class="top"></span> </div>
+              <div class="flyout-drop-cnt">
+                <ul>
+                  <!--20180302-->
+                  <li class="self-dropdown-cnt">
+                    <a href="#">
+                      <h5>周子瑜12345678901234</h5>
+                    </a>
+                  </li>
+                  <!--*****-->
+                  <li><a href="media.html">我的媒體(相片、影片)</a></li>
+                  <li><a href="message.html">我的訊息(聊天室)</a></li>
+                  <li><a href="info.html">我的好友</a></li>
+                  <li><a href="info.html">我的收藏</a></li>
+                  <li><a href="info">基本資料編輯</a></li>
+                  <li><a class="modify-ps">密碼修改</a></li>
+                  <li><a href="policy.html">隱私權聲明</a></li>
+                  <li><a href="policy.html">使用條款</a></li>
+                </ul>
+                <a class="logout-btn" href="reg.html">登出</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--****-->
+    <!--0323 Side Content-->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <!--side content start-->
+      <div class="chat-left-side-box mobileside">
+        <h3 class="msg-title" style="float:left">Message</h3>
+        <div style="display:block;float:right">
+          <!--popup new chat-->
+          <button class="btn openModal triggerbtn" value="mobile" ></button><!--0329 modal button for mobile-->
+          <!--找人聊天按鈕-->
+        </div>
+        <div style="clear:both"></div>
+        <hr class="mbars">
+        <!--單則訊息-->
+        <div class="m-msg-box">
+          <div class="msg-col">
+            <!--0329-->
+            <div class="chat-bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <!--/0329-->
+            <div class="lefta">
+              <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            </div>
+            <div class="leftb">
+              <p class="msg-name">萌噠萌噠</p>
+              <p class="medal m-medal"><a class="medalsvg"></a></p>
+              <p class="lvl">lv.1</p>
+              <p class="msg-date" style="font-weight:800; color:#ff0000;">2018/03/07</p>
+              <div class="msg-txt unread" style="font-weight:800; color:#ff00ff; text-align:right;">日期方式，請參考這行↑</div>
+            </div>
+          </div>
+          <div class="msg-col">
+            <!--0329-->
+            <div class="chat-bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <!--/0329-->
+            <div class="lefta">
+              <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            </div>
+            <div class="leftb">
+              <p class="msg-name">霹靂可愛萌萌噠萌萌噠</p>
+              <p class="medal m-medal"><a class="medalsvg"></a></p>
+              <p class="lvl">lv.1</p>
+              <p class="msg-date" style="font-weight: 800; color:#ff0000;">最後訊息日</p>
+              <div class="msg-txt">哈sssss哈哈 不行拉 我覺得這樣太害羞了太害羞了</div>
+            </div>
+          </div>
+          <div class="msg-col">
+            <!--0329-->
+            <div class="chat-bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <!--/0329-->
+            <div class="lefta">
+              <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            </div>
+            <div class="leftb">
+              <p class="msg-name">霹靂可愛萌萌噠</p>
+              <p class="medal m-medal"><a class="medalsvg"></a></p>
+              <p class="lvl">lv.1</p>
+              <p class="msg-date">2018/03/07</p>
+              <div class="msg-txt">哈哈哈 不行拉 我覺得這樣太害羞了太害羞了</div>
+            </div>
+          </div>
+          <div class="msg-col">
+            <!--0329-->
+            <div class="chat-bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <!--/0329-->
+            <div class="lefta">
+              <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            </div>
+            <div class="leftb">
+              <p class="msg-name">霹靂可愛萌萌噠</p>
+              <p class="medal m-medal"><a class="medalsvg"></a></p>
+              <p class="lvl">lv.1</p>
+              <p class="msg-date">2018/03/07</p>
+              <div class="msg-txt">哈哈哈 不行拉 我覺得這樣太害羞了太害羞了</div>
+            </div>
+          </div>
+          <div class="msg-col">
+            <!--0329-->
+            <div class="chat-bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <!--/0329-->
+            <div class="lefta">
+              <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            </div>
+            <div class="leftb">
+              <p class="msg-name">霹靂可愛萌萌噠</p>
+              <p class="medal m-medal"><a class="medalsvg"></a></p>
+              <p class="lvl">lv.1</p>
+              <p class="msg-date">2018/03/07</p>
+              <div class="msg-txt">哈哈哈 不行拉 我覺得這樣太害羞了太害羞了</div>
+            </div>
+          </div>
+          <div class="msg-col">
+            <!--0329-->
+            <div class="chat-bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <!--/0329-->
+            <div class="lefta">
+              <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            </div>
+            <div class="leftb">
+              <p class="msg-name">霹靂可愛萌萌噠</p>
+              <p class="medal m-medal"><a class="medalsvg"></a></p>
+              <p class="lvl">lv.1</p>
+              <p class="msg-date">2018/03/07</p>
+              <div class="msg-txt">哈哈哈 不行拉 我覺得這樣太害羞了太害羞了</div>
+            </div>
+          </div>
+          <div class="msg-col">
+            <!--0329-->
+            <div class="chat-bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <!--/0329-->
+            <div class="lefta">
+              <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            </div>
+            <div class="leftb">
+              <p class="msg-name">霹靂可愛萌萌噠</p>
+              <p class="medal m-medal"><a class="medalsvg"></a></p>
+              <p class="lvl">lv.1</p>
+              <p class="msg-date">2018:03:07 06:21 pm</p>
+              <div class="msg-txt">哈哈哈 不行拉 我覺得這樣太害羞了太害羞了</div>
+            </div>
+          </div>
+        </div>
+        <!--單則訊息結束-->
+      </div>
+      <!--包住單則訊息-->
+    </div>
+    <!--side content end-->
+  </div>
+  <span class="opentab" onclick="openNav()"> <img src="img/tab-arrow.png" class="tab-arrow"> </span>
+  <!--/0323 Side Content-->
+  <!--Inner Content-->
+  <!--0306把popup內中移到原左邊div外-->
+  <!--創立新聊天POPUP視窗-->
+
+<!-- 0323 Modal start-->
+<div class="modal fade in" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+     <h3 class="mtitle">Message</h3>
+      <span class="close-button nml-btn" data-dismiss="modal"><img src="img/svg_icon-53.svg" alt="X"></span>
+      <hr class="mbar">
+      <!--新聊天POPUP視窗頁籤-->
+      <div class="w3-bar w3-grey">
+        <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'London')"><img src="img/talk01.png">找人聊天</button>
+        <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Paris')"><img src="img/talk02.png">一起聊天</button>
+      </div>
+      <!--找人聊天-->
+      <div id="London" class="w3-container w3-border city">
+        <!--0201 modify-->
+        <div class="header-search" style="margin-top:10px"> <a></a>
+          <input type="text" placeholder="在iami搜尋要加入的人">
+        </div>
+        <!--/0201 modify-->
+        <hr class="main-hr">
+        <!--找人聊天 左側 好友列表 一側最多六個-->
+        <div class="fnd-left">
+          <!--第1好友-->
+          <div class="look4fnds">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+          </div>
+          <!--第2個好友-->
+          <div class="look4fnds">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+          </div>
+          <!--第3個好友-->
+          <div class="look4fnds">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+          </div>
+          <!--第4個好友-->
+          <div class="look4fnds">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+          </div>
+          <!--第5個好友-->
+          <div class="look4fnds">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+          </div>
+          <!--第6個好友-->
+          <div class="look4fnds">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+          </div>
+        </div>
+        <!--找人聊天 右側 好友列表 一側最多六個-->
+        <div class="fnd-right">
+          <!--第1個好友-->
+          <div class="look4fnds highlighted">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+          </div>
+          <!--第2個好友-->
+          <div class="look4fnds">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+          </div>
+          <!--第3個好友-->
+          <div class="look4fnds">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+          </div>
+          <!--第4個好友-->
+          <div class="look4fnds">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+          </div>
+          <!--第5個好友-->
+          <div class="look4fnds">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+          </div>
+          <!--第6個好友-->
+          <div class="look4fnds">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+          </div>
+        </div>
+        <div style="clear:both"></div>
+        <div>
+          <hr class="main-hr" />
+        </div>
+        <div class="chatbox-icon-g icon-pofix"><a class="newchat-send-btn">開聊</a> </div>
+      </div>
+
+      <!--一起聊天-->
+      <div id="Paris" class="w3-container w3-border city" style="display:none">
+        <div style="display:flex;">
+          <a class="add-btn"></a>
+          <div class="form-group">
+            <label for="usr"></label>
+            <input type="text" class="form-control no-border" id="usr" placeholder="為您的群組取名">
+          </div>
+        </div>
+
+        <hr class="second-hr"><!--20180328 modify-->
+
+        <!--20180328 modify-->
+        <div class="header-search"> <a></a>
+          <input type="text" placeholder="在iami搜尋">
+        </div>
+        <!--/20180328 modify-->
+        <div class="chat-fnd-left">
+          <div class="checkbox checkbox-info checkbox-circle checkbox-fix">
+            <input id="checkbox1" class="styled" type="checkbox">
+            <label for="checkbox1">
+              <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+              <p class="msg-name">霹靂可愛萌萌噠</p>
+            </label>
+          </div>
+          <div class="checkbox checkbox-info checkbox-circle checkbox-fix">
+            <input id="checkbox2" class="styled" type="checkbox">
+            <label for="checkbox2">
+              <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+              <p class="msg-name">霹靂可愛萌萌噠</p>
+            </label>
+          </div>
+          <div class="checkbox checkbox-info checkbox-circle checkbox-fix">
+            <input id="checkbox3" class="styled" type="checkbox">
+            <label for="checkbox3">
+              <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+              <p class="msg-name">霹靂可愛萌萌噠</p>
+            </label>
+          </div>
+          <div class="checkbox checkbox-info checkbox-circle checkbox-fix">
+            <input id="checkbox4" class="styled" type="checkbox">
+            <label for="checkbox4">
+              <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+              <p class="msg-name">霹靂可愛萌萌噠</p>
+            </label>
+          </div>
+          <div class="checkbox checkbox-info checkbox-circle checkbox-fix">
+            <input id="checkbox5" class="styled" type="checkbox">
+            <label for="checkbox5">
+              <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+              <p class="msg-name">霹靂可愛萌萌噠</p>
+            </label>
+          </div>
+        </div>
+        <div class="chat-fnd-right">
+          <div class="fnd-picked">已選擇：
+            <p>1</p>
+          </div>
+          <div class="pickedfnds">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+          </div>
+          <div class="pickedfnds">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+          </div>
+        </div>
+        <div style="clear:both"></div>
+        <div>
+          <hr class="main-hr" />
+        </div>
+        <div class="chatbox-icon-g icon-pofix" style="text-align: center"><a class="newchat-send-btn">開聊</a> </div>
+      </div>
+    </div>
+  </div>
+</div> <!-- /0323 Modal end-->
+
+
+
+  </div>
+  <!--0306 外移popup內容結束-->
+  <!-- ********** 0201 class拿掉 main-content **********-->
+  <div class="message-wrapper-col">
+    <!-- /0201 拿掉 main-content-->
+    <div class="msg-left fullbox">
+      <h3 class="msg-title" style="float:left">Message</h3>
+      <div style="display:block; float:right">
+
+        <!--popup new chat-->
+        <button class="btn openModal triggerbtn" value="main" ></button><!-- 0323 Modal button-->
+        <!--0306搬動以下內容-->
+        <!--找人聊天按鈕-->
+
+      </div>
+      <!--0306搬動以下內容 +/div結尾 -->
+      <!-- /popup new chat-->
+
+      <div style="clear:both;margin-bottom:10px;"></div>
+      <!--包住單則訊息-->
+      <div class="chat-left-box">
+        <!--單則訊息-->
+        <div class="msg-col">
+          <!--0329-->
+            <div class="chat-bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <!--/0329-->
+          <div class="lefta">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+          </div>
+          <div class="leftb">
+            <p class="msg-name">霹靂可愛萌萌噠萌萌噠萌噠</p>
+            <p class="medal chat-medal"><a class="medalsvg"></a></p><!--0329 added chat-medal-->
+            <p class="lvl">lv.1</p>
+            <p class="msg-date" style="font-weight:800; color:#ff0000;">2018/03/07</p>
+            <div class="msg-txt unread" style="font-weight:800; color:#ff00ff; text-align:right;">日期方式，請參考這行↑</div>
+          </div>
+        </div>
+        <div class="msg-col">
+          <!--0329-->
+            <div class="chat-bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <!--/0329-->
+          <div class="lefta">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+          </div>
+          <div class="leftb">
+            <p class="msg-name">霹靂可愛萌萌噠萌萌噠</p>
+            <p class="medal chat-medal"><a class="medalsvg"></a></p><!--0329 added chat-medal-->
+            <p class="lvl">lv.1</p>
+            <p class="msg-date" style="font-weight: 800; color:#ff0000;">最後訊息日</p>
+            <div class="msg-txt">哈哈哈 不行拉 我覺得這樣太害羞了太害羞了</div>
+          </div>
+        </div>
+        <div class="msg-col">
+          <!--0329-->
+            <div class="chat-bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <!--/0329-->
+          <div class="lefta">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+          </div>
+          <div class="leftb">
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+            <p class="medal chat-medal"><a class="medalsvg"></a></p><!--0329 added chat-medal-->
+            <p class="lvl">lv.1</p>
+            <p class="msg-date">2018/03/07</p>
+            <div class="msg-txt">哈哈哈 不行拉 我覺得這樣太害羞了太害羞了</div>
+          </div>
+        </div>
+        <div class="msg-col">
+          <!--0329-->
+            <div class="chat-bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <!--/0329-->
+          <div class="lefta">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+          </div>
+          <div class="leftb">
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+            <p class="medal chat-medal"><a class="medalsvg"></a></p><!--0329 added chat-medal-->
+            <p class="lvl">lv.1</p>
+            <p class="msg-date">2018/03/07</p>
+            <div class="msg-txt">哈哈哈 不行拉 我覺得這樣太害羞了太害羞了</div>
+          </div>
+        </div>
+        <div class="msg-col">
+          <!--0329-->
+            <div class="chat-bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <!--/0329-->
+          <div class="lefta">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+          </div>
+          <div class="leftb">
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+            <p class="medal chat-medal"><a class="medalsvg"></a></p><!--0329 added chat-medal-->
+            <p class="lvl">lv.1</p>
+            <p class="msg-date">2018/03/07</p>
+            <div class="msg-txt">哈哈哈 不行拉 我覺得這樣太害羞了太害羞了</div>
+          </div>
+        </div>
+        <div class="msg-col">
+          <!--0329-->
+            <div class="chat-bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <!--/0329-->
+          <div class="lefta">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+          </div>
+          <div class="leftb">
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+            <p class="medal chat-medal"><a class="medalsvg"></a></p><!--0329 added chat-medal-->
+            <p class="lvl">lv.1</p>
+            <p class="msg-date">2018:03:07 06:21 pm</p>
+            <div class="msg-txt">哈哈哈 不行拉 我覺得這樣太害羞了太害羞了</div>
+          </div>
+        </div>
+        <div class="msg-col">
+          <!--0329-->
+            <div class="chat-bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <!--/0329-->
+          <div class="lefta">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+          </div>
+          <div class="leftb">
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+            <p class="medal chat-medal"><a class="medalsvg"></a></p><!--0329 added chat-medal-->
+            <p class="lvl">lv.1</p>
+            <p class="msg-date">2018:03:07 06:21 pm</p>
+            <div class="msg-txt">哈哈哈 不行拉 我覺得這樣太害羞了太害羞了</div>
+          </div>
+        </div>
+        <div class="msg-col">
+          <!--0329-->
+            <div class="chat-bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <!--/0329-->
+          <div class="lefta">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+          </div>
+          <div class="leftb">
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+            <p class="medal chat-medal"><a class="medalsvg"></a></p><!--0329 added chat-medal-->
+            <p class="lvl">lv.1</p>
+            <p class="msg-date">2018:03:07 06:21 pm</p>
+            <div class="msg-txt">哈哈哈 不行拉 我覺得這樣太害羞了太害羞了</div>
+          </div>
+        </div>
+        <div class="msg-col">
+          <!--0329-->
+            <div class="chat-bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <!--/0329-->
+          <div class="lefta">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+          </div>
+          <div class="leftb">
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+            <p class="medal chat-medal"><a class="medalsvg"></a></p><!--0329 added chat-medal-->
+            <p class="lvl">lv.1</p>
+            <p class="msg-date">2018:03:07 06:21 pm</p>
+            <div class="msg-txt">哈哈哈 不行拉 我覺得這樣太害羞了太害羞了</div>
+          </div>
+        </div>
+        <div class="msg-col">
+          <!--0329-->
+            <div class="chat-bubble-wrap">
+              <p class="bubble-txt"><span>99+</span></p>
+            </div>
+            <!--/0329-->
+          <div class="lefta">
+            <p class="msg-head"><img src="img/head-img.jpg" alt="大頭像"></p>
+          </div>
+          <div class="leftb">
+            <p class="msg-name">霹靂可愛萌萌噠</p>
+            <p class="medal chat-medal"><a class="medalsvg"></a></p><!--0329 added chat-medal-->
+            <p class="lvl">lv.1</p>
+            <p class="msg-date">2018:03:07 06:21 pm</p>
+            <div class="msg-txt">哈哈哈 不行拉 我覺得這樣太害羞了太害羞了</div>
+          </div>
+        </div>
+        <!--單則訊息結束-->
+      </div>
+      <!--包住單則訊息-->
+    </div>
+    <!--msg-center-->
+    <div class="msg-center divfull">
+      <div class="chat-col">
+        <div class="clefta">
+          <p class="chat-head"><img src="img/head-img2.jpg" alt="大頭像"></p>
+        </div>
+        <div class="cleftb">
+          <p class="chat-name">我是李四端盤子</p>
+          <p class="medal"><a class="medalsvg"></a></p>
+          <p class="clvl">lv.1</p>
+          <div class="chat-span">你們是iami上面的好友</div>
+          <div class="chat-txt ellipsis">李四端是全方位媒體人 但他最喜歡的稱呼是... 「說故事的新聞人」</div>
+        </div>
+      </div>
+      <div class="chatbox">
+        <div class="chats-date">2018年3月14日 (三)</div>
+        <!--0314 date-->
+        <div class="chat-ppla chata"><img src="img/head-img2.jpg" class="chata">
+          <div class="chat-contenta chata">嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨！我就是喜歡嗨！</div>
+          <div class="chat-time-left">10:28</div>
+          <!--0314 date-->
+        </div>
+        <div class="chat-pplb chatb"><img src="img/head-img.jpg" class="chatb">
+          <div class="chat-contentb chatb">嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨！！！！我也是喜歡嗨～～～</div>
+          <div class="chat-time-right">10:32</div>
+          <!--0314 date-->
+        </div>
+        <div class="chat-ppla chata"><img src="img/head-img2.jpg" class="chata">
+          <div class="chat-contenta chata">我的自拍帥不帥！！？？1231231321321321321321321321123123132132132132132132132112312313213213213213213213211231231321321321321321321321</div>
+          <div class="chat-time-left">10:34</div>
+          <!--0314 date-->
+        </div>
+        <div class="chat-ppla chata"><img src="img/head-img2.jpg" class="chata">
+          <div class="chat-contenta chata chatfix"><img src="img/chat-img.jpg"></div>
+          <div class="chat-time-left">10:35</div>
+          <!--0314 date-->
+        </div>
+        <div class="chats-date">2018年3月15日 (四)</div>
+        <!--0314 date-->
+        <div class="chat-pplb chatb"><img src="img/head-img.jpg" class="chatb">
+          <div class="chat-contentb chatb">帥帥帥帥帥帥帥帥帥帥帥12312313213213213213213213211231231321321321321321321321</div>
+          <div class="chat-time-right">10:38</div>
+          <!--0314 date-->
+        </div>
+        <div class="chat-ppla chata"><img src="img/head-img2.jpg" class="chata">
+          <div class="chat-contenta chata">我也覺得很帥～就是帥就是帥就是帥就是帥就是帥就是帥</div>
+          <div class="chat-time-left">10:42</div>
+          <!--0314 date-->
+        </div>
+        <div class="chats-date">March 14 2018 (Wed)</div>
+        <!--0314 date-->
+        <div class="chat-pplb chatb"><img src="img/head-img.jpg" class="chatb">
+          <div class="chat-contentb chatb">：）））））））））</div>
+          <div class="chat-time-right">10:38</div>
+          <!--0314 date-->
+        </div>
+        <div class="chat-pplb chatb"><img src="img/head-img.jpg" class="chatb">
+          <div class="chat-contentb chatb">嘖嘖嘖嘖嘖嘖嘖嘖嘖嘖嘖嘖嘖嘖嘖嘖嘖嘖嘖嘖</div>
+          <div class="chat-time-right">10:38</div>
+          <!--0314 date-->
+        </div>
+      </div>
+      <!--/chatbox-->
+      <div class="replybox">
+        <!--reply box-->
+        <div class="box-wrap">
+          <textarea placeholder="輸入訊息" class="textbox-type2 textareabox"></textarea>
+          <div class="feed-top-tool textoolbox">
+            <div class="chatbox-icon-g icon-pofix">
+              <!--0310 hide <a href="#" class="photo chatbox-iconsz"></a> <a href="#" class="video chatbox-iconsz"></a-->
+              <!--20180131 <a href="#" class="tag chatbox-iconsz"></a>  --><a href="#" class="msgface chatbox-iconsz"></a> <a class="msg-btn">發送</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/cnt-center-->
+  </div>
+  <!--/inner content-->
+  <!--mobile nav-->
+  <nav id="mobile-nav">
+    <div class="m-nav-wrap">
+      <div class="m-nav-out">
+        <div class="m-nav-inner">
+          <ul>
+            <li class="i-money h6"><a></a>:<span>100,000</span>
+              <div class="btn-gold-gra i-money-btn">儲值</div>
+            </li>
+            <li><a href="media.html">我的媒體(相片、影片)</a></li>
+            <li><a href="message.html">我的訊息(聊天室)</a></li>
+            <li><a href="info.html">我的好友</a></li>
+            <li><a href="info.html">我的收藏</a></li>
+            <li><a href="info">基本資料編輯</a></li>
+            <li><a class="modify-ps">密碼修改</a></li>
+            <li><a href="policy.html">隱私權聲明</a></li>
+            <li><a href="policy.html">使用條款</a></li>
+          </ul>
+          <a class="logout-btn" href="reg.html">登出</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Chat POPUP -->
+  <div class="popup-box-more">
+    <div class="popup-box chat-popup" id="qnimate">
+      <div class="popup-head">
+        <div class="popup-head-left pull-left">二二二二二二二二二二</div>
+        <div class="popup-head-right pull-right">
+          <button data-widget="remove" id="removeClass" class="chat-header-button pull-right" type="button"> <img src="img/cross.png"> </button>
+        </div>
+      </div>
+      <div class="popup-messages">
+        <div class="direct-chat-messages">
+          <div class="chat-box-single-line">
+            <abbr class="timestamp">October 8th, 2015</abbr>
+          </div>
+          <!-- Message. Default to the left -->
+          <div class="chatbox">
+            <div class="chat-ppla chata"><img src="img/head-img2.jpg" class="chata">
+              <div class="chat-popup-contenta chata">嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨！我就是喜歡嗨！</div>
+              <div class="chat-a-time">11:11</div>
+            </div>
+            <!-- /.direct-chat-msg -->
+            <div class="chat-box-single-line" style="clear:both">
+              <abbr class="timestamp">October 9th, 2015</abbr>
+            </div>
+            <!-- Message. Default to the left -->
+            <div class="chat-pplb chatb">
+              <div class="chat-popup-contentb chatb">嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨！！！！我也是喜歡嗨～～～</div>
+              <div class="chat-b-time">11:11</div>
+            </div>
+            <div class="chat-ppla chata"><img src="img/head-img2.jpg" class="chata">
+              <div class="chat-popup-contenta chata">我的自拍帥吧！</div>
+              <div class="chat-a-time">11:11</div>
+            </div>
+            <div class="chat-ppla chata"><img src="img/head-img2.jpg" class="chata">
+              <div class="chat-popup-contenta chata chatfix"><img src="img/chat-img.jpg"></div>
+              <div class="chat-a-time">11:11</div>
+            </div>
+            <div class="chat-pplb chatb">
+              <div class="chat-popup-contentb chatb chatfix"><img src="img/show-img.jpg"></div>
+              <div class="chat-b-time">11:11</div>
+            </div>
+            <div class="chat-pplb chatb">
+              <div class="chat-popup-contentb chatb">我的才好看，好嗎？！</div>
+              <div class="chat-b-time">11:11</div>
+            </div>
+            <!-- /.direct-chat-msg -->
+          </div>
+        </div>
+      </div>
+      <div class="popup-messages-footer">
+        <div class="replybox">
+          <!--reply box-->
+          <div class="box-wrap">
+            <textarea placeholder="輸入訊息" class="textbox-type2 popup-textareabox"></textarea>
+            <div class="feed-top-tool popup-textoolbox">
+              <div class="popupbox-icon-g icon-pofix"> <a href="#" class="photo popupbox-iconsz"></a> <a href="#" class="video popupbox-iconsz"></a> <a href="#" class="msgface popupbox-iconsz"></a> <a class="popup-send">傳送</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--0201-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/mMenu.js"></script>
+  <!--For navigation-->
+  <script>
+  //切換貼文、粉絲、追蹤
+  $(document).ready(function() {
+    $('.edit-post').click(function() {
+      $('.edit-cnt li.active').removeClass('active');
+      $('.edit-post').addClass('active');
+      $('#post').addClass('active');
+      $('#fans.active').removeClass('active');
+      $('#follower.active').removeClass('active');
+    });
+  });
+  $(document).ready(function() {
+    $('.edit-fans').click(function() {
+      $('.edit-cnt li.active').removeClass('active');
+      $('.edit-fans').addClass('active');
+      $('#fans').addClass('active');
+      $('#post.active').removeClass('active');
+      $('#follower.active').removeClass('active');
+    });
+  });
+  $(document).ready(function() {
+    $('.edit-follower').click(function() {
+      $('.edit-cnt li.active').removeClass('active');
+      $('.edit-follower').addClass('active');
+      $('#follower').addClass('active');
+      $('#post.active').removeClass('active');
+      $('#fans.active').removeClass('active');
+    });
+  });
+
+  //開關貼文訊息  
+  $(document).ready(function() {
+    $('.items-dropdown-wrap#mes1').hide();
+    $('.tool-message#mes1').click(function() {
+      $('.items-dropdown-wrap#mes1').slideToggle(500);
+      return false;
+    });
+  });
+  $(document).ready(function() {
+    $('.items-dropdown-wrap#mes2').hide();
+    $('.tool-message#mes2').click(function() {
+      $('.items-dropdown-wrap#mes2').slideToggle(500);
+      return false;
+    });
+  });
+
+  //開關通知
+  $(document).ready(function() {
+    $('.flyout-box').hide();
+    $('.invite').click(function() {
+      $('.flyout-box#notify').hide();
+      $('.flyout-box#message').hide();
+      $('.flyout-box#dropdown').hide();
+      $('.flyout-box#invite').slideToggle(500);
+      return false;
+    });
+    $('.notify').click(function() {
+      $('.flyout-box#invite').hide();
+      $('.flyout-box#message').hide();
+      $('.flyout-box#dropdown').hide();
+      $('.flyout-box#notify').slideToggle(500);
+      return false;
+    });
+    $('.message').click(function() {
+      $('.flyout-box#invite').hide();
+      $('.flyout-box#notify').hide();
+      $('.flyout-box#dropdown').hide();
+      $('.flyout-box#message').slideToggle(500);
+      return false;
+    });
+    $('.self-dropdown-img').click(function() { //20180227 modify
+      $('.flyout-box#invite').hide();
+      $('.flyout-box#notify').hide();
+      $('.flyout-box#message').hide();
+      $('.flyout-box#dropdown').slideToggle(500);
+      return false;
+    });
+    return false;
+  });
+
+  $(document).click(function() {
+    $('.flyout-box').hide();
+  });
+  </script>
+
+  <!--Tabs-->
+  <script>
+  function openCity(cityName) {
+    var i;
+    var x = document.getElementsByClassName("city");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    document.getElementById(cityName).style.display = "block";
+  }
+  </script>
+
+
+<!--0329-->
+  <!--新增聊天視窗內-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<script>
+$(function() { // RUN WHEN THE PAGE LOADS
+  $('.openModal').on('click', function() { // LISTEN FOR A CLICK WHEN THE CLASS CONTAINS openModal
+    var btnValue = $(this).val(); //GRAB THE VALUE OF THE BUTTON (315_abc)
+    var modalText = 'The value you clicked is <span class="text-danger">' + btnValue + '</span>.'; // BUILD THE TEXT OF THE MODAL
+    $('#modalContent').html(modalText); // INJECT THE VALUE OF var modalText TO #modalContent
+    $('#myModal').modal('show'); // OPEN THE MODAL
+  });
+});
+</script>
+
+
+<!--script 原本的不要了>
+  var modal = document.querySelector(".modal");
+  var trigger = document.querySelector(".trigger");
+  var closeButton = document.querySelector(".close-button");
+
+  function toggleModal() {
+    modal.classList.toggle("show-modal");
+  }
+
+  function windowOnClick(event) {
+    if (event.target === modal) {
+      toggleModal();
+    }
+  }
+
+  trigger.addEventListener("click", toggleModal);
+  closeButton.addEventListener("click", toggleModal);
+  window.addEventListener("click", windowOnClick);
+  </script-->
+<!--/0329-->
+
+
+  <script>
+  function openCity(evt, cityName) {
+    var i, x, tablinks;
+    x = document.getElementsByClassName("city");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " w3-red";
+  }
+  </script>
+  <!--Chat Popup-->
+  <script type="text/javascript">
+  $(function() {
+    $("#addClass").click(function() {
+      $('#qnimate').addClass('popup-box-on');
+    });
+
+    $("#removeClass").click(function() {
+      $('#qnimate').removeClass('popup-box-on');
+    });
+  })
+  </script>
+  <!-- 0323 side friend list-->
+  <script>
+  /* Set the width of the side navigation to 100% full width */
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+  }
+
+  /* Set the width of the side navigation to 0 */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+</body>
+
+</html>
