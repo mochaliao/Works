@@ -1,0 +1,412 @@
+/*set*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Microsoft JhengHei', Arial, Helvetica, sans-serif;
+}
+
+html {
+	/*set font size*/
+	font-size: 16px; /*1rem=16px*/
+}
+
+body, html, p {
+	margin: 0;
+	padding: 0;
+}
+
+ul, ol, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+/*theme*/
+.wire-frame {
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.narrow-frame {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+/*style*/
+
+:root {
+	--main-color: #2a9810;
+	--sub-color: #fff;
+
+	--font-xl: 6.875rem; /*110*/
+	--font-exta: 5rem; /*80*/
+	--font-std: 1.25rem; /*28*/
+	--font-min: 1rem; /*20*/
+	--font-s: .75rem; /*12*/
+}
+
+.sec-title {
+	font-size: var(--font-exta);
+	color: var(--sub-color);
+}
+
+.sec-cnt {
+	font-size: var(--font-std);
+	color: var(--sub-color);
+}
+
+.sec-txt {
+	font-size: var(--font-min);
+	color: var(--sub-color);
+}
+
+.sec-btn {
+	display: inline-block;
+	/*width: 11.25rem;!*180*!*/
+	/*height: 11.25rem;!*180*!*/
+	border: 2px solid var(--sub-color);
+	border-radius: 50%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: var(--font-min);
+	line-height: var(--font-min);
+	color: var(--sub-color);
+	vertical-align: middle;
+	padding: 3.75rem 2.5rem;
+	transition: all .2s linear;
+}
+
+.sec-btn:hover,
+.sec-btn:active {
+	border-color: var(--main-color);
+	background: rgba(42, 152, 16, .8);
+}
+
+.sec-btn.ver2 {
+	border-color: var(--main-color);
+	color: var(--main-color);
+}
+
+.sec-btn.ver2:hover,
+.sec-btn.ver2:active {
+	color: var(--sub-color);
+}
+
+.sec-btn.ver3:hover,
+.sec-btn.ver3:active {
+	border-color: var(--sub-color);
+	color: var(--main-color);
+	background: var(--sub-color);
+}
+
+.sec1 {
+	width: 100%;
+	height: 100vh;
+	background: var(--sub-color);
+}
+
+.sec1 .narrow-frame {
+	position: relative;
+	height: inherit;
+	display: table;
+}
+
+.sec1 .sec-title {
+	display: table-cell;
+	color: var(--main-color);
+	text-align: center;
+	vertical-align: middle;
+	font-size: var(--font-xl);
+}
+
+.menu-trigger-wrap {
+	position: absolute;
+	top: 80px;
+	right: 15px;
+}
+
+.menu-trigger {
+	display: inline-block;
+	border: 2px solid var(--main-color);
+	border-radius: 50%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: var(--font-s);
+	font-weight: 700;
+	line-height: var(--font-s);
+	color: var(--main-color);
+	vertical-align: middle;
+	padding: 1.25rem .5rem;
+	transition: all .2s linear;
+	cursor: pointer;
+}
+
+.menu-trigger:hover,
+.menu-trigger:active {
+	background: var(--main-color);
+	color: var(--sub-color);
+}
+
+.sec1-btn-wrap {
+	text-align: center;
+	position: absolute;
+	bottom: 55px;
+	left: calc(50% - 17px);
+}
+
+.sec1-btn {
+	display: inline-block;
+	width: 34px;
+}
+
+.sec2 {
+	width: 100%;
+	background: var(--main-color);
+	padding: 90px 0;
+}
+
+.sec2 .narrow-frame {
+	position: relative;
+	padding: 105px 0;
+}
+
+.sec2-txt {
+	position: absolute;
+	top: 0;
+	left: 100px;
+	pointer-events: none;
+}
+
+.sec2 .sec-title {
+	text-align: left;
+}
+
+.sec2-pic-wrap {
+	padding: 0 160px;
+	text-align: center;
+}
+
+.sec2-pic {
+	display: inline-block;
+}
+
+.sec2-btn {
+	position: absolute;
+	bottom: 0;
+	right: 60px;
+	display: inline-block;
+}
+
+.sec3 {
+	background: var(--sub-color);
+	padding: 90px 0;
+}
+
+.sec3 .sec-title {
+	text-align: center;
+	color: var(--main-color);
+}
+
+.sec3-item-wrap {
+	display: flex;
+	padding: 30px 0;
+}
+
+.sec3-item-wrap li {
+	width: calc(100% / 3);
+	background: no-repeat center;
+	background-size: cover;
+	margin: 10px 10px 10px 0;
+}
+
+.sec3-item-wrap li.ver1 {
+	background-image: url("../img/INDEX-2_20.jpg");
+	margin-left: 10px;
+}
+
+.sec3-item-wrap li.ver2 {
+	background-image: url("../img/INDEX-2_21.jpg");
+}
+
+.sec3-item-wrap li.ver3 {
+	background-image: url("../img/INDEX-2_22.jpg");
+}
+
+.sec3-item {
+	display: block;
+	padding: 66px 0;
+	text-align: center;
+	background: rgba(42, 152, 16, 0);
+	transition: background .4s linear;
+}
+
+.sec3-item:hover {
+	background: rgba(42, 152, 16, .9);
+}
+
+.sec4 .wire-frame {
+	display: flex;
+	background: var(--main-color);
+	align-items: center;
+	justify-content: space-around;
+}
+
+.sec4-txt {
+	padding: 90px 0;
+	text-align: center;
+}
+
+.sec4 .sec-title,
+.sec4 .sec-cnt {
+	text-align: left;
+}
+
+.sec4-btn {
+	margin-top: 40px;
+	display: block;
+}
+
+.sec5 {
+	background: url("../img/INDEX-2_31.jpg") no-repeat fixed;
+	background-size: cover;
+	padding: 90px 0;
+}
+
+.sec5 .narrow-frame {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sec5-txt {
+	text-align: right;
+}
+
+.sec5-btn {
+	margin-top: 95px;
+	display: block;
+}
+
+.sec6 {
+	background: var(--sub-color);
+}
+
+.sec6 .sec-title {
+	color: var(--main-color);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.sec6 .sec-cnt {
+	color: var(--main-color);
+}
+
+.sec6 .sec-btn {
+	margin: 50px 0;
+}
+
+.sec6-pic {
+	background-size: cover;
+	background: fixed center;
+	text-align: center;
+}
+
+.sec6-pic.ver1 {
+	background-image: url("../img/INDEX-2_34.jpg");
+	padding: 200px 0;
+}
+
+.sec6-pic.ver2 {
+	background-image: url("../img/INDEX-2_33.jpg");
+	padding: 250px 0;
+}
+
+.sec7 {
+	padding: 50px 0 20px;
+	background: var(--main-color);
+}
+
+.footer {
+	text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+	.sec2 {
+		padding: 0 0 30px;
+	}
+
+	.sec2 .narrow-frame {
+		padding: 0;
+		display: flex;
+		flex-flow: column;
+		text-align: center;
+	}
+
+	.sec2-txt {
+		position: static;
+		order: 2;
+	}
+
+	.sec2-btn {
+		position: static;
+		order: 3;
+	}
+
+	.sec2-pic-wrap {
+		padding: 0;
+		order: 1;
+	}
+
+	.sec3 {
+		padding: 30px 0 10px;
+	}
+
+	.sec3-item-wrap {
+		flex-flow: column wrap;
+		padding: 30px 10px;
+	}
+
+	.sec3-item-wrap li {
+		width: 100%;
+		margin: 10px 0 0;
+	}
+
+	.sec3-item-wrap li.ver1 {
+		margin-left: 0;
+	}
+
+	.sec4 .wire-frame{
+		flex-flow: column wrap;
+	}
+	.sec4-txt{
+		padding: 30px 0;
+	}
+
+	.sec5{
+		padding: 30px 0;
+	}
+
+	.sec5 .narrow-frame{
+		flex-flow: column-reverse wrap;
+	}
+
+	.sec5-btn{
+		margin: 30px 0;
+	}
+
+}
