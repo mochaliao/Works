@@ -4,106 +4,362 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<title>portfolio</title>
-	<link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slide.css">
 </head>
-<body>
-<div>
-	<section class="sec1">
-		<div class="narrow-frame">
-			<div class="menu-trigger-wrap"><a class="menu-trigger">more</a></div>
-			<p class="sec-title">My Name Is<br> Patty</p>
-			<div class="sec1-btn-wrap"><a class="sec1-btn"><img src="img/INDEX-2_10.gif"></a></div>
-		</div>
-	</section>
+<style>
+	#fix{
+		position: static; /* Sit on top of the page content */
+		width: 100%;
+		height: 100%;
+	}
+	#overlay {
+		position: fixed; /* Sit on top of the page content */
+		display: none; /* Hidden by default */
+		width: 100vw; /* Full width (cover the whole page) */
+		height: 100vh; /* Full height (cover the whole page) */
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+		z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+		cursor: pointer; /* Add a pointer on hover */
+	}
 
-	<section class="sec2">
-		<div class="narrow-frame">
-			<div class="sec2-txt"><p class="sec-title">FullPage <br>Web</p>
-				<p class="sec-cnt">一頁式網站</p></div>
-			<div class="sec2-pic-wrap">
-				<a href="fullpage/application/views/index.html" target="_blank"
-				class="sec2-pic"><img src="img/INDEX-2_02.jpg"></a>
+	.pop-cnt {
+		text-align: center;
+		margin: 30px auto 0;
+		display: flex;
+		width: 100%;
+		height: 744px;
+		max-width: 1212px;
+		background: url("img/top_pop.png");
+		align-items: center;
+		justify-content: center;
+	}
+
+	.pop-head {
+		display: inline-block;
+		width: 222px;
+		height: 222px;
+		border-radius: 50%;
+		background: url("img/head.jpg");
+		border: 5px solid #fff;
+		transition: background .2s linear;
+	}
+
+	.pop-head:hover{
+		background: url("img/head-hover.jpg");
+	}
+	.pop-txt{
+		margin-left: 60px;
+		color: var(--sub-color);
+		text-align: left;
+	}
+	.title{
+		font-size: 1.375rem;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+	.txt{
+		font-size: 1rem;
+	}
+</style>
+<body id="fix">
+
+<section class="sec1">
+	<div id="overlay" onclick="off()" class="pop-wrap">
+		<div class="pop-cnt">
+			<div class="pop-head">
+
 			</div>
-			<a href="fullpage/application/views/index.html" target="_blank" class="sec2-btn"><span
-			class="sec-btn ver3">more</span></a>
-		</div>
-	</section>
+			<div class="pop-txt">
+				<p class="title">MOCHA LIAO</p>
+				<p class="txt">2009  -  鼎鼎聯合行銷  設計師<br>
+				   2010  -  美商美康達  動畫美術<br>
+				   2015  -  鳳之梧數位科技  設計師<br>
+				   2017  -  我是我國際  前端工程師</p>
+			</div>
 
-	<section class="sec3">
-		<div class="wire-frame">
-			<p class="sec-title">Landing Page</p>
-			<ol class="sec3-item-wrap">
-				<li class="ver1">
-					<a href="landingpage/Quantum/" target="_blank" class="sec3-item">
-						<span class="sec-btn ver3">more</span>
+		</div>
+
+	</div>
+	<div class="sec-top"></div>
+	<div class="narrow-frame">
+		<div class="menu-trigger-wrap" onclick="on()"><img src="img/top-trigger.png"></div>
+		<div class="sec-title"><img src="img/top-title.png"></div>
+	</div>
+	<div class="sec-bot"></div>
+</section>
+
+<section class="sec2">
+	<div class="wire-frame">
+		<div class="sec-top">
+			<div class="narrow-frame">
+				<div class="sec-txt-wrap">
+					<p class="sec-title">FullPage Web</p>
+					<p class="sec-cnt">一頁式網站</p>
+				</div>
+				<div class="slide-wrap">
+					<div class="slideshow-container">
+
+						<!-- Full-width images with number and caption text -->
+						<div class="mySlides fade">
+							<img src="img/foronly01.jpg">
+						</div>
+
+						<div class="mySlides fade">
+							<img src="img/foronly02.jpg">
+						</div>
+
+						<div class="mySlides fade">
+							<img src="img/foronly03.jpg">
+						</div>
+
+						<div class="mySlides fade">
+							<img src="img/foronly04.jpg">
+						</div>
+
+						<div class="mySlides fade">
+							<img src="img/foronly05.jpg">
+						</div>
+
+						<div class="mySlides fade">
+							<img src="img/foronly06.jpg">
+						</div>
+
+						<!-- Next and previous buttons -->
+						<a class="prev" onclick="plusSlides(-1)"><img src="img/arrow.png"></a>
+						<a class="next" onclick="plusSlides(1)"><img src="img/arrow2.png"></a>
+					</div>
+
+					<div class="dot-wrap">
+						<span class="dot" onclick="currentSlide(1)"></span>
+						<span class="dot" onclick="currentSlide(2)"></span>
+						<span class="dot" onclick="currentSlide(3)"></span>
+						<span class="dot" onclick="currentSlide(4)"></span>
+						<span class="dot" onclick="currentSlide(5)"></span>
+						<span class="dot" onclick="currentSlide(6)"></span>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+		<div class="sec-bot">
+			<p class="web-name-wrap">
+				<span class="web-name">專屬官方網站</span>
+				<span class="web-url">foronlytech.com</span>
+			</p>
+			<a href="fullpage/application/views/index.html" target="_blank"><span
+			class="sec-btn ver3"
+			>more</span></a>
+		</div>
+	</div>
+</section>
+
+<section class="sec3">
+	<div class="wire-frame">
+		<div class="sec-top">
+			<div class="sec-txt-wrap ver2">
+				<p class="sec-title">Landing Page</p>
+				<p class="sec-cnt">行銷頁面</p>
+			</div>
+		</div>
+		<div class="narrow-frame">
+			<ol class="item-wrap">
+				<li>
+					<div class="item-pic ver1"></div>
+					<p class="web-name-wrap ver2">
+						<span class="web-name">Quantum</span>
+						<span class="web-url">usgfx-quantum.com</span>
+					</p>
+					<a href="landingpage/Quantum/" target="_blank" class="item">
+						<span class="sec-btn ver2">more</span>
 					</a>
 				</li>
-				<li class="ver2">
+				<li>
+					<div class="item-pic ver2"></div>
+					<p class="web-name-wrap ver2">
+						<span class="web-name">TradersClub</span>
+						<span class="web-url">usgfx-tradersclub.com</span>
+					</p>
 					<a href="https://www.usgfx.com/LandingPage/Home/TradersClub?culture=en-US" target="_blank"
-					class="sec3-item"
+					class="item"
 					>
-						<span class="sec-btn ver3">more</span>
+						<span class="sec-btn ver2">more</span>
 					</a>
 				</li>
-				<li class="ver3">
-					<a href="https://www.usgfx.com/LP/Seminar/adwords.html" target="_blank" class="sec3-item">
-						<span class="sec-btn ver3">more</span>
+				<li>
+					<div class="item-pic ver3"></div>
+					<p class="web-name-wrap ver2">
+						<span class="web-name">Seminar Page</span>
+						<span class="web-url">usgfx-seminar.com</span>
+					</p>
+					<a href="https://www.usgfx.com/LP/Seminar/adwords.html" target="_blank" class="item">
+						<span class="sec-btn ver2">more</span>
 					</a>
 				</li>
 			</ol>
 		</div>
-	</section>
+		<div class="sec-bot"></div>
+	</div>
 
-	<section class="sec4">
-		<div class="wire-frame">
-			<div class="sec4-txt">
-				<p class="sec-title">SOCIAL <br>Web</p>
-				<p class="sec-cnt">iami-web.com</p>
-				<a href="cart/" target="_blank"  class="sec4-btn"><span class="sec-btn ver3">more</span></a>
+</section>
+
+<section class="sec4">
+
+	<div class="wire-frame">
+		<div class="sec-txt-wrap">
+			<p class="sec-title">Social Web</p>
+			<p class="sec-cnt">社群網站</p>
+		</div>
+		<div class="item-pic">
+			<img src="img/INDEX-2_29.jpg">
+		</div>
+
+		<div class="sec-bot">
+			<p class="web-name-wrap">
+				<span class="web-name">我是我社群網站</span>
+				<span class="web-url">iami-web.com</span>
+			</p>
+			<a href="fullpage/application/views/index.html" target="_blank" class="sec2-btn"><span
+			class="sec-btn ver3"
+			>more</span></a>
+		</div>
+	</div>
+
+</section>
+
+<section class="sec6">
+	<div class="wire-frame">
+		<div class="sec-top"></div>
+		<div>
+			<div class="sec-txt-wrap ver2">
+				<p class="sec-title">Business Web</p>
+				<p class="sec-cnt">社群網站</p>
 			</div>
-			<div>
-				<img src="img/INDEX-2_29.jpg">
+
+			<div class="narrow-frame">
+				<ol class="item-wrap">
+					<li>
+						<div class="item-pic ver1"></div>
+						<div class="item-pic-txt">
+							<p class="web-name-wrap ver2">
+								<span class="web-name">USG官網</span>
+								<span class="web-url">usgfx.com</span>
+							</p>
+							<a href="website/usg/" target="_blank">
+								<span class="sec-btn ver2">more</span>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-pic ver2"></div>
+						<div class="item-pic-txt">
+							<p class="web-name-wrap ver2">
+								<span class="web-name">普惠慈善舞團官網</span>
+								<span class="web-url">puhuei-dance.com</span>
+							</p>
+							<a href="website/dance/" target="_blank">
+								<span class="sec-btn ver2">more</span>
+							</a>
+						</div>
+					</li>
+				</ol>
 			</div>
 		</div>
-	</section>
+		<div class="sec-bot"></div>
+	</div>
+</section>
 
-	<section class="sec5">
+<section class="sec5">
+
+	<div class="wire-frame">
+		<div class="sec-txt-wrap">
+			<p class="sec-title">Shopping Cart</p>
+			<p class="sec-cnt">購物車網站</p>
+		</div>
 		<div class="narrow-frame">
-			<div>
-				<img src="img/INDEX-2_00.jpg">
-			</div>
-			<div class="sec5-txt">
-				<p class="sec-title">Shopping<br>Cart</p>
-				<p class="sec-cnt">85go.com</p>
-				<a href="cart/" target="_blank" class="sec5-btn"><span class="sec-btn">more</span></a>
-			</div>
+			<ol class="item-wrap">
+				<li>
+					<div class="item-pic"></div>
+					<div class="item-pic-txt">
+						<p class="web-name-wrap">
+							<span class="web-name">85go代購網</span>
+							<span class="web-url">85go.com</span>
+						</p>
+						<a href="website/cart/" target="_blank">
+							<span class="sec-btn ver3">more</span>
+						</a>
+					</div>
+				</li>
 
+			</ol>
 		</div>
-	</section>
+	</div>
 
-	<section class="sec6">
-		<div class="wire-frame">
 
-			<div class="sec6-pic ver1">
-				<p class="sec-title">business<br>web</p>
-				<a href="website/dance/" target="_blank" class="sec-btn ver2">more</a>
-				<p class="sec-cnt">puhuei-dance.com</p>
-			</div>
-			<div class="sec6-pic ver2">
-				<a href="website/usg/" target="_blank" class="sec-btn">more</a>
-			</div>
-		</div>
-	</section>
+</section>
 
-	<section class="sec7">
-		<div class="footer">
-			<p class="sec-txt">peiju.patty@gmail.com</p>
 
-		</div>
-	</section>
-</div>
+<section class="footer">
+	<div class="wire-frame">
+		<p class="sec-txt">MOCHA LIAO</p>
+		<a href="mailto:peiju.patty@gmail.com">peiju.patty@gmail.com</a>
+	</div>
+
+</section>
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
+<script>
+    function on() {
+        document.getElementById("overlay").style.display = "block";
+        document.getElementById("fix").style.position = "fixed";
+    }
+
+    function off() {
+        document.getElementById("overlay").style.display = "none";
+        document.getElementById("fix").style.position = "static";
+    }
+</script>
 
 <!--<ul>-->
 <!--<li>技能-->

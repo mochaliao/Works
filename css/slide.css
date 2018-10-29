@@ -1,0 +1,89 @@
+
+
+.slideshow-container {
+	position: relative;
+	max-width: 890px;
+	margin: 0 auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+	display: none;
+	width: 100%;
+	max-width: 705px;
+	margin: 0 auto;
+	border: 5px solid #fff;
+	border-radius: 60px;
+	overflow: hidden;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: 52px;
+	height: 63px;
+	margin-top: -22px;
+}
+
+.prev {
+	left: 0;
+}
+
+.next {
+	right: 0;
+}
+
+.prev:hover, .next:hover {
+}
+
+/* The dots/bullets/indicators */
+.dot-wrap {
+	position: absolute;
+	bottom: 60px;
+	margin: 0 auto;
+	width: 100%;
+
+}
+
+.dot {
+	cursor: pointer;
+	height: 18px;
+	width: 18px;
+	margin: 0 2px;
+	background-color: #eee;
+	border-radius: 4px;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #62890d;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
