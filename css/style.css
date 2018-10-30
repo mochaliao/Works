@@ -205,6 +205,12 @@ img {
 	position: relative;
 }
 
+.sec1 .wire-frame{
+	background-image: url("../img/bk1.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+
+}
 .sec1 .sec-top {
 	background-image: url("../img/sec1_top.png");
 	height: 372px;
