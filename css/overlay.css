@@ -1,0 +1,61 @@
+#fix {
+	position: static; /* Sit on top of the page content */
+	width: 100%;
+	height: 100%;
+}
+
+#overlay {
+	position: fixed; /* Sit on top of the page content */
+	display: none; /* Hidden by default */
+	width: 100vw; /* Full width (cover the whole page) */
+	height: 100vh; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+	cursor: pointer; /* Add a pointer on hover */
+}
+
+.pop-cnt {
+	text-align: center;
+	margin: 30px auto 0;
+	display: flex;
+	width: 100%;
+	height: 744px;
+	max-width: 1212px;
+	background: url("../img/top_pop.png");
+	align-items: center;
+	justify-content: center;
+}
+
+.pop-head {
+	display: inline-block;
+	width: 222px;
+	height: 222px;
+	border-radius: 50%;
+	background: url("../img/head.jpg");
+	border: 5px solid #fff;
+	transition: background .2s linear;
+}
+
+.pop-head:hover {
+	background: url("../img/head-hover.jpg");
+}
+
+.pop-txt {
+	margin-left: 60px;
+	color: var(--sub-color);
+	text-align: left;
+}
+
+.title {
+	font-size: 1.375rem;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.txt {
+	font-size: 1rem;
+}

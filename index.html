@@ -8,65 +8,10 @@
 	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/slide.css">
+	<link rel="stylesheet" href="css/overlay.css">
 </head>
 <style>
-	#fix{
-		position: static; /* Sit on top of the page content */
-		width: 100%;
-		height: 100%;
-	}
-	#overlay {
-		position: fixed; /* Sit on top of the page content */
-		display: none; /* Hidden by default */
-		width: 100vw; /* Full width (cover the whole page) */
-		height: 100vh; /* Full height (cover the whole page) */
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
-		z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-		cursor: pointer; /* Add a pointer on hover */
-	}
 
-	.pop-cnt {
-		text-align: center;
-		margin: 30px auto 0;
-		display: flex;
-		width: 100%;
-		height: 744px;
-		max-width: 1212px;
-		background: url("img/top_pop.png");
-		align-items: center;
-		justify-content: center;
-	}
-
-	.pop-head {
-		display: inline-block;
-		width: 222px;
-		height: 222px;
-		border-radius: 50%;
-		background: url("img/head.jpg");
-		border: 5px solid #fff;
-		transition: background .2s linear;
-	}
-
-	.pop-head:hover{
-		background: url("img/head-hover.jpg");
-	}
-	.pop-txt{
-		margin-left: 60px;
-		color: var(--sub-color);
-		text-align: left;
-	}
-	.title{
-		font-size: 1.375rem;
-		font-weight: 700;
-		margin-bottom: 10px;
-	}
-	.txt{
-		font-size: 1rem;
-	}
 </style>
 <body id="fix">
 
@@ -78,19 +23,68 @@
 			</div>
 			<div class="pop-txt">
 				<p class="title">MOCHA LIAO</p>
-				<p class="txt">2009  -  鼎鼎聯合行銷  設計師<br>
-				   2010  -  美商美康達  動畫美術<br>
-				   2015  -  鳳之梧數位科技  設計師<br>
-				   2017  -  我是我國際  前端工程師</p>
+				<p class="txt">
+					2009 - 鼎鼎聯合行銷 設計師<br>
+					2010 - 美商美康達 動畫美術<br>
+					2015 - 鳳之梧數位科技 設計師<br>
+					2017 - 我是我國際 前端工程師</p>
 			</div>
-
 		</div>
-
 	</div>
 	<div class="sec-top"></div>
 	<div class="narrow-frame">
 		<div class="menu-trigger-wrap" onclick="on()"><img src="img/top-trigger.png"></div>
-		<div class="sec-title"><img src="img/top-title.png"></div>
+		<div class="sec-title">
+			<div class="top-title">
+				<div class="txt-1 txt-wrap">
+					<img src="img/top-title_m1.png " class="m1"
+					data-scroll-reveal="enter top and move 20px over .5s after .3s">
+					<img src="img/top-title_m2.png " class="m2"
+					data-scroll-reveal="enter bottom and move 20px over .5s wait .5s">
+					<img src="img/top-title_m3.png " class="m3"
+					data-scroll-reveal="enter top and move 20px over .5s">
+					<img src="img/top-title_m2.png " class="m4"
+					data-scroll-reveal="enter right and move 20px over .5s wait .1s">
+				</div>
+				<div class="txt-2 txt-wrap">
+					<img src="img/top-title_o1.png " class="o1"
+					data-scroll-reveal="enter right and move 20px over .5s">
+					<img src="img/top-title_o2.png " class="o2"
+					data-scroll-reveal="enter left and move 20px over .5s wait .2s">
+					<img src="img/top-title_o1.png " class="o3"
+					data-scroll-reveal="enter bottom and move 20px over .5s wait .6s">
+					<img src="img/top-title_o2.png " class="o4"
+					data-scroll-reveal="enter top and move 20px over .5s wait .3s">
+				</div>
+				<div class="txt-3 txt-wrap">
+					<img src="img/top-title_o1.png " class="o1"
+					data-scroll-reveal="enter top and move 20px over .5s wait .4s">
+					<img src="img/top-title_o2.png " class="o2"
+					data-scroll-reveal="enter bottom and move 20px over .5s wait .3s">
+					<img src="img/top-title_o1.png " class="c3"
+					data-scroll-reveal="enter right and move 20px over .5s">
+				</div>
+				<div class="txt-4 txt-wrap">
+					<img src="img/top-title_h1.png " class="h1"
+					data-scroll-reveal="enter top and move 20px over .5s">
+					<img src="img/top-title_h2.png " class="h2"
+					data-scroll-reveal="enter bottom and move 20px over .5s wait .2s">
+					<img src="img/top-title_m2.png " class="h3"
+					data-scroll-reveal="enter right and move 20px over .5s wait .7s">
+				</div>
+				<div class="txt-5 txt-wrap">
+					<img src="img/top-title_a1.png " class="o1"
+					data-scroll-reveal="enter top and move 20px over .5s wait .1s">
+					<img src="img/top-title_o2.png " class="o2"
+					data-scroll-reveal="enter bottom and move 20px over .5s  wait .4s">
+					<img src="img/top-title_a1.png " class="o3"
+					data-scroll-reveal="enter left and move 20px over .5s wait .3s">
+					<img src="img/top-title_a4.png " class="o4"
+					data-scroll-reveal="enter right and move 20px over .5s">
+				</div>
+			</div>
+			<!--<img src="img/top-title.png">-->
+		</div>
 	</div>
 	<div class="sec-bot"></div>
 </section>
@@ -100,10 +94,10 @@
 		<div class="sec-top">
 			<div class="narrow-frame">
 				<div class="sec-txt-wrap">
-					<p class="sec-title">FullPage Web</p>
-					<p class="sec-cnt">一頁式網站</p>
+					<p class="sec-title" data-scroll-reveal="enter top and move 20px over .5s">FullPage Web</p>
+					<p class="sec-cnt" data-scroll-reveal="enter top and move 20px over .5s wait .3s">一頁式網站</p>
 				</div>
-				<div class="slide-wrap">
+				<div class="slide-wrap" data-scroll-reveal="enter bottom and move 20px over .5s wait .5s">
 					<div class="slideshow-container">
 
 						<!-- Full-width images with number and caption text -->
@@ -152,10 +146,12 @@
 
 		<div class="sec-bot">
 			<p class="web-name-wrap">
-				<span class="web-name">專屬官方網站</span>
-				<span class="web-url">foronlytech.com</span>
+				<span class="web-name" data-scroll-reveal="enter bottom and move 20px over .5s wait .8s">專屬官方網站</span>
+				<span class="web-url" data-scroll-reveal="enter bottom and move 20px over .5s wait 1.1s">foronlytech
+																									  .com</span>
 			</p>
-			<a href="fullpage/application/views/index.html" target="_blank"><span
+			<a href="fullpage/application/views/index.html" target="_blank" class="item"
+			data-scroll-reveal="enter bottom and move 20px over .5s wait 1.4s"><span
 			class="sec-btn ver3"
 			>more</span></a>
 		</div>
@@ -166,41 +162,47 @@
 	<div class="wire-frame">
 		<div class="sec-top">
 			<div class="sec-txt-wrap ver2">
-				<p class="sec-title">Landing Page</p>
-				<p class="sec-cnt">行銷頁面</p>
+				<p class="sec-title" data-scroll-reveal="enter top and move 20px over .5s">Landing Page</p>
+				<p class="sec-cnt" data-scroll-reveal="enter top and move 20px over .5s wait .3s">行銷頁面</p>
 			</div>
 		</div>
 		<div class="narrow-frame">
 			<ol class="item-wrap">
 				<li>
-					<div class="item-pic ver1"></div>
+					<div class="item-pic ver1" data-scroll-reveal="enter left and move 20px over .5s wait .5s"></div>
 					<p class="web-name-wrap ver2">
-						<span class="web-name">Quantum</span>
-						<span class="web-url">usgfx-quantum.com</span>
+						<span class="web-name" data-scroll-reveal="enter left and move 20px over .5s">
+							Quantum</span>
+						<span class="web-url" data-scroll-reveal="enter left and move 20px over .5s">usgfx
+																											 -quantum.com</span>
 					</p>
-					<a href="landingpage/Quantum/" target="_blank" class="item">
+					<a href="landingpage/Quantum/" target="_blank" class="item"
+					data-scroll-reveal="enter right and move 20px over .5s">
 						<span class="sec-btn ver2">more</span>
 					</a>
 				</li>
-				<li>
-					<div class="item-pic ver2"></div>
+				<li >
+					<div class="item-pic ver2" data-scroll-reveal="enter left and move 20px over .5s wait .8s"></div>
 					<p class="web-name-wrap ver2">
-						<span class="web-name">TradersClub</span>
-						<span class="web-url">usgfx-tradersclub.com</span>
+						<span class="web-name" data-scroll-reveal="enter left and move 20px over .5s">
+							TradersClub</span>
+						<span class="web-url" data-scroll-reveal="enter left and move 20px over .5s">usgfx-tradersclub.com</span>
 					</p>
 					<a href="https://www.usgfx.com/LandingPage/Home/TradersClub?culture=en-US" target="_blank"
-					class="item"
-					>
+					class="item" data-scroll-reveal="enter right and move 20px over .5s">
 						<span class="sec-btn ver2">more</span>
 					</a>
 				</li>
 				<li>
-					<div class="item-pic ver3"></div>
+					<div class="item-pic ver3" data-scroll-reveal="enter left and move 20px over .5s wait 1.1s"></div>
 					<p class="web-name-wrap ver2">
-						<span class="web-name">Seminar Page</span>
-						<span class="web-url">usgfx-seminar.com</span>
+						<span class="web-name" data-scroll-reveal="enter left and move 20px over .5s">Seminar
+																											  Page</span>
+						<span class="web-url"  data-scroll-reveal="enter left and move 20px over .5s">usgfx
+																											  -seminar.com</span>
 					</p>
-					<a href="https://www.usgfx.com/LP/Seminar/adwords.html" target="_blank" class="item">
+					<a href="https://www.usgfx.com/LP/Seminar/adwords.html" target="_blank" class="item"
+					data-scroll-reveal="enter right and move 20px over .5s">
 						<span class="sec-btn ver2">more</span>
 					</a>
 				</li>
@@ -215,19 +217,21 @@
 
 	<div class="wire-frame">
 		<div class="sec-txt-wrap">
-			<p class="sec-title">Social Web</p>
-			<p class="sec-cnt">社群網站</p>
+			<p class="sec-title" data-scroll-reveal="enter top and move 20px over .5s">Social Web</p>
+			<p class="sec-cnt" data-scroll-reveal="enter top and move 20px over .5s wait .3s">社群網站</p>
 		</div>
-		<div class="item-pic">
-			<img src="img/INDEX-2_29.jpg">
+		<div class="item-pic" data-scroll-reveal="enter top and move 20px over .5s wait .8s">
+			<!--<img src="img/INDEX-2_29.jpg">-->
 		</div>
 
 		<div class="sec-bot">
-			<p class="web-name-wrap">
-				<span class="web-name">我是我社群網站</span>
-				<span class="web-url">iami-web.com</span>
+			<p class="web-name-wrap" data-scroll-reveal="enter bottom and move 20px over .5s">
+				<span class="web-name" data-scroll-reveal="wait .3s">我是我社群網站</span>
+				<span class="web-url" data-scroll-reveal="wait .8s">iami-web.com</span>
 			</p>
-			<a href="fullpage/application/views/index.html" target="_blank" class="sec2-btn"><span
+			<a href="fullpage/application/views/index.html" target="_blank" class="item"
+			data-scroll-reveal="enter bottom and move 20px over .5s wait .5s"
+			><span
 			class="sec-btn ver3"
 			>more</span></a>
 		</div>
@@ -239,33 +243,40 @@
 	<div class="wire-frame">
 		<div class="sec-top"></div>
 		<div>
-			<div class="sec-txt-wrap ver2">
-				<p class="sec-title">Business Web</p>
-				<p class="sec-cnt">社群網站</p>
+			<div class="sec-txt-wrap ver2"  data-scroll-reveal="enter top and move 20px over .5s">
+				<p class="sec-title" data-scroll-reveal="enter top">Business Web</p>
+				<p class="sec-cnt" data-scroll-reveal="enter top after .5s">社群網站</p>
 			</div>
 
 			<div class="narrow-frame">
 				<ol class="item-wrap">
 					<li>
-						<div class="item-pic ver1"></div>
+						<div class="item-pic ver1" data-scroll-reveal="enter right and move 20px over .5s"></div>
 						<div class="item-pic-txt">
 							<p class="web-name-wrap ver2">
-								<span class="web-name">USG官網</span>
-								<span class="web-url">usgfx.com</span>
+								<span class="web-name" data-scroll-reveal="enter right and move 20px after .5s">USG
+																												官網</span>
+								<span class="web-url" data-scroll-reveal="enter right and move 20px after 1s">usgfx
+																											   .com</span>
 							</p>
-							<a href="website/usg/" target="_blank">
+							<a href="website/usg/" target="_blank" class="item"
+							data-scroll-reveal="enter right and move 20px after 1.5s">
 								<span class="sec-btn ver2">more</span>
 							</a>
 						</div>
 					</li>
 					<li>
-						<div class="item-pic ver2"></div>
+						<div class="item-pic ver2"
+						data-scroll-reveal="enter right and move 20px over .5s after .3s"></div>
 						<div class="item-pic-txt">
 							<p class="web-name-wrap ver2">
-								<span class="web-name">普惠慈善舞團官網</span>
-								<span class="web-url">puhuei-dance.com</span>
+								<span class="web-name" data-scroll-reveal="enter right and move 20px after .8s">
+									普惠慈善舞團官網</span>
+								<span class="web-url" data-scroll-reveal="enter right and move 20px after 1.3s">puhuei
+																											   -dance.com</span>
 							</p>
-							<a href="website/dance/" target="_blank">
+							<a href="website/dance/" target="_blank" class="item"
+							data-scroll-reveal="enter right and move 20px after 1.8s">
 								<span class="sec-btn ver2">more</span>
 							</a>
 						</div>
@@ -280,20 +291,23 @@
 <section class="sec5">
 
 	<div class="wire-frame">
-		<div class="sec-txt-wrap">
-			<p class="sec-title">Shopping Cart</p>
-			<p class="sec-cnt">購物車網站</p>
+		<div class="sec-txt-wrap" >
+			<p class="sec-title" data-scroll-reveal="enter top and move 20px over .5s">Shopping Cart</p>
+			<p class="sec-cnt"  data-scroll-reveal="enter top and move 20px over .5s after .5s">購物車網站</p>
 		</div>
 		<div class="narrow-frame">
 			<ol class="item-wrap">
 				<li>
-					<div class="item-pic"></div>
+					<div class="item-pic" data-scroll-reveal="enter left and move 20px over .5s after .5s"></div>
 					<div class="item-pic-txt">
 						<p class="web-name-wrap">
-							<span class="web-name">85go代購網</span>
-							<span class="web-url">85go.com</span>
+							<span class="web-name" data-scroll-reveal="enter right and move 20px over .5s after .5s">
+								85go代購網</span>
+							<span class="web-url"
+							data-scroll-reveal="enter right and move 20px over .5s after .8s">85go.com</span>
 						</p>
-						<a href="website/cart/" target="_blank">
+						<a href="cart/" target="_blank" class="item"
+						data-scroll-reveal="enter right and move 20px over .5s after 1.1s">
 							<span class="sec-btn ver3">more</span>
 						</a>
 					</div>
@@ -309,12 +323,19 @@
 
 <section class="footer">
 	<div class="wire-frame">
-		<p class="sec-txt">MOCHA LIAO</p>
-		<a href="mailto:peiju.patty@gmail.com">peiju.patty@gmail.com</a>
+		<p class="sec-txt" data-scroll-reveal="enter top and move 20px over .5s">MOCHA LIAO</p>
+		<a href="mailto:peiju.patty@gmail.com" data-scroll-reveal="enter bottom and move 20px over .5s after .5s">peiju
+																									  .patty@gmail.com</a>
 	</div>
 
 </section>
 
+<script src="js/scrollReveal.js"></script>
+<script>
+    window.scrollReveal = new scrollReveal();
+    //或者，elem 为动画元素的任何级别的父元素
+    window.scrollReveal2 = new scrollReveal({elem: document.getElementById('srcontainer')});
+</script>
 <script>
     var slideIndex = 1;
     showSlides(slideIndex);
@@ -361,40 +382,5 @@
     }
 </script>
 
-<!--<ul>-->
-<!--<li>技能-->
-<!--<ol>-->
-<!--<li>dreamweaver</li>-->
-<!--<li>photoshop</li>-->
-<!--<li>illustrator</li>-->
-<!--<li>sketch</li>-->
-<!--<li>premiere</li>-->
-<!--<li>Aftereffect</li>-->
-<!--<li>css</li>-->
-<!--<li>html</li>-->
-<!--<li>jQuery</li>-->
-<!--</ol>-->
-<!--</li>-->
-<!--<li>-->
-<!--<a>portfolio</a>-->
-<!--<ol>-->
-<!--<li>fullpage website: <a href="fullpage/application/views/index.html" target="_blank">forOnlyTec</a></li>-->
-<!--<li>cart website: <a href="cart/" target="_blank">85go</a></li>-->
-<!--<li>landing page: <a href="https://www.usgfx.com/LandingPage/Home/TradersClub?culture=en-US"-->
-<!--target="_blank"-->
-<!--&gt;TradersClubPage</a>、<a-->
-<!--href="landingpage/Quantum/" target="_blank"-->
-<!--&gt;Quantum</a>、-->
-<!--<a href="https://www.usgfx.com/LP/webinar/website.html" target="_blank">linkA</a>-->
-<!--、<a href="https://www.usgfx.com/LP/Seminar/adwords.html" target="_blank">linkB</a></li>-->
-<!--<li>social website: <a href="social/" target="_blank">IAMI</a></li>-->
-<!--<li>system website: <a href="system/" target="_blank">iPush</a></li>-->
-<!--<li>website: <a href="website/dance/" target="_blank">puhuei dance</a>、<a href="website/usg/"-->
-<!--target="_blank"-->
-<!--&gt;USG</a></li>-->
-<!--</ol>-->
-<!--</li>-->
-<!--<li><a>painting</a></li>-->
-<!--</ul>-->
 </body>
 </html>
