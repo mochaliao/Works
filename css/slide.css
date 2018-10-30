@@ -1,5 +1,4 @@
 
-
 .slideshow-container {
 	position: relative;
 	max-width: 890px;
@@ -12,8 +11,8 @@
 	width: 100%;
 	max-width: 705px;
 	margin: 0 auto;
-	border: 5px solid #fff;
-	border-radius: 60px;
+	border: 3px solid #fff;
+	border-radius: 20px;
 	overflow: hidden;
 }
 
@@ -88,20 +87,26 @@
 	}
 }
 
+@media screen and (max-width: 768px) {
+	.mySlides {
+		max-width: 80% !important;
+	}
+}
+
 @media screen and (max-width: 480px) {
 	.prev, .next {
 		width: 30px;
 	}
-	.dot{
+
+	.dot {
 		width: 14px;
 		height: 14px;
 	}
-	.dot-wrap{
+
+	.dot-wrap {
 		bottom: 38px;
 	}
-	.mySlides{
-		border-radius: 40px;
-	}
+
 }
 
 @media screen and (max-width: 320px) {

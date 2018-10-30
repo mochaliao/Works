@@ -78,9 +78,10 @@ img {
 
 .sec-title {
 	font-size: var(--font-exta);
-	font-weight: 900;
+	font-weight: 700;
 	text-align: center;
 	margin-bottom: 16px;
+	/*letter-spacing: .3rem;*/
 }
 
 .sec-cnt {
@@ -105,7 +106,7 @@ img {
 	line-height: var(--font-min);
 	color: var(--sub-color);
 	vertical-align: middle;
-	padding: 1.56rem 2.5rem;
+	padding: 1rem 2rem;
 	transition: all .2s linear;
 }
 
@@ -155,10 +156,6 @@ img {
 	font-size: var(--web-url);
 }
 
-.ver2 .web-url {
-	color: var(--sub-color);
-}
-
 .sec-top,
 .sec-bot {
 	background-repeat: no-repeat;
@@ -178,7 +175,7 @@ img {
 
 .item-pic {
 	border-radius: 50%;
-	border: 5px solid var(--main-color);
+	border: 3px solid var(--main-color);
 	background: no-repeat center;
 	margin: 0 auto;
 	width: 100%;
@@ -212,8 +209,8 @@ img {
 
 }
 .sec1 .sec-top {
-	background-image: url("../img/sec1_top.png");
-	height: 372px;
+	/*background-image: url("../img/sec1_top.png");*/
+	/*height: 372px;*/
 }
 
 .sec1 .sec-bot {
@@ -222,8 +219,13 @@ img {
 }
 
 .sec1 .narrow-frame {
-	height: calc(100vh - 744px);
+	/* height: calc(100vh - 744px); */
 	display: table;
+	height: auto;
+	/* padding: 100px 0; */
+	max-height: calc(100vh - 372px);
+	vertical-align: middle;
+	padding: 40vh 0 0;
 }
 
 .sec1 .sec-title {
@@ -231,15 +233,16 @@ img {
 	color: var(--main-color);
 	text-align: center;
 	vertical-align: middle;
-	/*font-size: var(--font-xl);*/
-	/*width: 475px;*/
 	height: 82px;
-	/*position: relative;*/
 }
 
-.sec1 .sec-title img {
-	/*max-width: 475px;*/
+.subTitle{
+	color: var(--sub-color);
+	font-size: var(--web-url);
+	text-align: center;
+	margin-top: 25px;
 }
+
 
 .top-title {
 	width: 29.6875rem; /*475*/
@@ -459,8 +462,8 @@ img {
 	max-width: 720px;
 	min-height: 400px;
 	margin: 60px auto 0;
-	border: 6px solid var(--sub-color);
-	border-radius: 60px;
+	border: 3px solid var(--sub-color);
+	border-radius: 20px;
 	overflow: hidden;
 	background: url("../img/INDEX-2_29.jpg") no-repeat center;
 	background-size: cover;
@@ -513,7 +516,7 @@ img {
 
 .sec6 .wire-frame {
 	/*background: var(--sub-color);*/
-	background-image: url("../img/bk.jpg");
+	background-image: url("../img/bk1.jpg");
 	background-attachment: fixed;
 }
 
@@ -531,6 +534,7 @@ img {
 
 .sec6 .item-pic {
 	margin: 0;
+	border-color: var(--sub-color);
 }
 
 .sec6 .item-pic.ver1 {
@@ -602,9 +606,7 @@ img {
 	.txt-wrap {
 		margin: 10px;
 	}
-	.mySlides {
-		max-width: 80% !important;
-	}
+
 
 	.sec6 .item-wrap {
 		flex-flow: column;
@@ -668,7 +670,6 @@ img {
 	.sec4 .item-pic {
 		max-width: 80%;
 		min-height: 300px;
-		border-radius: 60px;
 	}
 
 	.sec5 .item-wrap{
