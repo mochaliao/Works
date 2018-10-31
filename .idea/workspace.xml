@@ -2,22 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9c880f8-2e3e-4374-92cb-f73a5b9f8e68" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/slide.css" afterPath="$PROJECT_DIR$/css/slide.css" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/img/INDEX_01.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/INDEX_02.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/INDEX_03.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/INDEX_04.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/INDEX_05.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/INDEX_06.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/INDEX_07.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/INDEX_08.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/INDEX_09.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/INDEX_10.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bk.jpg" afterPath="$PROJECT_DIR$/img/bk.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/bk1.jpg" afterPath="$PROJECT_DIR$/img/bk1.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/sec1_bot.png" afterPath="$PROJECT_DIR$/img/sec1_bot.png" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/INDEX-2_00.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/INDEX-2_02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/INDEX-2_03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/INDEX-2_07.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/INDEX-2_10.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/INDEX-2_10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/INDEX-2_10.psd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/INDEX-2_14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/INDEX-2_16.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/INDEX-2_17.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/INDEX-2_27.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/INDEX-2_28.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/INDEX-2_31.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/INDEX-2_32.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/index_1027_08.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/index_1027_10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/index_1027_12.png" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/css/slide.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -221,12 +223,12 @@
       <workItem from="1540286950165" duration="157000" />
       <workItem from="1540293435050" duration="20666000" />
       <workItem from="1540730230099" duration="925000" />
-      <workItem from="1540874365227" duration="16681000" />
+      <workItem from="1540874365227" duration="16836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40703000" />
+    <option name="totallyTimeSpent" value="40858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1245" height="813" extended-state="0" />
@@ -427,7 +429,7 @@
     <entry file="file://$PROJECT_DIR$/css/slide.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
